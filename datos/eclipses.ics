@@ -1,0 +1,333 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Astroletra//Calendario del cielo//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Astroletra: eclipses
+X-WR-CALDESC:Los eclipses de Sol y de Luna con la hora del máximo. Del 202
+ 6-01-01 al 2028-12-31. Horas en UTC; tu calendario las muestra en tu zona.
+  Datos de Astroletra (CC BY 4.0)\, efemérides JPL DE440.
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:2026-02-17-eclipse-solar@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20260217T121157Z
+DTEND:20260217T131157Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Eclipse solar anular en Acuario (28°50′)
+DESCRIPTION:Eclipse solar anular: máximo en Madrid\, martes 17 de febrero 
+ a las 13:11; Ciudad de México\, martes 17 de febrero a las 06:11; Buenos 
+ Aires\, martes 17 de febrero a las 09:11. La visibilidad depende del lugar
+ ; la guía está en la página. Datos: Astroletra\, efemérides JPL DE440.
+  https://astroletra.com/eclipses/eclipse-solar-anular-17-febrero-2026/?utm
+ _source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. 
+ https://astroletra.com/eclipses/eclipse-solar-anular-17-febrero-2026/?utm_
+ source=ical
+URL:https://astroletra.com/eclipses/eclipse-solar-anular-17-febrero-2026/?u
+ tm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Eclipse solar anular en Acuario (28°50′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-03-03-eclipse-lunar@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20260303T113341Z
+DTEND:20260303T123341Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Eclipse lunar total en Virgo (12°51′)
+DESCRIPTION:Eclipse lunar total: máximo en Madrid\, martes 3 de marzo a la
+ s 12:33; Ciudad de México\, martes 3 de marzo a las 05:33; Buenos Aires\,
+  martes 3 de marzo a las 08:33. La visibilidad depende del lugar; la guía
+  está en la página. Datos: Astroletra\, efemérides JPL DE440. https://a
+ stroletra.com/eclipses/eclipse-lunar-total-3-marzo-2026/?utm_source=ical M
+ ás en Astroletra\, tu horóscopo de hoy con el cielo real. https://astrol
+ etra.com/eclipses/eclipse-lunar-total-3-marzo-2026/?utm_source=ical
+URL:https://astroletra.com/eclipses/eclipse-lunar-total-3-marzo-2026/?utm_s
+ ource=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Eclipse lunar total en Virgo (12°51′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-12-eclipse-solar@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20260812T174557Z
+DTEND:20260812T184557Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Eclipse solar total en Leo (20°02′)
+DESCRIPTION:Eclipse solar total: máximo en Madrid\, miércoles 12 de agost
+ o a las 19:45; Ciudad de México\, miércoles 12 de agosto a las 11:45; Bu
+ enos Aires\, miércoles 12 de agosto a las 14:45. La visibilidad depende d
+ el lugar; la guía está en la página. Datos: Astroletra\, efemérides JP
+ L DE440. https://astroletra.com/eclipses/eclipse-solar-total-12-agosto-202
+ 6/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo 
+ real. https://astroletra.com/eclipses/eclipse-solar-total-12-agosto-2026/?
+ utm_source=ical
+URL:https://astroletra.com/eclipses/eclipse-solar-total-12-agosto-2026/?utm
+ _source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Eclipse solar total en Leo (20°02′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-28-eclipse-lunar@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20260828T041258Z
+DTEND:20260828T051258Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Eclipse lunar parcial en Piscis (4°51′)
+DESCRIPTION:Eclipse lunar parcial: máximo en Madrid\, viernes 28 de agosto
+  a las 06:12; Ciudad de México\, jueves 27 de agosto a las 22:12; Buenos 
+ Aires\, viernes 28 de agosto a las 01:12. La visibilidad depende del lugar
+ ; la guía está en la página. Datos: Astroletra\, efemérides JPL DE440.
+  https://astroletra.com/eclipses/eclipse-lunar-parcial-28-agosto-2026/?utm
+ _source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. 
+ https://astroletra.com/eclipses/eclipse-lunar-parcial-28-agosto-2026/?utm_
+ source=ical
+URL:https://astroletra.com/eclipses/eclipse-lunar-parcial-28-agosto-2026/?u
+ tm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Eclipse lunar parcial en Piscis (4°51′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-06-eclipse-solar@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20270206T155939Z
+DTEND:20270206T165939Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Eclipse solar anular en Acuario (17°37′)
+DESCRIPTION:Eclipse solar anular: máximo en Madrid\, sábado 6 de febrero 
+ a las 16:59; Ciudad de México\, sábado 6 de febrero a las 09:59; Buenos 
+ Aires\, sábado 6 de febrero a las 12:59. La visibilidad depende del lugar
+ ; la guía está en la página. Datos: Astroletra\, efemérides JPL DE440.
+  https://astroletra.com/eclipses/eclipse-solar-anular-6-febrero-2027/?utm_
+ source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. h
+ ttps://astroletra.com/eclipses/eclipse-solar-anular-6-febrero-2027/?utm_so
+ urce=ical
+URL:https://astroletra.com/eclipses/eclipse-solar-anular-6-febrero-2027/?ut
+ m_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Eclipse solar anular en Acuario (17°37′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-20-eclipse-lunar@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20270220T231253Z
+DTEND:20270221T001253Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Eclipse lunar penumbral en Virgo (1°58′)
+DESCRIPTION:Eclipse lunar penumbral: máximo en Madrid\, domingo 21 de febr
+ ero a las 00:12; Ciudad de México\, sábado 20 de febrero a las 17:12; Bu
+ enos Aires\, sábado 20 de febrero a las 20:12. La visibilidad depende del
+  lugar; la guía está en la página. Datos: Astroletra\, efemérides JPL 
+ DE440. https://astroletra.com/eclipses/eclipse-lunar-penumbral-20-febrero-
+ 2027/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cie
+ lo real. https://astroletra.com/eclipses/eclipse-lunar-penumbral-20-febrer
+ o-2027/?utm_source=ical
+URL:https://astroletra.com/eclipses/eclipse-lunar-penumbral-20-febrero-2027
+ /?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Eclipse lunar penumbral en Virgo (1°58′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-18-eclipse-lunar@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20270718T160300Z
+DTEND:20270718T170300Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Eclipse lunar penumbral en Capricornio (25°57′)
+DESCRIPTION:Eclipse lunar penumbral: máximo en Madrid\, domingo 18 de juli
+ o a las 18:03; Ciudad de México\, domingo 18 de julio a las 10:03; Buenos
+  Aires\, domingo 18 de julio a las 13:03. La visibilidad depende del lugar
+ ; la guía está en la página. Datos: Astroletra\, efemérides JPL DE440.
+  https://astroletra.com/eclipses/eclipse-lunar-penumbral-18-julio-2027/?ut
+ m_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real.
+  https://astroletra.com/eclipses/eclipse-lunar-penumbral-18-julio-2027/?ut
+ m_source=ical
+URL:https://astroletra.com/eclipses/eclipse-lunar-penumbral-18-julio-2027/?
+ utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Eclipse lunar penumbral en Capricornio (25°57′
+ )
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-08-02-eclipse-solar@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20270802T100641Z
+DTEND:20270802T110641Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Eclipse solar total en Leo (9°55′)
+DESCRIPTION:Eclipse solar total: máximo en Madrid\, lunes 2 de agosto a la
+ s 12:06; Ciudad de México\, lunes 2 de agosto a las 04:06; Buenos Aires\,
+  lunes 2 de agosto a las 07:06. La visibilidad depende del lugar; la guía
+  está en la página. Datos: Astroletra\, efemérides JPL DE440. https://a
+ stroletra.com/eclipses/eclipse-solar-total-2-agosto-2027/?utm_source=ical 
+ Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://astro
+ letra.com/eclipses/eclipse-solar-total-2-agosto-2027/?utm_source=ical
+URL:https://astroletra.com/eclipses/eclipse-solar-total-2-agosto-2027/?utm_
+ source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Eclipse solar total en Leo (9°55′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-08-17-eclipse-lunar@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20270817T071351Z
+DTEND:20270817T081351Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Eclipse lunar penumbral en Acuario (24°04′)
+DESCRIPTION:Eclipse lunar penumbral: máximo en Madrid\, martes 17 de agost
+ o a las 09:13; Ciudad de México\, martes 17 de agosto a las 01:13; Buenos
+  Aires\, martes 17 de agosto a las 04:13. La visibilidad depende del lugar
+ ; la guía está en la página. Datos: Astroletra\, efemérides JPL DE440.
+  https://astroletra.com/eclipses/eclipse-lunar-penumbral-17-agosto-2027/?u
+ tm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real
+ . https://astroletra.com/eclipses/eclipse-lunar-penumbral-17-agosto-2027/?
+ utm_source=ical
+URL:https://astroletra.com/eclipses/eclipse-lunar-penumbral-17-agosto-2027/
+ ?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Eclipse lunar penumbral en Acuario (24°04′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-01-12-eclipse-lunar@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20280112T041307Z
+DTEND:20280112T051307Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Eclipse lunar parcial en Cáncer (21°33′)
+DESCRIPTION:Eclipse lunar parcial: máximo en Madrid\, miércoles 12 de ene
+ ro a las 05:13; Ciudad de México\, martes 11 de enero a las 22:13; Buenos
+  Aires\, miércoles 12 de enero a las 01:13. La visibilidad depende del lu
+ gar; la guía está en la página. Datos: Astroletra\, efemérides JPL DE4
+ 40. https://astroletra.com/eclipses/eclipse-lunar-parcial-12-enero-2028/?u
+ tm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real
+ . https://astroletra.com/eclipses/eclipse-lunar-parcial-12-enero-2028/?utm
+ _source=ical
+URL:https://astroletra.com/eclipses/eclipse-lunar-parcial-12-enero-2028/?ut
+ m_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Eclipse lunar parcial en Cáncer (21°33′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-01-26-eclipse-solar@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20280126T150750Z
+DTEND:20280126T160750Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Eclipse solar anular en Acuario (6°10′)
+DESCRIPTION:Eclipse solar anular: máximo en Madrid\, miércoles 26 de ener
+ o a las 16:07; Ciudad de México\, miércoles 26 de enero a las 09:07; Bue
+ nos Aires\, miércoles 26 de enero a las 12:07. La visibilidad depende del
+  lugar; la guía está en la página. Datos: Astroletra\, efemérides JPL 
+ DE440. https://astroletra.com/eclipses/eclipse-solar-anular-26-enero-2028/
+ ?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo re
+ al. https://astroletra.com/eclipses/eclipse-solar-anular-26-enero-2028/?ut
+ m_source=ical
+URL:https://astroletra.com/eclipses/eclipse-solar-anular-26-enero-2028/?utm
+ _source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Eclipse solar anular en Acuario (6°10′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-07-06-eclipse-lunar@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20280706T181944Z
+DTEND:20280706T191944Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Eclipse lunar parcial en Capricornio (15°15′)
+DESCRIPTION:Eclipse lunar parcial: máximo en Madrid\, jueves 6 de julio a 
+ las 20:19; Ciudad de México\, jueves 6 de julio a las 12:19; Buenos Aires
+ \, jueves 6 de julio a las 15:19. La visibilidad depende del lugar; la gu
+ ía está en la página. Datos: Astroletra\, efemérides JPL DE440. https:
+ //astroletra.com/eclipses/eclipse-lunar-parcial-6-julio-2028/?utm_source=i
+ cal Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://a
+ stroletra.com/eclipses/eclipse-lunar-parcial-6-julio-2028/?utm_source=ical
+URL:https://astroletra.com/eclipses/eclipse-lunar-parcial-6-julio-2028/?utm
+ _source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Eclipse lunar parcial en Capricornio (15°15′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-07-22-eclipse-solar@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20280722T025530Z
+DTEND:20280722T035530Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Eclipse solar total en Cáncer (29°50′)
+DESCRIPTION:Eclipse solar total: máximo en Madrid\, sábado 22 de julio a 
+ las 04:55; Ciudad de México\, viernes 21 de julio a las 20:55; Buenos Air
+ es\, viernes 21 de julio a las 23:55. La visibilidad depende del lugar; la
+  guía está en la página. Datos: Astroletra\, efemérides JPL DE440. htt
+ ps://astroletra.com/eclipses/eclipse-solar-total-22-julio-2028/?utm_source
+ =ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. https:/
+ /astroletra.com/eclipses/eclipse-solar-total-22-julio-2028/?utm_source=ica
+ l
+URL:https://astroletra.com/eclipses/eclipse-solar-total-22-julio-2028/?utm_
+ source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Eclipse solar total en Cáncer (29°50′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-12-31-eclipse-lunar@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20281231T165208Z
+DTEND:20281231T175208Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Eclipse lunar total en Cáncer (10°34′)
+DESCRIPTION:Eclipse lunar total: máximo en Madrid\, domingo 31 de diciembr
+ e a las 17:52; Ciudad de México\, domingo 31 de diciembre a las 10:52; Bu
+ enos Aires\, domingo 31 de diciembre a las 13:52. La visibilidad depende d
+ el lugar; la guía está en la página. Datos: Astroletra\, efemérides JP
+ L DE440. https://astroletra.com/eclipses/eclipse-lunar-total-31-diciembre-
+ 2028/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cie
+ lo real. https://astroletra.com/eclipses/eclipse-lunar-total-31-diciembre-
+ 2028/?utm_source=ical
+URL:https://astroletra.com/eclipses/eclipse-lunar-total-31-diciembre-2028/?
+ utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Eclipse lunar total en Cáncer (10°34′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

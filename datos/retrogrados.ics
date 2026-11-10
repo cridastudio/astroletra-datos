@@ -1,0 +1,1134 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Astroletra//Calendario del cielo//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Astroletra: planetas retrógrados
+X-WR-CALDESC:Los periodos retrógrados de Mercurio\, Venus\, Marte\, Júpit
+ er y Saturno con sus estaciones. Del 2026-01-01 al 2028-12-31. Horas en UT
+ C; tu calendario las muestra en tu zona. Datos de Astroletra (CC BY 4.0)\,
+  efemérides JPL DE440.
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:2025-11-11-jupiter-retrogrado@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART;VALUE=DATE:20251111
+DTEND;VALUE=DATE:20260312
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Júpiter retrógrado (Cáncer)
+DESCRIPTION:Júpiter retrógrado del 2025-11-11 al 2026-03-11 (120 días). 
+ Estación retrógrada: Madrid\, martes 11 de noviembre a las 17:41; Ciudad
+  de México\, martes 11 de noviembre a las 10:41; Buenos Aires\, martes 11
+  de noviembre a las 13:41. Estación directa: Madrid\, miércoles 11 de ma
+ rzo a las 04:29; Ciudad de México\, martes 10 de marzo a las 21:29; Bueno
+ s Aires\, miércoles 11 de marzo a las 00:29. Datos: Astroletra\, efeméri
+ des JPL DE440. https://astroletra.com/transitos-hoy/?utm_source=ical Más 
+ en Astroletra\, tu horóscopo de hoy con el cielo real. https://astroletra
+ .com/transitos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Júpiter retrógrado (Cáncer)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2025-11-11-jupiter-estacion-retrograda@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20251111T164126Z
+DTEND:20251111T174126Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Júpiter se pone retrógrado en Cáncer (25°09′)
+DESCRIPTION:Estación retrógrada de Júpiter: Madrid\, martes 11 de noviem
+ bre a las 17:41; Ciudad de México\, martes 11 de noviembre a las 10:41; B
+ uenos Aires\, martes 11 de noviembre a las 13:41. https://astroletra.com/t
+ ransitos-hoy/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy co
+ n el cielo real. https://astroletra.com/transitos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Júpiter se pone retrógrado en Cáncer (25°09
+ ′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-02-26-mercurio-retrogrado@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART;VALUE=DATE:20260226
+DTEND;VALUE=DATE:20260321
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio retrógrado (Piscis)
+DESCRIPTION:Mercurio retrógrado del 2026-02-26 al 2026-03-20 (22 días). E
+ stación retrógrada: Madrid\, jueves 26 de febrero a las 07:48; Ciudad de
+  México\, jueves 26 de febrero a las 00:48; Buenos Aires\, jueves 26 de f
+ ebrero a las 03:48. Estación directa: Madrid\, viernes 20 de marzo a las 
+ 20:32; Ciudad de México\, viernes 20 de marzo a las 13:32; Buenos Aires\,
+  viernes 20 de marzo a las 16:32. Datos: Astroletra\, efemérides JPL DE44
+ 0. https://astroletra.com/mercurio-retrogrado/?utm_source=ical Más en Ast
+ roletra\, tu horóscopo de hoy con el cielo real. https://astroletra.com/m
+ ercurio-retrogrado/?utm_source=ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio retrógrado (Piscis)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-02-26-mercurio-estacion-retrograda@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20260226T064810Z
+DTEND:20260226T074810Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio se pone retrógrado en Piscis (22°34′)
+DESCRIPTION:Estación retrógrada de Mercurio: Madrid\, jueves 26 de febrer
+ o a las 07:48; Ciudad de México\, jueves 26 de febrero a las 00:48; Bueno
+ s Aires\, jueves 26 de febrero a las 03:48. https://astroletra.com/mercuri
+ o-retrogrado/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy co
+ n el cielo real. https://astroletra.com/mercurio-retrogrado/?utm_source=ic
+ al
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio se pone retrógrado en Piscis (22°34′
+ )
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-03-11-jupiter-estacion-directa@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20260311T032953Z
+DTEND:20260311T042953Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Júpiter vuelve a ir directo en Cáncer (15°05′)
+DESCRIPTION:Estación directa de Júpiter: Madrid\, miércoles 11 de marzo 
+ a las 04:29; Ciudad de México\, martes 10 de marzo a las 21:29; Buenos Ai
+ res\, miércoles 11 de marzo a las 00:29. https://astroletra.com/transitos
+ -hoy/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cie
+ lo real. https://astroletra.com/transitos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Júpiter vuelve a ir directo en Cáncer (15°05
+ ′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-03-20-mercurio-estacion-directa@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20260320T193250Z
+DTEND:20260320T203250Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio vuelve a ir directo en Piscis (8°29′)
+DESCRIPTION:Estación directa de Mercurio: Madrid\, viernes 20 de marzo a l
+ as 20:32; Ciudad de México\, viernes 20 de marzo a las 13:32; Buenos Aire
+ s\, viernes 20 de marzo a las 16:32. https://astroletra.com/mercurio-retro
+ grado/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el ci
+ elo real. https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio vuelve a ir directo en Piscis (8°29′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-29-mercurio-retrogrado@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260724
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio retrógrado (Cáncer)
+DESCRIPTION:Mercurio retrógrado del 2026-06-29 al 2026-07-23 (24 días). E
+ stación retrógrada: Madrid\, lunes 29 de junio a las 19:35; Ciudad de M
+ éxico\, lunes 29 de junio a las 11:35; Buenos Aires\, lunes 29 de junio a
+  las 14:35. Estación directa: Madrid\, viernes 24 de julio a las 00:57; C
+ iudad de México\, jueves 23 de julio a las 16:57; Buenos Aires\, jueves 2
+ 3 de julio a las 19:57. Datos: Astroletra\, efemérides JPL DE440. https:/
+ /astroletra.com/mercurio-retrogrado/?utm_source=ical Más en Astroletra\, 
+ tu horóscopo de hoy con el cielo real. https://astroletra.com/mercurio-re
+ trogrado/?utm_source=ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio retrógrado (Cáncer)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-06-29-mercurio-estacion-retrograda@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20260629T173555Z
+DTEND:20260629T183555Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio se pone retrógrado en Cáncer (26°15′)
+DESCRIPTION:Estación retrógrada de Mercurio: Madrid\, lunes 29 de junio a
+  las 19:35; Ciudad de México\, lunes 29 de junio a las 11:35; Buenos Aire
+ s\, lunes 29 de junio a las 14:35. https://astroletra.com/mercurio-retrogr
+ ado/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el ciel
+ o real. https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio se pone retrógrado en Cáncer (26°15
+ ′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-23-mercurio-estacion-directa@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20260723T225751Z
+DTEND:20260723T235751Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio vuelve a ir directo en Cáncer (16°19′)
+DESCRIPTION:Estación directa de Mercurio: Madrid\, viernes 24 de julio a l
+ as 00:57; Ciudad de México\, jueves 23 de julio a las 16:57; Buenos Aires
+ \, jueves 23 de julio a las 19:57. https://astroletra.com/mercurio-retrogr
+ ado/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el ciel
+ o real. https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio vuelve a ir directo en Cáncer (16°19
+ ′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-26-saturno-retrogrado@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20261211
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Saturno retrógrado (Aries)
+DESCRIPTION:Saturno retrógrado del 2026-07-26 al 2026-12-10 (137 días). E
+ stación retrógrada: Madrid\, domingo 26 de julio a las 21:56; Ciudad de 
+ México\, domingo 26 de julio a las 13:56; Buenos Aires\, domingo 26 de ju
+ lio a las 16:56. Estación directa: Madrid\, viernes 11 de diciembre a las
+  00:31; Ciudad de México\, jueves 10 de diciembre a las 17:31; Buenos Air
+ es\, jueves 10 de diciembre a las 20:31. Datos: Astroletra\, efemérides J
+ PL DE440. https://astroletra.com/transitos-hoy/?utm_source=ical Más en As
+ troletra\, tu horóscopo de hoy con el cielo real. https://astroletra.com/
+ transitos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Saturno retrógrado (Aries)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-26-saturno-estacion-retrograda@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20260726T195614Z
+DTEND:20260726T205614Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Saturno se pone retrógrado en Aries (14°45′)
+DESCRIPTION:Estación retrógrada de Saturno: Madrid\, domingo 26 de julio 
+ a las 21:56; Ciudad de México\, domingo 26 de julio a las 13:56; Buenos A
+ ires\, domingo 26 de julio a las 16:56. https://astroletra.com/transitos-h
+ oy/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo
+  real. https://astroletra.com/transitos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Saturno se pone retrógrado en Aries (14°45′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-03-venus-retrogrado@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261115
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Venus retrógrado (Escorpio y Libra)
+DESCRIPTION:Venus retrógrado del 2026-10-03 al 2026-11-14 (42 días). Esta
+ ción retrógrada: Madrid\, sábado 3 de octubre a las 09:15; Ciudad de M
+ éxico\, sábado 3 de octubre a las 01:15; Buenos Aires\, sábado 3 de oct
+ ubre a las 04:15. Estación directa: Madrid\, sábado 14 de noviembre a la
+ s 01:27; Ciudad de México\, viernes 13 de noviembre a las 18:27; Buenos A
+ ires\, viernes 13 de noviembre a las 21:27. Datos: Astroletra\, efeméride
+ s JPL DE440. https://astroletra.com/transitos-hoy/?utm_source=ical Más en
+  Astroletra\, tu horóscopo de hoy con el cielo real. https://astroletra.c
+ om/transitos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Venus retrógrado (Escorpio y Libra)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-03-venus-estacion-retrograda@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20261003T071555Z
+DTEND:20261003T081555Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Venus se pone retrógrado en Escorpio (8°29′)
+DESCRIPTION:Estación retrógrada de Venus: Madrid\, sábado 3 de octubre a
+  las 09:15; Ciudad de México\, sábado 3 de octubre a las 01:15; Buenos A
+ ires\, sábado 3 de octubre a las 04:15. https://astroletra.com/transitos-
+ hoy/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el ciel
+ o real. https://astroletra.com/transitos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Venus se pone retrógrado en Escorpio (8°29′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24-mercurio-retrogrado@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261114
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio retrógrado (Escorpio)
+DESCRIPTION:Mercurio retrógrado del 2026-10-24 al 2026-11-13 (20 días). E
+ stación retrógrada: Madrid\, sábado 24 de octubre a las 09:12; Ciudad d
+ e México\, sábado 24 de octubre a las 01:12; Buenos Aires\, sábado 24 d
+ e octubre a las 04:12. Estación directa: Madrid\, viernes 13 de noviembre
+  a las 16:53; Ciudad de México\, viernes 13 de noviembre a las 09:53; Bue
+ nos Aires\, viernes 13 de noviembre a las 12:53. Datos: Astroletra\, efem
+ érides JPL DE440. https://astroletra.com/mercurio-retrogrado/?utm_source=
+ ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://
+ astroletra.com/mercurio-retrogrado/?utm_source=ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio retrógrado (Escorpio)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-24-mercurio-estacion-retrograda@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20261024T071242Z
+DTEND:20261024T081242Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio se pone retrógrado en Escorpio (20°58′)
+DESCRIPTION:Estación retrógrada de Mercurio: Madrid\, sábado 24 de octub
+ re a las 09:12; Ciudad de México\, sábado 24 de octubre a las 01:12; Bue
+ nos Aires\, sábado 24 de octubre a las 04:12. https://astroletra.com/merc
+ urio-retrogrado/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy
+  con el cielo real. https://astroletra.com/mercurio-retrogrado/?utm_source
+ =ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio se pone retrógrado en Escorpio (20°58
+ ′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-13-mercurio-estacion-directa@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20261113T155352Z
+DTEND:20261113T165352Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio vuelve a ir directo en Escorpio (5°01′)
+DESCRIPTION:Estación directa de Mercurio: Madrid\, viernes 13 de noviembre
+  a las 16:53; Ciudad de México\, viernes 13 de noviembre a las 09:53; Bue
+ nos Aires\, viernes 13 de noviembre a las 12:53. https://astroletra.com/me
+ rcurio-retrogrado/?utm_source=ical Más en Astroletra\, tu horóscopo de h
+ oy con el cielo real. https://astroletra.com/mercurio-retrogrado/?utm_sour
+ ce=ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio vuelve a ir directo en Escorpio (5°01
+ ′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-14-venus-estacion-directa@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20261114T002728Z
+DTEND:20261114T012728Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Venus vuelve a ir directo en Libra (22°51′)
+DESCRIPTION:Estación directa de Venus: Madrid\, sábado 14 de noviembre a 
+ las 01:27; Ciudad de México\, viernes 13 de noviembre a las 18:27; Buenos
+  Aires\, viernes 13 de noviembre a las 21:27. https://astroletra.com/trans
+ itos-hoy/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el
+  cielo real. https://astroletra.com/transitos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Venus vuelve a ir directo en Libra (22°51′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-10-saturno-estacion-directa@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20261210T233111Z
+DTEND:20261211T003111Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Saturno vuelve a ir directo en Aries (7°55′)
+DESCRIPTION:Estación directa de Saturno: Madrid\, viernes 11 de diciembre 
+ a las 00:31; Ciudad de México\, jueves 10 de diciembre a las 17:31; Bueno
+ s Aires\, jueves 10 de diciembre a las 20:31. https://astroletra.com/trans
+ itos-hoy/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el
+  cielo real. https://astroletra.com/transitos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Saturno vuelve a ir directo en Aries (7°55′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-13-jupiter-retrogrado@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20270414
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Júpiter retrógrado (Leo)
+DESCRIPTION:Júpiter retrógrado del 2026-12-13 al 2027-04-13 (121 días). 
+ Estación retrógrada: Madrid\, domingo 13 de diciembre a las 01:56; Ciuda
+ d de México\, sábado 12 de diciembre a las 18:56; Buenos Aires\, sábado
+  12 de diciembre a las 21:56. Estación directa: Madrid\, martes 13 de abr
+ il a las 04:11; Ciudad de México\, lunes 12 de abril a las 20:11; Buenos 
+ Aires\, lunes 12 de abril a las 23:11. Datos: Astroletra\, efemérides JPL
+  DE440. https://astroletra.com/transitos-hoy/?utm_source=ical Más en Astr
+ oletra\, tu horóscopo de hoy con el cielo real. https://astroletra.com/tr
+ ansitos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Júpiter retrógrado (Leo)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-13-jupiter-estacion-retrograda@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20261213T005636Z
+DTEND:20261213T015636Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Júpiter se pone retrógrado en Leo (27°01′)
+DESCRIPTION:Estación retrógrada de Júpiter: Madrid\, domingo 13 de dicie
+ mbre a las 01:56; Ciudad de México\, sábado 12 de diciembre a las 18:56;
+  Buenos Aires\, sábado 12 de diciembre a las 21:56. https://astroletra.co
+ m/transitos-hoy/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy
+  con el cielo real. https://astroletra.com/transitos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Júpiter se pone retrógrado en Leo (27°01′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-10-marte-retrogrado@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART;VALUE=DATE:20270110
+DTEND;VALUE=DATE:20270402
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Marte retrógrado (Virgo y Leo)
+DESCRIPTION:Marte retrógrado del 2027-01-10 al 2027-04-01 (81 días). Esta
+ ción retrógrada: Madrid\, domingo 10 de enero a las 13:59; Ciudad de Mé
+ xico\, domingo 10 de enero a las 06:59; Buenos Aires\, domingo 10 de enero
+  a las 09:59. Estación directa: Madrid\, jueves 1 de abril a las 16:08; C
+ iudad de México\, jueves 1 de abril a las 08:08; Buenos Aires\, jueves 1 
+ de abril a las 11:08. Datos: Astroletra\, efemérides JPL DE440. https://a
+ stroletra.com/transitos-hoy/?utm_source=ical Más en Astroletra\, tu horó
+ scopo de hoy con el cielo real. https://astroletra.com/transitos-hoy/?utm_
+ source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Marte retrógrado (Virgo y Leo)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-10-marte-estacion-retrograda@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20270110T125911Z
+DTEND:20270110T135911Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Marte se pone retrógrado en Virgo (10°25′)
+DESCRIPTION:Estación retrógrada de Marte: Madrid\, domingo 10 de enero a 
+ las 13:59; Ciudad de México\, domingo 10 de enero a las 06:59; Buenos Air
+ es\, domingo 10 de enero a las 09:59. https://astroletra.com/transitos-hoy
+ /?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo r
+ eal. https://astroletra.com/transitos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Marte se pone retrógrado en Virgo (10°25′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-09-mercurio-retrogrado@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270304
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio retrógrado (Piscis y Acuario)
+DESCRIPTION:Mercurio retrógrado del 2027-02-09 al 2027-03-03 (22 días). E
+ stación retrógrada: Madrid\, martes 9 de febrero a las 18:36; Ciudad de 
+ México\, martes 9 de febrero a las 11:36; Buenos Aires\, martes 9 de febr
+ ero a las 14:36. Estación directa: Madrid\, miércoles 3 de marzo a las 1
+ 3:32; Ciudad de México\, miércoles 3 de marzo a las 06:32; Buenos Aires\
+ , miércoles 3 de marzo a las 09:32. Datos: Astroletra\, efemérides JPL D
+ E440. https://astroletra.com/mercurio-retrogrado/?utm_source=ical Más en 
+ Astroletra\, tu horóscopo de hoy con el cielo real. https://astroletra.co
+ m/mercurio-retrogrado/?utm_source=ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio retrógrado (Piscis y Acuario)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-02-09-mercurio-estacion-retrograda@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20270209T173605Z
+DTEND:20270209T183605Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio se pone retrógrado en Piscis (5°58′)
+DESCRIPTION:Estación retrógrada de Mercurio: Madrid\, martes 9 de febrero
+  a las 18:36; Ciudad de México\, martes 9 de febrero a las 11:36; Buenos 
+ Aires\, martes 9 de febrero a las 14:36. https://astroletra.com/mercurio-r
+ etrogrado/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con e
+ l cielo real. https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio se pone retrógrado en Piscis (5°58′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-03-03-mercurio-estacion-directa@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20270303T123201Z
+DTEND:20270303T133201Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio vuelve a ir directo en Acuario (20°55′)
+DESCRIPTION:Estación directa de Mercurio: Madrid\, miércoles 3 de marzo a
+  las 13:32; Ciudad de México\, miércoles 3 de marzo a las 06:32; Buenos 
+ Aires\, miércoles 3 de marzo a las 09:32. https://astroletra.com/mercurio
+ -retrogrado/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con
+  el cielo real. https://astroletra.com/mercurio-retrogrado/?utm_source=ica
+ l
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio vuelve a ir directo en Acuario (20°55
+ ′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-01-marte-estacion-directa@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20270401T140817Z
+DTEND:20270401T150817Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Marte vuelve a ir directo en Leo (20°55′)
+DESCRIPTION:Estación directa de Marte: Madrid\, jueves 1 de abril a las 16
+ :08; Ciudad de México\, jueves 1 de abril a las 08:08; Buenos Aires\, jue
+ ves 1 de abril a las 11:08. https://astroletra.com/transitos-hoy/?utm_sour
+ ce=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. https
+ ://astroletra.com/transitos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Marte vuelve a ir directo en Leo (20°55′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-13-jupiter-estacion-directa@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20270413T021122Z
+DTEND:20270413T031122Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Júpiter vuelve a ir directo en Leo (17°00′)
+DESCRIPTION:Estación directa de Júpiter: Madrid\, martes 13 de abril a la
+ s 04:11; Ciudad de México\, lunes 12 de abril a las 20:11; Buenos Aires\,
+  lunes 12 de abril a las 23:11. https://astroletra.com/transitos-hoy/?utm_
+ source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. h
+ ttps://astroletra.com/transitos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Júpiter vuelve a ir directo en Leo (17°00′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-10-mercurio-retrogrado@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270705
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio retrógrado (Cáncer y Géminis)
+DESCRIPTION:Mercurio retrógrado del 2027-06-10 al 2027-07-04 (24 días). E
+ stación retrógrada: Madrid\, jueves 10 de junio a las 20:15; Ciudad de M
+ éxico\, jueves 10 de junio a las 12:15; Buenos Aires\, jueves 10 de junio
+  a las 15:15. Estación directa: Madrid\, domingo 4 de julio a las 21:39; 
+ Ciudad de México\, domingo 4 de julio a las 13:39; Buenos Aires\, domingo
+  4 de julio a las 16:39. Datos: Astroletra\, efemérides JPL DE440. https:
+ //astroletra.com/mercurio-retrogrado/?utm_source=ical Más en Astroletra\,
+  tu horóscopo de hoy con el cielo real. https://astroletra.com/mercurio-r
+ etrogrado/?utm_source=ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio retrógrado (Cáncer y Géminis)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-06-10-mercurio-estacion-retrograda@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20270610T181514Z
+DTEND:20270610T191514Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio se pone retrógrado en Cáncer (6°21′)
+DESCRIPTION:Estación retrógrada de Mercurio: Madrid\, jueves 10 de junio 
+ a las 20:15; Ciudad de México\, jueves 10 de junio a las 12:15; Buenos Ai
+ res\, jueves 10 de junio a las 15:15. https://astroletra.com/mercurio-retr
+ ogrado/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el c
+ ielo real. https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio se pone retrógrado en Cáncer (6°21′
+ )
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-04-mercurio-estacion-directa@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20270704T193922Z
+DTEND:20270704T203922Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio vuelve a ir directo en Géminis (27°28′)
+DESCRIPTION:Estación directa de Mercurio: Madrid\, domingo 4 de julio a la
+ s 21:39; Ciudad de México\, domingo 4 de julio a las 13:39; Buenos Aires\
+ , domingo 4 de julio a las 16:39. https://astroletra.com/mercurio-retrogra
+ do/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo
+  real. https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio vuelve a ir directo en Géminis (27°28
+ ′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-08-09-saturno-retrogrado@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART;VALUE=DATE:20270809
+DTEND;VALUE=DATE:20271225
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Saturno retrógrado (Aries)
+DESCRIPTION:Saturno retrógrado del 2027-08-09 al 2027-12-24 (137 días). E
+ stación retrógrada: Madrid\, lunes 9 de agosto a las 20:06; Ciudad de M
+ éxico\, lunes 9 de agosto a las 12:06; Buenos Aires\, lunes 9 de agosto a
+  las 15:06. Estación directa: Madrid\, viernes 24 de diciembre a las 03:4
+ 6; Ciudad de México\, jueves 23 de diciembre a las 20:46; Buenos Aires\, 
+ jueves 23 de diciembre a las 23:46. Datos: Astroletra\, efemérides JPL DE
+ 440. https://astroletra.com/transitos-hoy/?utm_source=ical Más en Astrole
+ tra\, tu horóscopo de hoy con el cielo real. https://astroletra.com/trans
+ itos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Saturno retrógrado (Aries)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-08-09-saturno-estacion-retrograda@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20270809T180611Z
+DTEND:20270809T190611Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Saturno se pone retrógrado en Aries (27°52′)
+DESCRIPTION:Estación retrógrada de Saturno: Madrid\, lunes 9 de agosto a 
+ las 20:06; Ciudad de México\, lunes 9 de agosto a las 12:06; Buenos Aires
+ \, lunes 9 de agosto a las 15:06. https://astroletra.com/transitos-hoy/?ut
+ m_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real.
+  https://astroletra.com/transitos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Saturno se pone retrógrado en Aries (27°52′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-07-mercurio-retrogrado@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART;VALUE=DATE:20271007
+DTEND;VALUE=DATE:20271029
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio retrógrado (Escorpio y Libra)
+DESCRIPTION:Mercurio retrógrado del 2027-10-07 al 2027-10-28 (21 días). E
+ stación retrógrada: Madrid\, jueves 7 de octubre a las 16:37; Ciudad de 
+ México\, jueves 7 de octubre a las 08:37; Buenos Aires\, jueves 7 de octu
+ bre a las 11:37. Estación directa: Madrid\, jueves 28 de octubre a las 16
+ :10; Ciudad de México\, jueves 28 de octubre a las 08:10; Buenos Aires\, 
+ jueves 28 de octubre a las 11:10. Datos: Astroletra\, efemérides JPL DE44
+ 0. https://astroletra.com/mercurio-retrogrado/?utm_source=ical Más en Ast
+ roletra\, tu horóscopo de hoy con el cielo real. https://astroletra.com/m
+ ercurio-retrogrado/?utm_source=ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio retrógrado (Escorpio y Libra)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-07-mercurio-estacion-retrograda@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20271007T143704Z
+DTEND:20271007T153704Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio se pone retrógrado en Escorpio (4°55′)
+DESCRIPTION:Estación retrógrada de Mercurio: Madrid\, jueves 7 de octubre
+  a las 16:37; Ciudad de México\, jueves 7 de octubre a las 08:37; Buenos 
+ Aires\, jueves 7 de octubre a las 11:37. https://astroletra.com/mercurio-r
+ etrogrado/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con e
+ l cielo real. https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio se pone retrógrado en Escorpio (4°55
+ ′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-28-mercurio-estacion-directa@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20271028T141038Z
+DTEND:20271028T151038Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio vuelve a ir directo en Libra (19°18′)
+DESCRIPTION:Estación directa de Mercurio: Madrid\, jueves 28 de octubre a 
+ las 16:10; Ciudad de México\, jueves 28 de octubre a las 08:10; Buenos Ai
+ res\, jueves 28 de octubre a las 11:10. https://astroletra.com/mercurio-re
+ trogrado/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el
+  cielo real. https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio vuelve a ir directo en Libra (19°18′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-12-24-saturno-estacion-directa@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20271224T024629Z
+DTEND:20271224T034629Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Saturno vuelve a ir directo en Aries (21°01′)
+DESCRIPTION:Estación directa de Saturno: Madrid\, viernes 24 de diciembre 
+ a las 03:46; Ciudad de México\, jueves 23 de diciembre a las 20:46; Bueno
+ s Aires\, jueves 23 de diciembre a las 23:46. https://astroletra.com/trans
+ itos-hoy/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el
+  cielo real. https://astroletra.com/transitos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Saturno vuelve a ir directo en Aries (21°01′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-01-12-jupiter-retrogrado@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART;VALUE=DATE:20280112
+DTEND;VALUE=DATE:20280514
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Júpiter retrógrado (Virgo)
+DESCRIPTION:Júpiter retrógrado del 2028-01-12 al 2028-05-13 (122 días). 
+ Estación retrógrada: Madrid\, miércoles 12 de enero a las 09:53; Ciudad
+  de México\, miércoles 12 de enero a las 02:53; Buenos Aires\, miércole
+ s 12 de enero a las 05:53. Estación directa: Madrid\, sábado 13 de mayo 
+ a las 22:00; Ciudad de México\, sábado 13 de mayo a las 14:00; Buenos Ai
+ res\, sábado 13 de mayo a las 17:00. Datos: Astroletra\, efemérides JPL 
+ DE440. https://astroletra.com/transitos-hoy/?utm_source=ical Más en Astro
+ letra\, tu horóscopo de hoy con el cielo real. https://astroletra.com/tra
+ nsitos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Júpiter retrógrado (Virgo)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-01-12-jupiter-estacion-retrograda@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20280112T085327Z
+DTEND:20280112T095327Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Júpiter se pone retrógrado en Virgo (27°30′)
+DESCRIPTION:Estación retrógrada de Júpiter: Madrid\, miércoles 12 de en
+ ero a las 09:53; Ciudad de México\, miércoles 12 de enero a las 02:53; B
+ uenos Aires\, miércoles 12 de enero a las 05:53. https://astroletra.com/t
+ ransitos-hoy/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy co
+ n el cielo real. https://astroletra.com/transitos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Júpiter se pone retrógrado en Virgo (27°30′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-01-24-mercurio-retrogrado@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART;VALUE=DATE:20280124
+DTEND;VALUE=DATE:20280215
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio retrógrado (Acuario)
+DESCRIPTION:Mercurio retrógrado del 2028-01-24 al 2028-02-14 (21 días). E
+ stación retrógrada: Madrid\, lunes 24 de enero a las 12:02; Ciudad de M
+ éxico\, lunes 24 de enero a las 05:02; Buenos Aires\, lunes 24 de enero a
+  las 08:02. Estación directa: Madrid\, lunes 14 de febrero a las 13:37; C
+ iudad de México\, lunes 14 de febrero a las 06:37; Buenos Aires\, lunes 1
+ 4 de febrero a las 09:37. Datos: Astroletra\, efemérides JPL DE440. https
+ ://astroletra.com/mercurio-retrogrado/?utm_source=ical Más en Astroletra\
+ , tu horóscopo de hoy con el cielo real. https://astroletra.com/mercurio-
+ retrogrado/?utm_source=ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio retrógrado (Acuario)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-01-24-mercurio-estacion-retrograda@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20280124T110226Z
+DTEND:20280124T120226Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio se pone retrógrado en Acuario (19°42′)
+DESCRIPTION:Estación retrógrada de Mercurio: Madrid\, lunes 24 de enero a
+  las 12:02; Ciudad de México\, lunes 24 de enero a las 05:02; Buenos Aire
+ s\, lunes 24 de enero a las 08:02. https://astroletra.com/mercurio-retrogr
+ ado/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el ciel
+ o real. https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio se pone retrógrado en Acuario (19°42
+ ′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-02-14-mercurio-estacion-directa@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20280214T123748Z
+DTEND:20280214T133748Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio vuelve a ir directo en Acuario (3°59′)
+DESCRIPTION:Estación directa de Mercurio: Madrid\, lunes 14 de febrero a l
+ as 13:37; Ciudad de México\, lunes 14 de febrero a las 06:37; Buenos Aire
+ s\, lunes 14 de febrero a las 09:37. https://astroletra.com/mercurio-retro
+ grado/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el ci
+ elo real. https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio vuelve a ir directo en Acuario (3°59′
+ )
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-05-10-venus-retrogrado@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART;VALUE=DATE:20280510
+DTEND;VALUE=DATE:20280623
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Venus retrógrado (Géminis)
+DESCRIPTION:Venus retrógrado del 2028-05-10 al 2028-06-22 (43 días). Esta
+ ción retrógrada: Madrid\, jueves 11 de mayo a las 01:02; Ciudad de Méxi
+ co\, miércoles 10 de mayo a las 17:02; Buenos Aires\, miércoles 10 de ma
+ yo a las 20:02. Estación directa: Madrid\, viernes 23 de junio a las 00:1
+ 2; Ciudad de México\, jueves 22 de junio a las 16:12; Buenos Aires\, juev
+ es 22 de junio a las 19:12. Datos: Astroletra\, efemérides JPL DE440. htt
+ ps://astroletra.com/transitos-hoy/?utm_source=ical Más en Astroletra\, tu
+  horóscopo de hoy con el cielo real. https://astroletra.com/transitos-hoy
+ /?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Venus retrógrado (Géminis)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-05-10-venus-estacion-retrograda@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20280510T230247Z
+DTEND:20280511T000247Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Venus se pone retrógrado en Géminis (19°41′)
+DESCRIPTION:Estación retrógrada de Venus: Madrid\, jueves 11 de mayo a la
+ s 01:02; Ciudad de México\, miércoles 10 de mayo a las 17:02; Buenos Air
+ es\, miércoles 10 de mayo a las 20:02. https://astroletra.com/transitos-h
+ oy/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo
+  real. https://astroletra.com/transitos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Venus se pone retrógrado en Géminis (19°41′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-05-13-jupiter-estacion-directa@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20280513T200015Z
+DTEND:20280513T210015Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Júpiter vuelve a ir directo en Virgo (17°32′)
+DESCRIPTION:Estación directa de Júpiter: Madrid\, sábado 13 de mayo a la
+ s 22:00; Ciudad de México\, sábado 13 de mayo a las 14:00; Buenos Aires\
+ , sábado 13 de mayo a las 17:00. https://astroletra.com/transitos-hoy/?ut
+ m_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real.
+  https://astroletra.com/transitos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Júpiter vuelve a ir directo en Virgo (17°32′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-05-21-mercurio-retrogrado@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART;VALUE=DATE:20280521
+DTEND;VALUE=DATE:20280615
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio retrógrado (Géminis)
+DESCRIPTION:Mercurio retrógrado del 2028-05-21 al 2028-06-14 (24 días). E
+ stación retrógrada: Madrid\, domingo 21 de mayo a las 10:42; Ciudad de M
+ éxico\, domingo 21 de mayo a las 02:42; Buenos Aires\, domingo 21 de mayo
+  a las 05:42. Estación directa: Madrid\, miércoles 14 de junio a las 08:
+ 05; Ciudad de México\, miércoles 14 de junio a las 00:05; Buenos Aires\,
+  miércoles 14 de junio a las 03:05. Datos: Astroletra\, efemérides JPL D
+ E440. https://astroletra.com/mercurio-retrogrado/?utm_source=ical Más en 
+ Astroletra\, tu horóscopo de hoy con el cielo real. https://astroletra.co
+ m/mercurio-retrogrado/?utm_source=ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio retrógrado (Géminis)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-05-21-mercurio-estacion-retrograda@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20280521T084259Z
+DTEND:20280521T094259Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio se pone retrógrado en Géminis (16°18′)
+DESCRIPTION:Estación retrógrada de Mercurio: Madrid\, domingo 21 de mayo 
+ a las 10:42; Ciudad de México\, domingo 21 de mayo a las 02:42; Buenos Ai
+ res\, domingo 21 de mayo a las 05:42. https://astroletra.com/mercurio-retr
+ ogrado/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el c
+ ielo real. https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio se pone retrógrado en Géminis (16°18
+ ′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-06-14-mercurio-estacion-directa@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20280614T060559Z
+DTEND:20280614T070559Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio vuelve a ir directo en Géminis (7°45′)
+DESCRIPTION:Estación directa de Mercurio: Madrid\, miércoles 14 de junio 
+ a las 08:05; Ciudad de México\, miércoles 14 de junio a las 00:05; Bueno
+ s Aires\, miércoles 14 de junio a las 03:05. https://astroletra.com/mercu
+ rio-retrogrado/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy 
+ con el cielo real. https://astroletra.com/mercurio-retrogrado/?utm_source=
+ ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio vuelve a ir directo en Géminis (7°45
+ ′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-06-22-venus-estacion-directa@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20280622T221240Z
+DTEND:20280622T231240Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Venus vuelve a ir directo en Géminis (3°10′)
+DESCRIPTION:Estación directa de Venus: Madrid\, viernes 23 de junio a las 
+ 00:12; Ciudad de México\, jueves 22 de junio a las 16:12; Buenos Aires\, 
+ jueves 22 de junio a las 19:12. https://astroletra.com/transitos-hoy/?utm_
+ source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. h
+ ttps://astroletra.com/transitos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Venus vuelve a ir directo en Géminis (3°10′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-08-22-saturno-retrogrado@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART;VALUE=DATE:20280822
+DTEND;VALUE=DATE:20290106
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Saturno retrógrado (Tauro)
+DESCRIPTION:Saturno retrógrado del 2028-08-22 al 2029-01-05 (136 días). E
+ stación retrógrada: Madrid\, miércoles 23 de agosto a las 00:17; Ciudad
+  de México\, martes 22 de agosto a las 16:17; Buenos Aires\, martes 22 de
+  agosto a las 19:17. Estación directa: Madrid\, viernes 5 de enero a las 
+ 13:39; Ciudad de México\, viernes 5 de enero a las 06:39; Buenos Aires\, 
+ viernes 5 de enero a las 09:39. Datos: Astroletra\, efemérides JPL DE440.
+  https://astroletra.com/transitos-hoy/?utm_source=ical Más en Astroletra\
+ , tu horóscopo de hoy con el cielo real. https://astroletra.com/transitos
+ -hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Saturno retrógrado (Tauro)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-08-22-saturno-estacion-retrograda@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20280822T221710Z
+DTEND:20280822T231710Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Saturno se pone retrógrado en Tauro (11°18′)
+DESCRIPTION:Estación retrógrada de Saturno: Madrid\, miércoles 23 de ago
+ sto a las 00:17; Ciudad de México\, martes 22 de agosto a las 16:17; Buen
+ os Aires\, martes 22 de agosto a las 19:17. https://astroletra.com/transit
+ os-hoy/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el c
+ ielo real. https://astroletra.com/transitos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Saturno se pone retrógrado en Tauro (11°18′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-09-19-mercurio-retrogrado@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART;VALUE=DATE:20280919
+DTEND;VALUE=DATE:20281012
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio retrógrado (Libra)
+DESCRIPTION:Mercurio retrógrado del 2028-09-19 al 2028-10-11 (22 días). E
+ stación retrógrada: Madrid\, martes 19 de septiembre a las 18:33; Ciudad
+  de México\, martes 19 de septiembre a las 10:33; Buenos Aires\, martes 1
+ 9 de septiembre a las 13:33. Estación directa: Madrid\, miércoles 11 de 
+ octubre a las 12:27; Ciudad de México\, miércoles 11 de octubre a las 04
+ :27; Buenos Aires\, miércoles 11 de octubre a las 07:27. Datos: Astroletr
+ a\, efemérides JPL DE440. https://astroletra.com/mercurio-retrogrado/?utm
+ _source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. 
+ https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio retrógrado (Libra)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-09-19-mercurio-estacion-retrograda@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20280919T163349Z
+DTEND:20280919T173349Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio se pone retrógrado en Libra (18°35′)
+DESCRIPTION:Estación retrógrada de Mercurio: Madrid\, martes 19 de septie
+ mbre a las 18:33; Ciudad de México\, martes 19 de septiembre a las 10:33;
+  Buenos Aires\, martes 19 de septiembre a las 13:33. https://astroletra.co
+ m/mercurio-retrogrado/?utm_source=ical Más en Astroletra\, tu horóscopo 
+ de hoy con el cielo real. https://astroletra.com/mercurio-retrogrado/?utm_
+ source=ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio se pone retrógrado en Libra (18°35′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2028-10-11-mercurio-estacion-directa@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20281011T102731Z
+DTEND:20281011T112731Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Mercurio vuelve a ir directo en Libra (3°28′)
+DESCRIPTION:Estación directa de Mercurio: Madrid\, miércoles 11 de octubr
+ e a las 12:27; Ciudad de México\, miércoles 11 de octubre a las 04:27; B
+ uenos Aires\, miércoles 11 de octubre a las 07:27. https://astroletra.com
+ /mercurio-retrogrado/?utm_source=ical Más en Astroletra\, tu horóscopo d
+ e hoy con el cielo real. https://astroletra.com/mercurio-retrogrado/?utm_s
+ ource=ical
+URL:https://astroletra.com/mercurio-retrogrado/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Mercurio vuelve a ir directo en Libra (3°28′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2029-01-05-saturno-estacion-directa@astroletra.com
+DTSTAMP:20261106T231523Z
+DTSTART:20290105T123900Z
+DTEND:20290105T133900Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Saturno vuelve a ir directo en Tauro (4°25′)
+DESCRIPTION:Estación directa de Saturno: Madrid\, viernes 5 de enero a las
+  13:39; Ciudad de México\, viernes 5 de enero a las 06:39; Buenos Aires\,
+  viernes 5 de enero a las 09:39. https://astroletra.com/transitos-hoy/?utm
+ _source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. 
+ https://astroletra.com/transitos-hoy/?utm_source=ical
+URL:https://astroletra.com/transitos-hoy/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Saturno vuelve a ir directo en Tauro (4°25′)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

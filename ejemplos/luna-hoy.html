@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="es">
+<meta charset="utf-8">
+<title>La Luna de hoy</title>
+<p id="luna">Cargando…</p>
+<p><small>Datos de <a href="https://astroletra.com/">Astroletra</a></small></p>
+<script type="module">
+  const zona = Intl.DateTimeFormat().resolvedOptions().timeZone;
+  const r = await fetch("https://api.astroletra.com/api/v1/cielo?tz=" + encodeURIComponent(zona));
+  const { moon } = await r.json();
+  document.querySelector("#luna").textContent =
+    "Luna en " + moon.sign_label + ", iluminada al " + Math.round(moon.illumination * 100) + " %";
+</script>
+</html>

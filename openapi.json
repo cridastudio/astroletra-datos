@@ -1,0 +1,526 @@
+{
+ "openapi": "3.1.0",
+ "info": {
+  "title": "API del cielo de Astroletra",
+  "version": "1.0.0",
+  "summary": "El cielo de un día civil en una zona horaria: Luna, aspectos exactos, retrógrados y próxima lunación.",
+  "description": "Datos calculados con las efemérides JPL DE440 (NASA), zodiaco tropical, geocéntrico. Licencia CC BY 4.0: muestra «Datos: Astroletra» con un enlace a https://astroletra.com/. Sin clave; 60 peticiones por minuto e IP.",
+  "license": {
+   "name": "CC BY 4.0",
+   "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "contact": {
+   "name": "Astroletra",
+   "email": "info@astroletra.com",
+   "url": "https://astroletra.com/datos/api/"
+  }
+ },
+ "servers": [
+  {
+   "url": "https://api.astroletra.com"
+  }
+ ],
+ "paths": {
+  "/api/v1/cielo": {
+   "get": {
+    "operationId": "cielo",
+    "summary": "Cielo de un día en una zona horaria",
+    "parameters": [
+     {
+      "name": "date",
+      "in": "query",
+      "required": false,
+      "description": "Día civil AAAA-MM-DD, a ±7 días de hoy en la zona pedida. Por defecto, hoy.",
+      "schema": {
+       "type": "string",
+       "format": "date"
+      }
+     },
+     {
+      "name": "tz",
+      "in": "query",
+      "required": false,
+      "description": "Zona IANA de la lista admitida (España y las capitales de los países hispanohablantes, entre otras), p. ej. America/Mexico_City. Por defecto, Europe/Madrid. Otra zona devuelve 422.",
+      "schema": {
+       "type": "string",
+       "default": "Europe/Madrid",
+       "enum": [
+        "Europe/Madrid",
+        "Atlantic/Canary",
+        "Europe/London",
+        "Europe/Paris",
+        "Europe/Berlin",
+        "America/Mexico_City",
+        "America/Guatemala",
+        "America/El_Salvador",
+        "America/Tegucigalpa",
+        "America/Managua",
+        "America/Costa_Rica",
+        "America/Panama",
+        "America/Havana",
+        "America/Santo_Domingo",
+        "America/Puerto_Rico",
+        "America/Bogota",
+        "America/Caracas",
+        "America/Guayaquil",
+        "America/Lima",
+        "America/La_Paz",
+        "America/Santiago",
+        "America/Argentina/Buenos_Aires",
+        "America/Asuncion",
+        "America/Montevideo",
+        "America/New_York",
+        "America/Chicago",
+        "America/Los_Angeles",
+        "America/Sao_Paulo"
+       ]
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Cielo del día",
+      "headers": {
+       "Cache-Control": {
+        "schema": {
+         "type": "string"
+        },
+        "description": "public, max-age=3600 (86400 en fechas pasadas, que no cambian)"
+       },
+       "Access-Control-Allow-Origin": {
+        "schema": {
+         "type": "string"
+        },
+        "description": "*"
+       }
+      },
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Cielo"
+        },
+        "example": {
+         "date": "2026-11-24",
+         "tz": "Europe/Madrid",
+         "moon": {
+          "sign": "Taurus",
+          "sign_label": "Tauro",
+          "degree": 29.9,
+          "phase": "Full Moon",
+          "illumination": 1.0,
+          "changes_sign_today": true,
+          "next_sign_change": {
+           "at_local": "2026-11-24T12:09+01:00",
+           "time": "12:09",
+           "date_local": "2026-11-24",
+           "to_sign": "Gemini",
+           "to_sign_label": "Géminis",
+           "from_sign": "Taurus"
+          },
+          "sign_change": {
+           "at_local": "2026-11-24T12:09+01:00",
+           "time": "12:09",
+           "date_local": "2026-11-24",
+           "to_sign": "Gemini",
+           "to_sign_label": "Géminis"
+          }
+         },
+         "retrogrades": [
+          {
+           "planet": "Saturn",
+           "planet_label": "Saturno",
+           "sign": "Aries",
+           "sign_label": "Aries",
+           "since": "2026-07-26",
+           "until": "2026-12-10",
+           "shadow_to": "2027-03-15"
+          },
+          {
+           "planet": "Uranus",
+           "planet_label": "Urano",
+           "sign": "Gemini",
+           "sign_label": "Géminis",
+           "since": "2026-09-10",
+           "until": "2027-02-08",
+           "shadow_to": null
+          },
+          {
+           "planet": "Neptune",
+           "planet_label": "Neptuno",
+           "sign": "Aries",
+           "sign_label": "Aries",
+           "since": "2026-07-07",
+           "until": "2026-12-12",
+           "shadow_to": null
+          }
+         ],
+         "next_lunation": {
+          "phase": "full",
+          "at_local": "2026-11-24T15:53+01:00",
+          "date_local": "2026-11-24",
+          "sign": "Gemini",
+          "sign_label": "Géminis"
+         },
+         "source": "Astroletra — https://astroletra.com",
+         "license": "CC BY 4.0",
+         "license_url": "https://creativecommons.org/licenses/by/4.0/",
+         "ephemeris": "JPL DE440 (NASA), zodiaco tropical, geocéntrico",
+         "docs": "https://astroletra.com/datos/api/",
+         "aspects": [
+          {
+           "p1": "Sun",
+           "p2": "Neptune",
+           "p1_label": "Sol",
+           "p2_label": "Neptuno",
+           "type": "trine",
+           "type_label": "trígono",
+           "exact": true,
+           "at_local": "2026-11-24T01:07+01:00",
+           "time": "01:07",
+           "orb": 0.0
+          },
+          {
+           "p1": "Moon",
+           "p2": "Jupiter",
+           "p1_label": "Luna",
+           "p2_label": "Júpiter",
+           "type": "square",
+           "type_label": "cuadratura",
+           "exact": true,
+           "at_local": "2026-11-24T06:28+01:00",
+           "time": "06:28",
+           "orb": 0.0
+          }
+         ],
+         "planets": [
+          {
+           "name": "Sun",
+           "name_label": "Sol",
+           "sign": "Sagittarius",
+           "sign_label": "Sagitario",
+           "degree": 2.17,
+           "retrograde": false
+          },
+          {
+           "name": "Moon",
+           "name_label": "Luna",
+           "sign": "Taurus",
+           "sign_label": "Tauro",
+           "degree": 29.9,
+           "retrograde": false
+          }
+         ]
+        }
+       }
+      }
+     },
+     "422": {
+      "description": "Zona o fecha no válidas",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "429": {
+      "description": "Demasiadas peticiones (más de 60 por minuto); mira Retry-After",
+      "headers": {
+       "Retry-After": {
+        "schema": {
+         "type": "integer"
+        }
+       }
+      },
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "503": {
+      "description": "Cálculo no disponible en este momento",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ },
+ "components": {
+  "schemas": {
+   "Error": {
+    "type": "object",
+    "properties": {
+     "error": {
+      "type": "string"
+     },
+     "details": {
+      "type": [
+       "array",
+       "null"
+      ],
+      "items": {
+       "type": "object",
+       "properties": {
+        "path": {
+         "type": "string"
+        },
+        "message": {
+         "type": "string"
+        }
+       }
+      }
+     }
+    },
+    "required": [
+     "error"
+    ]
+   },
+   "Cielo": {
+    "type": "object",
+    "required": [
+     "date",
+     "tz",
+     "moon",
+     "aspects",
+     "retrogrades",
+     "source",
+     "license",
+     "ephemeris"
+    ],
+    "properties": {
+     "date": {
+      "type": "string",
+      "format": "date"
+     },
+     "tz": {
+      "type": "string"
+     },
+     "moon": {
+      "type": "object",
+      "properties": {
+       "sign": {
+        "type": "string"
+       },
+       "sign_label": {
+        "type": "string"
+       },
+       "degree": {
+        "type": "number",
+        "description": "Grado dentro del signo (0-30)"
+       },
+       "phase": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "illumination": {
+        "type": [
+         "number",
+         "null"
+        ],
+        "minimum": 0,
+        "maximum": 1
+       },
+       "changes_sign_today": {
+        "type": "boolean"
+       },
+       "next_sign_change": {
+        "type": [
+         "object",
+         "null"
+        ],
+        "properties": {
+         "at_local": {
+          "type": "string"
+         },
+         "time": {
+          "type": "string"
+         },
+         "date_local": {
+          "type": "string"
+         },
+         "to_sign": {
+          "type": "string"
+         },
+         "to_sign_label": {
+          "type": "string"
+         }
+        }
+       }
+      }
+     },
+     "planets": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "name": {
+         "type": "string"
+        },
+        "name_label": {
+         "type": "string"
+        },
+        "sign": {
+         "type": "string"
+        },
+        "sign_label": {
+         "type": "string"
+        },
+        "degree": {
+         "type": "number"
+        },
+        "retrograde": {
+         "type": "boolean"
+        }
+       }
+      }
+     },
+     "aspects": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "p1": {
+         "type": "string"
+        },
+        "p2": {
+         "type": "string"
+        },
+        "p1_label": {
+         "type": "string"
+        },
+        "p2_label": {
+         "type": "string"
+        },
+        "type": {
+         "type": "string"
+        },
+        "type_label": {
+         "type": "string"
+        },
+        "exact": {
+         "type": "boolean"
+        },
+        "at_local": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "time": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "orb": {
+         "type": "number"
+        }
+       }
+      }
+     },
+     "retrogrades": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "planet": {
+         "type": "string"
+        },
+        "planet_label": {
+         "type": "string"
+        },
+        "sign": {
+         "type": "string"
+        },
+        "sign_label": {
+         "type": "string"
+        },
+        "since": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "until": {
+         "type": [
+          "string",
+          "null"
+         ]
+        },
+        "shadow_to": {
+         "type": [
+          "string",
+          "null"
+         ]
+        }
+       }
+      }
+     },
+     "lunation_today": {
+      "type": [
+       "object",
+       "null"
+      ]
+     },
+     "next_lunation": {
+      "type": [
+       "object",
+       "null"
+      ],
+      "properties": {
+       "phase": {
+        "type": "string",
+        "enum": [
+         "new",
+         "full"
+        ]
+       },
+       "at_local": {
+        "type": "string"
+       },
+       "date_local": {
+        "type": "string"
+       },
+       "sign": {
+        "type": "string"
+       },
+       "sign_label": {
+        "type": "string"
+       }
+      }
+     },
+     "source": {
+      "type": "string"
+     },
+     "license": {
+      "type": "string"
+     },
+     "license_url": {
+      "type": "string"
+     },
+     "ephemeris": {
+      "type": "string"
+     },
+     "docs": {
+      "type": "string"
+     },
+     "generated_at": {
+      "type": "string"
+     }
+    }
+   }
+  }
+ }
+}
