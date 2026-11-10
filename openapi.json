@@ -2,8 +2,8 @@
  "openapi": "3.1.0",
  "info": {
   "title": "API del cielo de Astroletra",
-  "version": "1.0.0",
-  "summary": "El cielo de un día civil en una zona horaria: Luna, aspectos exactos, retrógrados y próxima lunación.",
+  "version": "1.1.0",
+  "summary": "El cielo de un día civil en una zona horaria (Luna, aspectos exactos, retrógrados y próxima lunación) y los ficheros de datos abiertos.",
   "description": "Datos calculados con las efemérides JPL DE440 (NASA), zodiaco tropical, geocéntrico. Licencia CC BY 4.0: muestra «Datos: Astroletra» con un enlace a https://astroletra.com/. Sin clave; 60 peticiones por minuto e IP.",
   "license": {
    "name": "CC BY 4.0",
@@ -243,6 +243,85 @@
      },
      "503": {
       "description": "Cálculo no disponible en este momento",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/v1/datos/{fichero}": {
+   "get": {
+    "operationId": "datos",
+    "summary": "Fichero de datos abiertos (CSV, JSON o iCal)",
+    "description": "Los mismos ficheros de https://astroletra.com/datos/ servidos desde la API, para descargarlos con cualquier cliente, también con urllib de Python y con pandas. Sin clave; 60 peticiones por minuto e IP.",
+    "parameters": [
+     {
+      "name": "fichero",
+      "in": "path",
+      "required": true,
+      "description": "Nombre del fichero, por ejemplo lunaciones.csv, eclipses.json, retrogrados.csv, ingresos-solares.csv, calendario-2027.csv o todo.ics. La lista está en https://astroletra.com/datos/.",
+      "schema": {
+       "type": "string",
+       "pattern": "^[a-z0-9][a-z0-9-]*\\.(csv|json|ics)$"
+      },
+      "example": "lunaciones.csv"
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "El fichero pedido",
+      "content": {
+       "text/csv": {
+        "schema": {
+         "type": "string"
+        }
+       },
+       "application/json": {
+        "schema": {
+         "type": "object"
+        }
+       },
+       "text/calendar": {
+        "schema": {
+         "type": "string"
+        }
+       }
+      }
+     },
+     "404": {
+      "description": "No existe un fichero con ese nombre",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "429": {
+      "description": "Demasiadas peticiones (más de 60 por minuto); mira Retry-After",
+      "headers": {
+       "Retry-After": {
+        "schema": {
+         "type": "integer"
+        }
+       }
+      },
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "503": {
+      "description": "El fichero no está disponible en este momento",
       "content": {
        "application/json": {
         "schema": {

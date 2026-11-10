@@ -1,0 +1,473 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Astroletra//Calendario de lluvias de estrellas//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Calendario de lluvias de estrellas de Astroletra
+X-WR-CALDESC:Los máximos de las lluvias de estrellas de 2026 y 2027 con la
+  hora de la International Meteor Organization y la Luna de cada noche calc
+ ulada por Astroletra con las efemérides JPL DE440. Horas en UTC\; tu cale
+ ndario las muestra en tu zona. https://astroletra.com/lluvias-de-estrellas
+ /
+X-WR-TIMEZONE:UTC
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+X-PUBLISHED-TTL:P1D
+BEGIN:VEVENT
+UID:2026-01-03-cuadrantidas@astroletra.com
+DTSTAMP:20261110T194017Z
+DTSTART:20260103T210000Z
+DTEND:20260103T220000Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Cuadrántidas\, máximo de la lluvia de estrellas
+DESCRIPTION:Cuadrántidas 2026\, hasta 80 meteoros por hora con cielo perfe
+ cto. Máximo hacia las 22:00 en Madrid\, las 15:00 en Ciudad de México y 
+ las 18:00 en Buenos Aires (IMO). La Luna estorba la mayor parte de la noch
+ e en Madrid (Luna al 99 %). Calendario de lluvias de estrellas de Astrolet
+ ra\, con la Luna de cada noche calculada por Astroletra. https://astroletr
+ a.com/lluvias-de-estrellas/cuadrantidas/?utm_source=ical
+URL:https://astroletra.com/lluvias-de-estrellas/cuadrantidas/?utm_source=ic
+ al
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Cuadrántidas\, máximo de la lluvia de estrellas
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-04-22-liridas@astroletra.com
+DTSTAMP:20261110T194017Z
+DTSTART:20260422T194000Z
+DTEND:20260422T204000Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Líridas\, máximo de la lluvia de estrellas
+DESCRIPTION:Líridas 2026\, hasta 18 meteoros por hora con cielo perfecto. 
+ Máximo las 21:40 en Madrid\, las 13:40 en Ciudad de México y las 16:40 e
+ n Buenos Aires (IMO). La Luna estorba una parte de la noche en Madrid (Lun
+ a al 38 %). En Madrid\, mejor de las 03:13 a las 05:44\, hacia el sudeste.
+  Calendario de lluvias de estrellas de Astroletra\, con la Luna de cada no
+ che calculada por Astroletra. https://astroletra.com/lluvias-de-estrellas/
+ liridas/?utm_source=ical
+URL:https://astroletra.com/lluvias-de-estrellas/liridas/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Líridas\, máximo de la lluvia de estrellas
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-05-06-eta-acuaridas@astroletra.com
+DTSTAMP:20261110T194017Z
+DTSTART;VALUE=DATE:20260506
+DTEND;VALUE=DATE:20260507
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Eta Acuáridas\, máximo de la lluvia de estrellas
+DESCRIPTION:Eta Acuáridas 2026\, hasta 50 meteoros por hora con cielo perf
+ ecto. Máximo el 6 de mayo\, sin hora\; es un máximo ancho (IMO). La Luna
+  no estorba en Madrid (Luna al 84 %). Calendario de lluvias de estrellas d
+ e Astroletra\, con la Luna de cada noche calculada por Astroletra. https:/
+ /astroletra.com/lluvias-de-estrellas/eta-acuaridas/?utm_source=ical
+URL:https://astroletra.com/lluvias-de-estrellas/eta-acuaridas/?utm_source=i
+ cal
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Eta Acuáridas\, máximo de la lluvia de estrella
+ s
+TRIGGER:PT21H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-07-31-delta-acuaridas@astroletra.com
+DTSTAMP:20261110T194017Z
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Delta Acuáridas\, máximo de la lluvia de estrellas
+DESCRIPTION:Delta Acuáridas 2026\, hasta 25 meteoros por hora con cielo pe
+ rfecto. Máximo el 31 de julio\, sin hora\; es un máximo ancho (IMO). La 
+ Luna estorba la mayor parte de la noche en Madrid (Luna al 94 %). Calendar
+ io de lluvias de estrellas de Astroletra\, con la Luna de cada noche calcu
+ lada por Astroletra. https://astroletra.com/lluvias-de-estrellas/delta-acu
+ aridas/?utm_source=ical
+URL:https://astroletra.com/lluvias-de-estrellas/delta-acuaridas/?utm_source
+ =ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Delta Acuáridas\, máximo de la lluvia de estrel
+ las
+TRIGGER:PT21H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-08-13-perseidas@astroletra.com
+DTSTAMP:20261110T194017Z
+DTSTART:20260813T030000Z
+DTEND:20260813T040000Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Perseidas\, máximo de la lluvia de estrellas
+DESCRIPTION:Perseidas 2026\, hasta 100 meteoros por hora con cielo perfecto
+ . Máximo las 05:00 en Madrid\, las 21:00 en Ciudad de México y las 00:00
+  en Buenos Aires (IMO). La Luna no estorba en Madrid (Luna al 0 %). En Mad
+ rid\, mejor de las 23:59 a las 05:39\, hacia el nordeste. Calendario de ll
+ uvias de estrellas de Astroletra\, con la Luna de cada noche calculada por
+  Astroletra. https://astroletra.com/lluvias-de-estrellas/perseidas/?utm_so
+ urce=ical
+URL:https://astroletra.com/lluvias-de-estrellas/perseidas/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Perseidas\, máximo de la lluvia de estrellas
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-09-draconidas@astroletra.com
+DTSTAMP:20261110T194017Z
+DTSTART:20261009T010000Z
+DTEND:20261009T020000Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Dracónidas\, máximo de la lluvia de estrellas
+DESCRIPTION:Dracónidas 2026\, hasta 5 meteoros por hora con cielo perfecto
+ . Máximo las 03:00 en Madrid\, las 19:00 en Ciudad de México y las 22:00
+  en Buenos Aires (IMO). La Luna no estorba en Madrid (Luna al 3 %). En Mad
+ rid\, mejor de las 21:17 a las 02:08\, hacia el noroeste. Calendario de ll
+ uvias de estrellas de Astroletra\, con la Luna de cada noche calculada por
+  Astroletra. https://astroletra.com/lluvias-de-estrellas/draconidas/?utm_s
+ ource=ical
+URL:https://astroletra.com/lluvias-de-estrellas/draconidas/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Dracónidas\, máximo de la lluvia de estrellas
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-10-21-orionidas@astroletra.com
+DTSTAMP:20261110T194017Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Oriónidas\, máximo de la lluvia de estrellas
+DESCRIPTION:Oriónidas 2026\, hasta 20 meteoros por hora con cielo perfecto
+ . Máximo el 21 de octubre\, sin hora\; es un máximo ancho (IMO). La Luna
+  estorba la mayor parte de la noche en Madrid (Luna al 81 %). En Madrid\, 
+ mejor de las 04:19 a las 07:02\, hacia el sur. Calendario de lluvias de es
+ trellas de Astroletra\, con la Luna de cada noche calculada por Astroletra
+ . https://astroletra.com/lluvias-de-estrellas/orionidas/?utm_source=ical
+URL:https://astroletra.com/lluvias-de-estrellas/orionidas/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Oriónidas\, máximo de la lluvia de estrellas
+TRIGGER:PT21H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-05-tauridas@astroletra.com
+DTSTAMP:20261110T194017Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Táuridas\, máximo de la lluvia de estrellas
+DESCRIPTION:Táuridas 2026\, hasta 7 meteoros por hora con cielo perfecto. 
+ Máximo el 5 de noviembre\, sin hora\; es un máximo ancho (IMO). La Luna 
+ no estorba en Madrid (Luna al 11 %). En Madrid\, mejor de las 20:39 a las 
+ 04:55\, hacia el sur. Calendario de lluvias de estrellas de Astroletra\, c
+ on la Luna de cada noche calculada por Astroletra. https://astroletra.com/
+ lluvias-de-estrellas/tauridas/?utm_source=ical
+URL:https://astroletra.com/lluvias-de-estrellas/tauridas/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Táuridas\, máximo de la lluvia de estrellas
+TRIGGER:PT21H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-11-17-leonidas@astroletra.com
+DTSTAMP:20261110T194017Z
+DTSTART:20261117T234500Z
+DTEND:20261118T004500Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Leónidas\, máximo de la lluvia de estrellas
+DESCRIPTION:Leónidas 2026\, hasta 15 meteoros por hora con cielo perfecto.
+  Máximo las 00:45 en Madrid\, las 17:45 en Ciudad de México y las 20:45 
+ en Buenos Aires (IMO). La Luna no estorba en Madrid (Luna al 55 %). En Mad
+ rid\, mejor de las 02:09 a las 06:29\, hacia el sudeste. Calendario de llu
+ vias de estrellas de Astroletra\, con la Luna de cada noche calculada por 
+ Astroletra. https://astroletra.com/lluvias-de-estrellas/leonidas/?utm_sour
+ ce=ical
+URL:https://astroletra.com/lluvias-de-estrellas/leonidas/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Leónidas\, máximo de la lluvia de estrellas
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-14-geminidas@astroletra.com
+DTSTAMP:20261110T194017Z
+DTSTART:20261214T140000Z
+DTEND:20261214T150000Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Gemínidas\, máximo de la lluvia de estrellas
+DESCRIPTION:Gemínidas 2026\, hasta 150 meteoros por hora con cielo perfect
+ o. Máximo las 15:00 en Madrid\, las 08:00 en Ciudad de México y las 11:0
+ 0 en Buenos Aires (IMO). La Luna no estorba en Madrid (Luna al 29 %). En M
+ adrid\, mejor de las 22:53 a las 06:52\, hacia el sur. Calendario de lluvi
+ as de estrellas de Astroletra\, con la Luna de cada noche calculada por As
+ troletra. https://astroletra.com/lluvias-de-estrellas/geminidas/?utm_sourc
+ e=ical
+URL:https://astroletra.com/lluvias-de-estrellas/geminidas/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Gemínidas\, máximo de la lluvia de estrellas
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2026-12-22-ursidas@astroletra.com
+DTSTAMP:20261110T194017Z
+DTSTART:20261222T220000Z
+DTEND:20261222T230000Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Úrsidas\, máximo de la lluvia de estrellas
+DESCRIPTION:Úrsidas 2026\, hasta 10 meteoros por hora con cielo perfecto. 
+ Máximo las 23:00 en Madrid\, las 16:00 en Ciudad de México y las 19:00 e
+ n Buenos Aires (IMO). La Luna estorba la mayor parte de la noche en Madrid
+  (Luna al 98 %). Calendario de lluvias de estrellas de Astroletra\, con la
+  Luna de cada noche calculada por Astroletra. https://astroletra.com/lluvi
+ as-de-estrellas/ursidas/?utm_source=ical
+URL:https://astroletra.com/lluvias-de-estrellas/ursidas/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Úrsidas\, máximo de la lluvia de estrellas
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-01-04-cuadrantidas@astroletra.com
+DTSTAMP:20261110T194017Z
+DTSTART:20270104T032500Z
+DTEND:20270104T042500Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Cuadrántidas\, máximo de la lluvia de estrellas
+DESCRIPTION:Cuadrántidas 2027\, hasta 80 meteoros por hora con cielo perfe
+ cto. Máximo las 04:25 en Madrid\, las 21:25 en Ciudad de México y las 00
+ :25 en Buenos Aires (IMO). La Luna no estorba en Madrid (Luna al 13 %). En
+  Madrid\, mejor de las 02:34 a las 06:02\, hacia el nordeste. Calendario d
+ e lluvias de estrellas de Astroletra\, con la Luna de cada noche calculada
+  por Astroletra. https://astroletra.com/lluvias-de-estrellas/cuadrantidas/
+ ?utm_source=ical
+URL:https://astroletra.com/lluvias-de-estrellas/cuadrantidas/?utm_source=ic
+ al
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Cuadrántidas\, máximo de la lluvia de estrellas
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-04-23-liridas@astroletra.com
+DTSTAMP:20261110T194017Z
+DTSTART:20270423T014000Z
+DTEND:20270423T024000Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Líridas\, máximo de la lluvia de estrellas
+DESCRIPTION:Líridas 2027\, hasta 18 meteoros por hora con cielo perfecto. 
+ Máximo las 03:40 en Madrid\, las 19:40 en Ciudad de México y las 22:40 e
+ n Buenos Aires (IMO). La Luna estorba la mayor parte de la noche en Madrid
+  (Luna al 95 %). Calendario de lluvias de estrellas de Astroletra\, con la
+  Luna de cada noche calculada por Astroletra. https://astroletra.com/lluvi
+ as-de-estrellas/liridas/?utm_source=ical
+URL:https://astroletra.com/lluvias-de-estrellas/liridas/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Líridas\, máximo de la lluvia de estrellas
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-05-06-eta-acuaridas@astroletra.com
+DTSTAMP:20261110T194017Z
+DTSTART:20270506T090000Z
+DTEND:20270506T100000Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Eta Acuáridas\, máximo de la lluvia de estrellas
+DESCRIPTION:Eta Acuáridas 2027\, hasta 50 meteoros por hora con cielo perf
+ ecto. Máximo las 11:00 en Madrid\, las 03:00 en Ciudad de México y las 0
+ 6:00 en Buenos Aires (IMO). La Luna no estorba en Madrid (Luna al 1 %). Ca
+ lendario de lluvias de estrellas de Astroletra\, con la Luna de cada noche
+  calculada por Astroletra. https://astroletra.com/lluvias-de-estrellas/eta
+ -acuaridas/?utm_source=ical
+URL:https://astroletra.com/lluvias-de-estrellas/eta-acuaridas/?utm_source=i
+ cal
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Eta Acuáridas\, máximo de la lluvia de estrella
+ s
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-07-31-delta-acuaridas@astroletra.com
+DTSTAMP:20261110T194017Z
+DTSTART;VALUE=DATE:20270731
+DTEND;VALUE=DATE:20270801
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Delta Acuáridas\, máximo de la lluvia de estrellas
+DESCRIPTION:Delta Acuáridas 2027\, hasta 25 meteoros por hora con cielo pe
+ rfecto. Máximo el 31 de julio\, sin hora\; es un máximo ancho (IMO). La 
+ Luna no estorba en Madrid (Luna al 3 %). En Madrid\, mejor de las 01:20 a 
+ las 05:21\, hacia el sur. Calendario de lluvias de estrellas de Astroletra
+ \, con la Luna de cada noche calculada por Astroletra. https://astroletra.
+ com/lluvias-de-estrellas/delta-acuaridas/?utm_source=ical
+URL:https://astroletra.com/lluvias-de-estrellas/delta-acuaridas/?utm_source
+ =ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Delta Acuáridas\, máximo de la lluvia de estrel
+ las
+TRIGGER:PT21H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-08-13-perseidas@astroletra.com
+DTSTAMP:20261110T194017Z
+DTSTART:20270813T090000Z
+DTEND:20270813T100000Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Perseidas\, máximo de la lluvia de estrellas
+DESCRIPTION:Perseidas 2027\, hasta 110 meteoros por hora con cielo perfecto
+ . Máximo las 11:00 en Madrid\, las 03:00 en Ciudad de México y las 06:00
+  en Buenos Aires (IMO). La Luna estorba la mayor parte de la noche en Madr
+ id (Luna al 84 %). En Madrid\, mejor de las 03:26 a las 05:39\, hacia el n
+ ordeste. Calendario de lluvias de estrellas de Astroletra\, con la Luna de
+  cada noche calculada por Astroletra. https://astroletra.com/lluvias-de-es
+ trellas/perseidas/?utm_source=ical
+URL:https://astroletra.com/lluvias-de-estrellas/perseidas/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Perseidas\, máximo de la lluvia de estrellas
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-09-draconidas@astroletra.com
+DTSTAMP:20261110T194017Z
+DTSTART:20271009T070000Z
+DTEND:20271009T080000Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Dracónidas\, máximo de la lluvia de estrellas
+DESCRIPTION:Dracónidas 2027\, hasta 5 meteoros por hora con cielo perfecto
+ . Máximo las 09:00 en Madrid\, las 01:00 en Ciudad de México y las 04:00
+  en Buenos Aires (IMO). La Luna estorba la mayor parte de la noche en Madr
+ id (Luna al 64 %). En Madrid\, mejor de las 02:09 a las 02:26\, hacia el n
+ oroeste. Calendario de lluvias de estrellas de Astroletra\, con la Luna de
+  cada noche calculada por Astroletra. https://astroletra.com/lluvias-de-es
+ trellas/draconidas/?utm_source=ical
+URL:https://astroletra.com/lluvias-de-estrellas/draconidas/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Dracónidas\, máximo de la lluvia de estrellas
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-10-22-orionidas@astroletra.com
+DTSTAMP:20261110T194017Z
+DTSTART;VALUE=DATE:20271022
+DTEND;VALUE=DATE:20271023
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Oriónidas\, máximo de la lluvia de estrellas
+DESCRIPTION:Oriónidas 2027\, hasta 20 meteoros por hora con cielo perfecto
+ . Máximo el 22 de octubre\, sin hora\; es un máximo ancho (IMO). La Luna
+  estorba una parte de la noche en Madrid (Luna al 58 %). Calendario de llu
+ vias de estrellas de Astroletra\, con la Luna de cada noche calculada por 
+ Astroletra. https://astroletra.com/lluvias-de-estrellas/orionidas/?utm_sou
+ rce=ical
+URL:https://astroletra.com/lluvias-de-estrellas/orionidas/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Oriónidas\, máximo de la lluvia de estrellas
+TRIGGER:PT21H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-11-06-tauridas@astroletra.com
+DTSTAMP:20261110T194017Z
+DTSTART;VALUE=DATE:20271106
+DTEND;VALUE=DATE:20271107
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Táuridas\, máximo de la lluvia de estrellas
+DESCRIPTION:Táuridas 2027\, hasta 7 meteoros por hora con cielo perfecto. 
+ Máximo el 6 de noviembre\, sin hora\; es un máximo ancho (IMO). La Luna 
+ estorba una parte de la noche en Madrid (Luna al 47 %). En Madrid\, mejor 
+ de las 23:58 a las 06:17\, hacia el sur. Calendario de lluvias de estrella
+ s de Astroletra\, con la Luna de cada noche calculada por Astroletra. http
+ s://astroletra.com/lluvias-de-estrellas/tauridas/?utm_source=ical
+URL:https://astroletra.com/lluvias-de-estrellas/tauridas/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Táuridas\, máximo de la lluvia de estrellas
+TRIGGER:PT21H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-11-18-leonidas@astroletra.com
+DTSTAMP:20261110T194017Z
+DTSTART:20271118T060000Z
+DTEND:20271118T070000Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Leónidas\, máximo de la lluvia de estrellas
+DESCRIPTION:Leónidas 2027\, hasta 15 meteoros por hora con cielo perfecto.
+  Máximo las 07:00 en Madrid\, las 00:00 en Ciudad de México y las 03:00 
+ en Buenos Aires (IMO). La Luna estorba la mayor parte de la noche en Madri
+ d (Luna al 82 %). Calendario de lluvias de estrellas de Astroletra\, con l
+ a Luna de cada noche calculada por Astroletra. https://astroletra.com/lluv
+ ias-de-estrellas/leonidas/?utm_source=ical
+URL:https://astroletra.com/lluvias-de-estrellas/leonidas/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Leónidas\, máximo de la lluvia de estrellas
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-12-14-geminidas@astroletra.com
+DTSTAMP:20261110T194017Z
+DTSTART:20271214T200000Z
+DTEND:20271214T210000Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Gemínidas\, máximo de la lluvia de estrellas
+DESCRIPTION:Gemínidas 2027\, hasta 150 meteoros por hora con cielo perfect
+ o. Máximo hacia las 21:00 en Madrid\, las 14:00 en Ciudad de México y la
+ s 17:00 en Buenos Aires (IMO). La Luna estorba la mayor parte de la noche 
+ en Madrid (Luna al 98 %). Calendario de lluvias de estrellas de Astroletra
+ \, con la Luna de cada noche calculada por Astroletra. https://astroletra.
+ com/lluvias-de-estrellas/geminidas/?utm_source=ical
+URL:https://astroletra.com/lluvias-de-estrellas/geminidas/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Gemínidas\, máximo de la lluvia de estrellas
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2027-12-23-ursidas@astroletra.com
+DTSTAMP:20261110T194017Z
+DTSTART:20271223T040000Z
+DTEND:20271223T050000Z
+TRANSP:TRANSPARENT
+SUMMARY:Astroletra · Úrsidas\, máximo de la lluvia de estrellas
+DESCRIPTION:Úrsidas 2027\, hasta 10 meteoros por hora con cielo perfecto. 
+ Máximo las 05:00 en Madrid\, las 22:00 en Ciudad de México y las 01:00 e
+ n Buenos Aires (IMO). La Luna no estorba en Madrid (Luna al 23 %). En Madr
+ id\, mejor de las 19:31 a las 04:21\, hacia el norte. Calendario de lluvia
+ s de estrellas de Astroletra\, con la Luna de cada noche calculada por Ast
+ roletra. https://astroletra.com/lluvias-de-estrellas/ursidas/?utm_source=i
+ cal
+URL:https://astroletra.com/lluvias-de-estrellas/ursidas/?utm_source=ical
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Astroletra · Úrsidas\, máximo de la lluvia de estrellas
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+END:VCALENDAR

@@ -6,9 +6,7 @@ import urllib.request
 
 zona = sys.argv[1] if len(sys.argv) > 1 else "Europe/Madrid"
 url = "https://api.astroletra.com/api/v1/cielo?" + urllib.parse.urlencode({"tz": zona})
-# Pon el nombre de tu aplicación: el servidor rechaza el agente genérico de urllib.
-peticion = urllib.request.Request(url, headers={"User-Agent": "mi-app/1.0"})
-cielo = json.load(urllib.request.urlopen(peticion))
+cielo = json.load(urllib.request.urlopen(url))
 
 luna = cielo["moon"]
 print(f"Luna en {luna['sign_label']}, iluminada al {round(luna['illumination'] * 100)} %")

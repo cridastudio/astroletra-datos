@@ -15,6 +15,7 @@ Todo sale de [astroletra.com](https://astroletra.com/), un portal de horóscopo 
 | [`datos/retrogrados.csv`](datos/retrogrados.csv) | Periodos retrógrados de Mercurio, Venus, Marte, Júpiter y Saturno, con las dos estaciones y la sombra | 18 |
 | [`datos/ingresos-solares.csv`](datos/ingresos-solares.csv) | Instante en que el Sol entra en cada signo, de 1930 a 2035 | 1272 |
 | [`datos/calendario-2027.csv`](datos/calendario-2027.csv) | Todo 2027 en una sola tabla | 50 |
+| [`datos/lluvias-de-estrellas.csv`](datos/lluvias-de-estrellas.csv) | Lluvias de estrellas de 2026 y 2027, con la noche del máximo y la Luna de esa noche | 22 |
 | [`openapi.json`](openapi.json) | Definición OpenAPI 3.1 de la API | |
 
 Cada tabla está también en JSON, y los calendarios en iCal (`.ics`) para suscribirse desde Google Calendar, Apple o Outlook.
@@ -22,6 +23,17 @@ Cada tabla está también en JSON, y los calendarios en iCal (`.ics`) para suscr
 Las horas van en UTC y en la hora local de Madrid, Ciudad de México, Bogotá, Santiago, Buenos Aires, Nueva York, Los Ángeles y Londres. Los signos son los del zodiaco tropical y las posiciones son geocéntricas.
 
 Los ficheros de este repositorio son una copia. La versión al día está siempre en [astroletra.com/datos/](https://astroletra.com/datos/).
+
+Para descargarlos desde un programa, usa la API, que sirve los mismos ficheros con el mismo nombre y admite cualquier cliente:
+
+```
+https://api.astroletra.com/api/v1/datos/lunaciones.csv
+```
+
+```python
+import pandas as pd
+lunas = pd.read_csv("https://api.astroletra.com/api/v1/datos/lunaciones.csv", encoding="utf-8-sig")
+```
 
 ## La API
 
@@ -36,7 +48,7 @@ GET https://api.astroletra.com/api/v1/cielo?date=2026-11-24&tz=America/Mexico_Ci
 | `date` | Fecha `AAAA-MM-DD`, hasta siete días antes o después de hoy | Hoy |
 | `tz` | Zona horaria IANA, por ejemplo `America/Bogota` | `Europe/Madrid` |
 
-No pide clave ni registro. Identifica tu aplicación con una cabecera `User-Agent` propia. Admite 60 peticiones por minuto, responde en JSON y permite llamadas desde el navegador (CORS abierto). La documentación completa está en [astroletra.com/datos/api/](https://astroletra.com/datos/api/).
+No pide clave ni registro. Admite 60 peticiones por minuto, responde en JSON y permite llamadas desde el navegador (CORS abierto). La documentación completa está en [astroletra.com/datos/api/](https://astroletra.com/datos/api/).
 
 ```bash
 curl -s "https://api.astroletra.com/api/v1/cielo?tz=America/Mexico_City"
@@ -51,8 +63,7 @@ console.log(cielo.moon.sign_label, cielo.moon.illumination);
 ```python
 import json, urllib.request
 url = "https://api.astroletra.com/api/v1/cielo?tz=America/Mexico_City"
-peticion = urllib.request.Request(url, headers={"User-Agent": "mi-app/1.0"})
-cielo = json.load(urllib.request.urlopen(peticion))
+cielo = json.load(urllib.request.urlopen(url))
 print(cielo["moon"]["sign_label"], [r["planet_label"] for r in cielo["retrogrades"]])
 ```
 
@@ -86,6 +97,7 @@ Datos, [CC BY 4.0](LICENSE). Ejemplos de código, dominio público (CC0).
 
 Open astronomical data in Spanish and a free public API from [astroletra.com](https://astroletra.com/).
 
-- **Datasets** (CSV, JSON, iCal). New and full moons, solar and lunar eclipses and planetary retrogrades for 2026 to 2028, and solar ingresses for 1930 to 2035. Times in UTC and in local time for eight cities. Computed from JPL DE440, tropical zodiac, geocentric.
+- **Datasets** (CSV, JSON, iCal). New and full moons, solar and lunar eclipses and planetary retrogrades for 2026 to 2028, solar ingresses for 1930 to 2035 and the meteor showers of 2026 and 2027. Times in UTC and in local time for eight cities. Computed from JPL DE440, tropical zodiac, geocentric.
+- **Files for scripts**. The same files at `https://api.astroletra.com/api/v1/datos/<file>` (for example `lunaciones.csv`), reachable by any client, pandas included.
 - **API**. `GET https://api.astroletra.com/api/v1/cielo` returns the Moon's phase and sign, exact aspects, retrogrades and the next lunation for any IANA time zone. No key, no signup, CORS enabled, 60 requests per minute. [OpenAPI 3.1 definition](openapi.json), [docs](https://astroletra.com/datos/api/).
 - **License**. CC BY 4.0. Attribute as "Datos de Astroletra" with a link to https://astroletra.com/.
