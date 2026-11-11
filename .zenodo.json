@@ -1,0 +1,16 @@
+{
+  "title": "Lunaciones, eclipses, planetas retrógrados e ingresos solares (JPL DE440), datos abiertos de Astroletra",
+  "upload_type": "dataset",
+  "description": "<p>Fechas y horas de las lunas nuevas y llenas, los eclipses de Sol y de Luna y los periodos retrógrados de Mercurio, Venus, Marte, Júpiter y Saturno de 2026 a 2028, el instante en que el Sol entra en cada signo de 1930 a 2035 y las lluvias de estrellas de 2026 y 2027. Calculado con las efemérides JPL DE440 de la NASA, zodiaco tropical y posiciones geocéntricas. Cada instante va en UTC y en la hora local de Madrid, Ciudad de México, Bogotá, Santiago, Buenos Aires, Nueva York, Los Ángeles y Londres.</p><p>Formatos CSV, JSON e iCal. La versión al día está en https://astroletra.com/datos/ y se puede descargar desde cualquier programa en https://api.astroletra.com/api/v1/datos/. Incluye la definición OpenAPI 3.1 de la API pública del cielo.</p><p>Open astronomical data in Spanish: new and full moons, eclipses, planetary retrogrades, solar ingresses and meteor showers, computed from JPL DE440, with times in eight cities.</p>",
+  "creators": [
+    { "name": "Astroletra" }
+  ],
+  "license": "cc-by-4.0",
+  "language": "spa",
+  "access_right": "open",
+  "keywords": ["astronomía", "efemérides", "fases de la Luna", "eclipses", "planetas retrógrados", "lluvias de estrellas", "calendario lunar", "JPL DE440", "open data", "ephemeris"],
+  "related_identifiers": [
+    { "identifier": "https://astroletra.com/datos/", "relation": "isSupplementTo", "scheme": "url" },
+    { "identifier": "https://astroletra.com/datos/api/", "relation": "isDocumentedBy", "scheme": "url" }
+  ]
+}
