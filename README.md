@@ -1,5 +1,7 @@
 # Astroletra, datos abiertos del cielo y API pública
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24132871.svg)](https://doi.org/10.5281/zenodo.24132871)
+
 Fechas y horas de las lunas nuevas y llenas, los eclipses, los planetas retrógrados y la entrada del Sol en cada signo, calculadas con las efemérides JPL DE440 de la NASA y dadas en hora local de ocho ciudades. Más una API gratuita, sin clave, con el cielo de cada día.
 
 Todo sale de [astroletra.com](https://astroletra.com/), un portal de horóscopo y efemérides en español para España y Latinoamérica. Los datos se publican con licencia [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.es). Puedes usarlos, también con fines comerciales, citando la fuente.
@@ -75,7 +77,7 @@ Si solo quieres enseñar la fase de la Luna de hoy, hay un widget que se pega co
 
 ## Cómo citar
 
-> Astroletra (2026). Lunaciones, eclipses y planetas retrógrados 2026-2028 (JPL DE440). https://astroletra.com/datos/
+> Astroletra (2026). Lunaciones, eclipses, planetas retrógrados e ingresos solares (JPL DE440), datos abiertos de Astroletra. Zenodo. https://doi.org/10.5281/zenodo.24132871
 
 En una web basta una línea visible, «Datos de Astroletra», con un enlace a https://astroletra.com/.
 
