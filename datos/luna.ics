@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Astroletra//Calendario del cielo//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Astroletra: lunas nuevas y llenas
+X-WR-CALNAME:Astroletra\, lunas nuevas y llenas
 X-WR-CALDESC:Las lunas nuevas y llenas con su signo y grado. Del 2026-01-01
   al 2028-12-31. Horas en UTC; tu calendario las muestra en tu zona. Datos 
  de Astroletra (CC BY 4.0)\, efemérides JPL DE440.
@@ -21,8 +21,8 @@ DESCRIPTION:Luna llena en Cáncer\, exacta en Madrid\, sábado 3 de enero a
   las 11:02; Ciudad de México\, sábado 3 de enero a las 04:02; Buenos Air
  es\, sábado 3 de enero a las 07:02. Datos: Astroletra\, efemérides JPL D
  E440. https://astroletra.com/luna/luna-llena-3-enero-2026/?utm_source=ical
-  Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://astr
- oletra.com/luna/luna-llena-3-enero-2026/?utm_source=ical
+  Más en Astroletra\, el almanaque del cielo con su hora y su lectura. htt
+ ps://astroletra.com/luna/luna-llena-3-enero-2026/?utm_source=ical
 URL:https://astroletra.com/luna/luna-llena-3-enero-2026/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -41,8 +41,8 @@ DESCRIPTION:Luna nueva en Capricornio\, exacta en Madrid\, domingo 18 de en
  ero a las 20:51; Ciudad de México\, domingo 18 de enero a las 13:51; Buen
  os Aires\, domingo 18 de enero a las 16:51. Datos: Astroletra\, efeméride
  s JPL DE440. https://astroletra.com/luna/luna-nueva-18-enero-2026/?utm_sou
- rce=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. http
- s://astroletra.com/luna/luna-nueva-18-enero-2026/?utm_source=ical
+ rce=ical Más en Astroletra\, el almanaque del cielo con su hora y su lect
+ ura. https://astroletra.com/luna/luna-nueva-18-enero-2026/?utm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-18-enero-2026/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -61,8 +61,8 @@ DESCRIPTION:Luna llena en Leo\, exacta en Madrid\, domingo 1 de febrero a l
  as 23:09; Ciudad de México\, domingo 1 de febrero a las 16:09; Buenos Air
  es\, domingo 1 de febrero a las 19:09. Datos: Astroletra\, efemérides JPL
   DE440. https://astroletra.com/luna/luna-llena-1-febrero-2026/?utm_source=
- ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://
- astroletra.com/luna/luna-llena-1-febrero-2026/?utm_source=ical
+ ical Más en Astroletra\, el almanaque del cielo con su hora y su lectura.
+  https://astroletra.com/luna/luna-llena-1-febrero-2026/?utm_source=ical
 URL:https://astroletra.com/luna/luna-llena-1-febrero-2026/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -82,9 +82,9 @@ DESCRIPTION:Luna nueva en Acuario\, exacta en Madrid\, martes 17 de febrero
   a las 13:01; Ciudad de México\, martes 17 de febrero a las 06:01; Buenos
   Aires\, martes 17 de febrero a las 09:01. Datos: Astroletra\, efemérides
   JPL DE440. https://astroletra.com/eclipses/eclipse-solar-anular-17-febrer
- o-2026/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el c
- ielo real. https://astroletra.com/eclipses/eclipse-solar-anular-17-febrero
- -2026/?utm_source=ical
+ o-2026/?utm_source=ical Más en Astroletra\, el almanaque del cielo con su
+  hora y su lectura. https://astroletra.com/eclipses/eclipse-solar-anular-1
+ 7-febrero-2026/?utm_source=ical
 URL:https://astroletra.com/eclipses/eclipse-solar-anular-17-febrero-2026/?u
  tm_source=ical
 BEGIN:VALARM
@@ -105,9 +105,9 @@ DESCRIPTION:Luna llena en Virgo\, exacta en Madrid\, martes 3 de marzo a la
  s 12:37; Ciudad de México\, martes 3 de marzo a las 05:37; Buenos Aires\,
   martes 3 de marzo a las 08:37. Datos: Astroletra\, efemérides JPL DE440.
   https://astroletra.com/eclipses/eclipse-lunar-total-3-marzo-2026/?utm_sou
- rce=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. http
- s://astroletra.com/eclipses/eclipse-lunar-total-3-marzo-2026/?utm_source=i
- cal
+ rce=ical Más en Astroletra\, el almanaque del cielo con su hora y su lect
+ ura. https://astroletra.com/eclipses/eclipse-lunar-total-3-marzo-2026/?utm
+ _source=ical
 URL:https://astroletra.com/eclipses/eclipse-lunar-total-3-marzo-2026/?utm_s
  ource=ical
 BEGIN:VALARM
@@ -128,8 +128,8 @@ DESCRIPTION:Luna nueva en Piscis\, exacta en Madrid\, jueves 19 de marzo a
  las 02:23; Ciudad de México\, miércoles 18 de marzo a las 19:23; Buenos 
  Aires\, miércoles 18 de marzo a las 22:23. Datos: Astroletra\, efeméride
  s JPL DE440. https://astroletra.com/luna/luna-nueva-19-marzo-2026/?utm_sou
- rce=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. http
- s://astroletra.com/luna/luna-nueva-19-marzo-2026/?utm_source=ical
+ rce=ical Más en Astroletra\, el almanaque del cielo con su hora y su lect
+ ura. https://astroletra.com/luna/luna-nueva-19-marzo-2026/?utm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-19-marzo-2026/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -148,8 +148,8 @@ DESCRIPTION:Luna llena en Libra\, exacta en Madrid\, jueves 2 de abril a la
  s 04:11; Ciudad de México\, miércoles 1 de abril a las 20:11; Buenos Air
  es\, miércoles 1 de abril a las 23:11. Datos: Astroletra\, efemérides JP
  L DE440. https://astroletra.com/luna/luna-llena-2-abril-2026/?utm_source=i
- cal Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://a
- stroletra.com/luna/luna-llena-2-abril-2026/?utm_source=ical
+ cal Más en Astroletra\, el almanaque del cielo con su hora y su lectura. 
+ https://astroletra.com/luna/luna-llena-2-abril-2026/?utm_source=ical
 URL:https://astroletra.com/luna/luna-llena-2-abril-2026/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -168,8 +168,8 @@ DESCRIPTION:Luna nueva en Aries\, exacta en Madrid\, viernes 17 de abril a
  las 13:51; Ciudad de México\, viernes 17 de abril a las 05:51; Buenos Air
  es\, viernes 17 de abril a las 08:51. Datos: Astroletra\, efemérides JPL 
  DE440. https://astroletra.com/luna/luna-nueva-17-abril-2026/?utm_source=ic
- al Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://as
- troletra.com/luna/luna-nueva-17-abril-2026/?utm_source=ical
+ al Más en Astroletra\, el almanaque del cielo con su hora y su lectura. h
+ ttps://astroletra.com/luna/luna-nueva-17-abril-2026/?utm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-17-abril-2026/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -188,8 +188,8 @@ DESCRIPTION:Luna llena en Escorpio\, exacta en Madrid\, viernes 1 de mayo a
   las 19:23; Ciudad de México\, viernes 1 de mayo a las 11:23; Buenos Aire
  s\, viernes 1 de mayo a las 14:23. Datos: Astroletra\, efemérides JPL DE4
  40. https://astroletra.com/luna/luna-llena-1-mayo-2026/?utm_source=ical M
- ás en Astroletra\, tu horóscopo de hoy con el cielo real. https://astrol
- etra.com/luna/luna-llena-1-mayo-2026/?utm_source=ical
+ ás en Astroletra\, el almanaque del cielo con su hora y su lectura. https
+ ://astroletra.com/luna/luna-llena-1-mayo-2026/?utm_source=ical
 URL:https://astroletra.com/luna/luna-llena-1-mayo-2026/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -208,8 +208,8 @@ DESCRIPTION:Luna nueva en Tauro\, exacta en Madrid\, sábado 16 de mayo a l
  as 22:01; Ciudad de México\, sábado 16 de mayo a las 14:01; Buenos Aires
  \, sábado 16 de mayo a las 17:01. Datos: Astroletra\, efemérides JPL DE4
  40. https://astroletra.com/luna/luna-nueva-16-mayo-2026/?utm_source=ical M
- ás en Astroletra\, tu horóscopo de hoy con el cielo real. https://astrol
- etra.com/luna/luna-nueva-16-mayo-2026/?utm_source=ical
+ ás en Astroletra\, el almanaque del cielo con su hora y su lectura. https
+ ://astroletra.com/luna/luna-nueva-16-mayo-2026/?utm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-16-mayo-2026/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -228,8 +228,8 @@ DESCRIPTION:Luna llena en Sagitario\, exacta en Madrid\, domingo 31 de mayo
   a las 10:45; Ciudad de México\, domingo 31 de mayo a las 02:45; Buenos A
  ires\, domingo 31 de mayo a las 05:45. Datos: Astroletra\, efemérides JPL
   DE440. https://astroletra.com/luna/luna-llena-31-mayo-2026/?utm_source=ic
- al Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://as
- troletra.com/luna/luna-llena-31-mayo-2026/?utm_source=ical
+ al Más en Astroletra\, el almanaque del cielo con su hora y su lectura. h
+ ttps://astroletra.com/luna/luna-llena-31-mayo-2026/?utm_source=ical
 URL:https://astroletra.com/luna/luna-llena-31-mayo-2026/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -248,8 +248,8 @@ DESCRIPTION:Luna nueva en Géminis\, exacta en Madrid\, lunes 15 de junio a
   las 04:54; Ciudad de México\, domingo 14 de junio a las 20:54; Buenos Ai
  res\, domingo 14 de junio a las 23:54. Datos: Astroletra\, efemérides JPL
   DE440. https://astroletra.com/luna/luna-nueva-15-junio-2026/?utm_source=i
- cal Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://a
- stroletra.com/luna/luna-nueva-15-junio-2026/?utm_source=ical
+ cal Más en Astroletra\, el almanaque del cielo con su hora y su lectura. 
+ https://astroletra.com/luna/luna-nueva-15-junio-2026/?utm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-15-junio-2026/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -268,8 +268,8 @@ DESCRIPTION:Luna llena en Capricornio\, exacta en Madrid\, martes 30 de jun
  io a las 01:56; Ciudad de México\, lunes 29 de junio a las 17:56; Buenos 
  Aires\, lunes 29 de junio a las 20:56. Datos: Astroletra\, efemérides JPL
   DE440. https://astroletra.com/luna/luna-llena-29-junio-2026/?utm_source=i
- cal Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://a
- stroletra.com/luna/luna-llena-29-junio-2026/?utm_source=ical
+ cal Más en Astroletra\, el almanaque del cielo con su hora y su lectura. 
+ https://astroletra.com/luna/luna-llena-29-junio-2026/?utm_source=ical
 URL:https://astroletra.com/luna/luna-llena-29-junio-2026/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -288,8 +288,8 @@ DESCRIPTION:Luna nueva en Cáncer\, exacta en Madrid\, martes 14 de julio a
   las 11:43; Ciudad de México\, martes 14 de julio a las 03:43; Buenos Air
  es\, martes 14 de julio a las 06:43. Datos: Astroletra\, efemérides JPL D
  E440. https://astroletra.com/luna/luna-nueva-14-julio-2026/?utm_source=ica
- l Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://ast
- roletra.com/luna/luna-nueva-14-julio-2026/?utm_source=ical
+ l Más en Astroletra\, el almanaque del cielo con su hora y su lectura. ht
+ tps://astroletra.com/luna/luna-nueva-14-julio-2026/?utm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-14-julio-2026/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -308,8 +308,9 @@ DESCRIPTION:Luna llena en Acuario\, exacta en Madrid\, miércoles 29 de jul
  io a las 16:35; Ciudad de México\, miércoles 29 de julio a las 08:35; Bu
  enos Aires\, miércoles 29 de julio a las 11:35. Datos: Astroletra\, efem
  érides JPL DE440. https://astroletra.com/luna/luna-llena-29-julio-2026/?u
- tm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real
- . https://astroletra.com/luna/luna-llena-29-julio-2026/?utm_source=ical
+ tm_source=ical Más en Astroletra\, el almanaque del cielo con su hora y s
+ u lectura. https://astroletra.com/luna/luna-llena-29-julio-2026/?utm_sourc
+ e=ical
 URL:https://astroletra.com/luna/luna-llena-29-julio-2026/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -328,9 +329,9 @@ DESCRIPTION:Luna nueva en Leo\, exacta en Madrid\, miércoles 12 de agosto
  a las 19:36; Ciudad de México\, miércoles 12 de agosto a las 11:36; Buen
  os Aires\, miércoles 12 de agosto a las 14:36. Datos: Astroletra\, efemé
  rides JPL DE440. https://astroletra.com/eclipses/eclipse-solar-total-12-ag
- osto-2026/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con e
- l cielo real. https://astroletra.com/eclipses/eclipse-solar-total-12-agost
- o-2026/?utm_source=ical
+ osto-2026/?utm_source=ical Más en Astroletra\, el almanaque del cielo con
+  su hora y su lectura. https://astroletra.com/eclipses/eclipse-solar-total
+ -12-agosto-2026/?utm_source=ical
 URL:https://astroletra.com/eclipses/eclipse-solar-total-12-agosto-2026/?utm
  _source=ical
 BEGIN:VALARM
@@ -352,9 +353,9 @@ DESCRIPTION:Luna llena en Piscis\, exacta en Madrid\, viernes 28 de agosto
  a las 06:18; Ciudad de México\, jueves 27 de agosto a las 22:18; Buenos A
  ires\, viernes 28 de agosto a las 01:18. Datos: Astroletra\, efemérides J
  PL DE440. https://astroletra.com/eclipses/eclipse-lunar-parcial-28-agosto-
- 2026/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cie
- lo real. https://astroletra.com/eclipses/eclipse-lunar-parcial-28-agosto-2
- 026/?utm_source=ical
+ 2026/?utm_source=ical Más en Astroletra\, el almanaque del cielo con su h
+ ora y su lectura. https://astroletra.com/eclipses/eclipse-lunar-parcial-28
+ -agosto-2026/?utm_source=ical
 URL:https://astroletra.com/eclipses/eclipse-lunar-parcial-28-agosto-2026/?u
  tm_source=ical
 BEGIN:VALARM
@@ -375,9 +376,9 @@ DESCRIPTION:Luna nueva en Virgo\, exacta en Madrid\, viernes 11 de septiemb
  re a las 05:27; Ciudad de México\, jueves 10 de septiembre a las 21:27; B
  uenos Aires\, viernes 11 de septiembre a las 00:27. Datos: Astroletra\, ef
  emérides JPL DE440. https://astroletra.com/luna/luna-nueva-11-septiembre-
- 2026/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cie
- lo real. https://astroletra.com/luna/luna-nueva-11-septiembre-2026/?utm_so
- urce=ical
+ 2026/?utm_source=ical Más en Astroletra\, el almanaque del cielo con su h
+ ora y su lectura. https://astroletra.com/luna/luna-nueva-11-septiembre-202
+ 6/?utm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-11-septiembre-2026/?utm_source=i
  cal
 BEGIN:VALARM
@@ -397,9 +398,9 @@ DESCRIPTION:Luna llena en Aries\, exacta en Madrid\, sábado 26 de septiemb
  re a las 18:49; Ciudad de México\, sábado 26 de septiembre a las 10:49; 
  Buenos Aires\, sábado 26 de septiembre a las 13:49. Datos: Astroletra\, e
  femérides JPL DE440. https://astroletra.com/luna/luna-llena-26-septiembre
- -2026/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el ci
- elo real. https://astroletra.com/luna/luna-llena-26-septiembre-2026/?utm_s
- ource=ical
+ -2026/?utm_source=ical Más en Astroletra\, el almanaque del cielo con su 
+ hora y su lectura. https://astroletra.com/luna/luna-llena-26-septiembre-20
+ 26/?utm_source=ical
 URL:https://astroletra.com/luna/luna-llena-26-septiembre-2026/?utm_source=i
  cal
 BEGIN:VALARM
@@ -419,8 +420,9 @@ DESCRIPTION:Luna nueva en Libra\, exacta en Madrid\, sábado 10 de octubre
  a las 17:50; Ciudad de México\, sábado 10 de octubre a las 09:50; Buenos
   Aires\, sábado 10 de octubre a las 12:50. Datos: Astroletra\, efeméride
  s JPL DE440. https://astroletra.com/luna/luna-nueva-10-octubre-2026/?utm_s
- ource=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. ht
- tps://astroletra.com/luna/luna-nueva-10-octubre-2026/?utm_source=ical
+ ource=ical Más en Astroletra\, el almanaque del cielo con su hora y su le
+ ctura. https://astroletra.com/luna/luna-nueva-10-octubre-2026/?utm_source=
+ ical
 URL:https://astroletra.com/luna/luna-nueva-10-octubre-2026/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -439,8 +441,8 @@ DESCRIPTION:Luna llena en Tauro\, exacta en Madrid\, lunes 26 de octubre a
  las 05:11; Ciudad de México\, domingo 25 de octubre a las 22:11; Buenos A
  ires\, lunes 26 de octubre a las 01:11. Datos: Astroletra\, efemérides JP
  L DE440. https://astroletra.com/luna/luna-llena-26-octubre-2026/?utm_sourc
- e=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. https:
- //astroletra.com/luna/luna-llena-26-octubre-2026/?utm_source=ical
+ e=ical Más en Astroletra\, el almanaque del cielo con su hora y su lectur
+ a. https://astroletra.com/luna/luna-llena-26-octubre-2026/?utm_source=ical
 URL:https://astroletra.com/luna/luna-llena-26-octubre-2026/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -459,8 +461,9 @@ DESCRIPTION:Luna nueva en Escorpio\, exacta en Madrid\, lunes 9 de noviembr
  e a las 08:02; Ciudad de México\, lunes 9 de noviembre a las 01:02; Bueno
  s Aires\, lunes 9 de noviembre a las 04:02. Datos: Astroletra\, efeméride
  s JPL DE440. https://astroletra.com/luna/luna-nueva-9-noviembre-2026/?utm_
- source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. h
- ttps://astroletra.com/luna/luna-nueva-9-noviembre-2026/?utm_source=ical
+ source=ical Más en Astroletra\, el almanaque del cielo con su hora y su l
+ ectura. https://astroletra.com/luna/luna-nueva-9-noviembre-2026/?utm_sourc
+ e=ical
 URL:https://astroletra.com/luna/luna-nueva-9-noviembre-2026/?utm_source=ica
  l
 BEGIN:VALARM
@@ -480,9 +483,9 @@ DESCRIPTION:Luna llena en Géminis\, exacta en Madrid\, martes 24 de noviem
  bre a las 15:53; Ciudad de México\, martes 24 de noviembre a las 08:53; B
  uenos Aires\, martes 24 de noviembre a las 11:53. Datos: Astroletra\, efem
  érides JPL DE440. https://astroletra.com/luna/luna-llena-24-noviembre-202
- 6/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo 
- real. https://astroletra.com/luna/luna-llena-24-noviembre-2026/?utm_source
- =ical
+ 6/?utm_source=ical Más en Astroletra\, el almanaque del cielo con su hora
+  y su lectura. https://astroletra.com/luna/luna-llena-24-noviembre-2026/?u
+ tm_source=ical
 URL:https://astroletra.com/luna/luna-llena-24-noviembre-2026/?utm_source=ic
  al
 BEGIN:VALARM
@@ -502,9 +505,9 @@ DESCRIPTION:Luna nueva en Sagitario\, exacta en Madrid\, miércoles 9 de di
  ciembre a las 01:51; Ciudad de México\, martes 8 de diciembre a las 18:51
  ; Buenos Aires\, martes 8 de diciembre a las 21:51. Datos: Astroletra\, ef
  emérides JPL DE440. https://astroletra.com/luna/luna-nueva-9-diciembre-20
- 26/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo
-  real. https://astroletra.com/luna/luna-nueva-9-diciembre-2026/?utm_source
- =ical
+ 26/?utm_source=ical Más en Astroletra\, el almanaque del cielo con su hor
+ a y su lectura. https://astroletra.com/luna/luna-nueva-9-diciembre-2026/?u
+ tm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-9-diciembre-2026/?utm_source=ica
  l
 BEGIN:VALARM
@@ -524,9 +527,9 @@ DESCRIPTION:Luna llena en Cáncer\, exacta en Madrid\, jueves 24 de diciemb
  re a las 02:28; Ciudad de México\, miércoles 23 de diciembre a las 19:28
  ; Buenos Aires\, miércoles 23 de diciembre a las 22:28. Datos: Astroletra
  \, efemérides JPL DE440. https://astroletra.com/luna/luna-llena-24-diciem
- bre-2026/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el
-  cielo real. https://astroletra.com/luna/luna-llena-24-diciembre-2026/?utm
- _source=ical
+ bre-2026/?utm_source=ical Más en Astroletra\, el almanaque del cielo con 
+ su hora y su lectura. https://astroletra.com/luna/luna-llena-24-diciembre-
+ 2026/?utm_source=ical
 URL:https://astroletra.com/luna/luna-llena-24-diciembre-2026/?utm_source=ic
  al
 BEGIN:VALARM
@@ -546,8 +549,8 @@ DESCRIPTION:Luna nueva en Capricornio\, exacta en Madrid\, jueves 7 de ener
  o a las 21:24; Ciudad de México\, jueves 7 de enero a las 14:24; Buenos A
  ires\, jueves 7 de enero a las 17:24. Datos: Astroletra\, efemérides JPL 
  DE440. https://astroletra.com/luna/luna-nueva-7-enero-2027/?utm_source=ica
- l Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://ast
- roletra.com/luna/luna-nueva-7-enero-2027/?utm_source=ical
+ l Más en Astroletra\, el almanaque del cielo con su hora y su lectura. ht
+ tps://astroletra.com/luna/luna-nueva-7-enero-2027/?utm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-7-enero-2027/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -566,8 +569,8 @@ DESCRIPTION:Luna llena en Leo\, exacta en Madrid\, viernes 22 de enero a la
  s 13:17; Ciudad de México\, viernes 22 de enero a las 06:17; Buenos Aires
  \, viernes 22 de enero a las 09:17. Datos: Astroletra\, efemérides JPL DE
  440. https://astroletra.com/luna/luna-llena-22-enero-2027/?utm_source=ical
-  Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://astr
- oletra.com/luna/luna-llena-22-enero-2027/?utm_source=ical
+  Más en Astroletra\, el almanaque del cielo con su hora y su lectura. htt
+ ps://astroletra.com/luna/luna-llena-22-enero-2027/?utm_source=ical
 URL:https://astroletra.com/luna/luna-llena-22-enero-2027/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -587,9 +590,9 @@ DESCRIPTION:Luna nueva en Acuario\, exacta en Madrid\, sábado 6 de febrero
   a las 16:56; Ciudad de México\, sábado 6 de febrero a las 09:56; Buenos
   Aires\, sábado 6 de febrero a las 12:56. Datos: Astroletra\, efemérides
   JPL DE440. https://astroletra.com/eclipses/eclipse-solar-anular-6-febrero
- -2027/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el ci
- elo real. https://astroletra.com/eclipses/eclipse-solar-anular-6-febrero-2
- 027/?utm_source=ical
+ -2027/?utm_source=ical Más en Astroletra\, el almanaque del cielo con su 
+ hora y su lectura. https://astroletra.com/eclipses/eclipse-solar-anular-6-
+ febrero-2027/?utm_source=ical
 URL:https://astroletra.com/eclipses/eclipse-solar-anular-6-febrero-2027/?ut
  m_source=ical
 BEGIN:VALARM
@@ -611,9 +614,9 @@ DESCRIPTION:Luna llena en Virgo\, exacta en Madrid\, domingo 21 de febrero
  a las 00:23; Ciudad de México\, sábado 20 de febrero a las 17:23; Buenos
   Aires\, sábado 20 de febrero a las 20:23. Datos: Astroletra\, efeméride
  s JPL DE440. https://astroletra.com/eclipses/eclipse-lunar-penumbral-20-fe
- brero-2027/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con 
- el cielo real. https://astroletra.com/eclipses/eclipse-lunar-penumbral-20-
- febrero-2027/?utm_source=ical
+ brero-2027/?utm_source=ical Más en Astroletra\, el almanaque del cielo co
+ n su hora y su lectura. https://astroletra.com/eclipses/eclipse-lunar-penu
+ mbral-20-febrero-2027/?utm_source=ical
 URL:https://astroletra.com/eclipses/eclipse-lunar-penumbral-20-febrero-2027
  /?utm_source=ical
 BEGIN:VALARM
@@ -634,8 +637,8 @@ DESCRIPTION:Luna nueva en Piscis\, exacta en Madrid\, lunes 8 de marzo a la
  s 10:29; Ciudad de México\, lunes 8 de marzo a las 03:29; Buenos Aires\, 
  lunes 8 de marzo a las 06:29. Datos: Astroletra\, efemérides JPL DE440. h
  ttps://astroletra.com/luna/luna-nueva-8-marzo-2027/?utm_source=ical Más e
- n Astroletra\, tu horóscopo de hoy con el cielo real. https://astroletra.
- com/luna/luna-nueva-8-marzo-2027/?utm_source=ical
+ n Astroletra\, el almanaque del cielo con su hora y su lectura. https://as
+ troletra.com/luna/luna-nueva-8-marzo-2027/?utm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-8-marzo-2027/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -654,8 +657,8 @@ DESCRIPTION:Luna llena en Libra\, exacta en Madrid\, lunes 22 de marzo a la
  s 11:43; Ciudad de México\, lunes 22 de marzo a las 04:43; Buenos Aires\,
   lunes 22 de marzo a las 07:43. Datos: Astroletra\, efemérides JPL DE440.
   https://astroletra.com/luna/luna-llena-22-marzo-2027/?utm_source=ical Má
- s en Astroletra\, tu horóscopo de hoy con el cielo real. https://astrolet
- ra.com/luna/luna-llena-22-marzo-2027/?utm_source=ical
+ s en Astroletra\, el almanaque del cielo con su hora y su lectura. https:/
+ /astroletra.com/luna/luna-llena-22-marzo-2027/?utm_source=ical
 URL:https://astroletra.com/luna/luna-llena-22-marzo-2027/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -674,8 +677,8 @@ DESCRIPTION:Luna nueva en Aries\, exacta en Madrid\, miércoles 7 de abril
  a las 01:51; Ciudad de México\, martes 6 de abril a las 17:51; Buenos Air
  es\, martes 6 de abril a las 20:51. Datos: Astroletra\, efemérides JPL DE
  440. https://astroletra.com/luna/luna-nueva-6-abril-2027/?utm_source=ical 
- Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://astro
- letra.com/luna/luna-nueva-6-abril-2027/?utm_source=ical
+ Más en Astroletra\, el almanaque del cielo con su hora y su lectura. http
+ s://astroletra.com/luna/luna-nueva-6-abril-2027/?utm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-6-abril-2027/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -694,8 +697,8 @@ DESCRIPTION:Luna llena en Escorpio\, exacta en Madrid\, miércoles 21 de ab
  ril a las 00:27; Ciudad de México\, martes 20 de abril a las 16:27; Bueno
  s Aires\, martes 20 de abril a las 19:27. Datos: Astroletra\, efemérides 
  JPL DE440. https://astroletra.com/luna/luna-llena-20-abril-2027/?utm_sourc
- e=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. https:
- //astroletra.com/luna/luna-llena-20-abril-2027/?utm_source=ical
+ e=ical Más en Astroletra\, el almanaque del cielo con su hora y su lectur
+ a. https://astroletra.com/luna/luna-llena-20-abril-2027/?utm_source=ical
 URL:https://astroletra.com/luna/luna-llena-20-abril-2027/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -714,8 +717,8 @@ DESCRIPTION:Luna nueva en Tauro\, exacta en Madrid\, jueves 6 de mayo a las
   12:58; Ciudad de México\, jueves 6 de mayo a las 04:58; Buenos Aires\, j
  ueves 6 de mayo a las 07:58. Datos: Astroletra\, efemérides JPL DE440. ht
  tps://astroletra.com/luna/luna-nueva-6-mayo-2027/?utm_source=ical Más en 
- Astroletra\, tu horóscopo de hoy con el cielo real. https://astroletra.co
- m/luna/luna-nueva-6-mayo-2027/?utm_source=ical
+ Astroletra\, el almanaque del cielo con su hora y su lectura. https://astr
+ oletra.com/luna/luna-nueva-6-mayo-2027/?utm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-6-mayo-2027/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -734,8 +737,8 @@ DESCRIPTION:Luna llena en Escorpio\, exacta en Madrid\, jueves 20 de mayo a
   las 12:59; Ciudad de México\, jueves 20 de mayo a las 04:59; Buenos Aire
  s\, jueves 20 de mayo a las 07:59. Datos: Astroletra\, efemérides JPL DE4
  40. https://astroletra.com/luna/luna-llena-20-mayo-2027/?utm_source=ical M
- ás en Astroletra\, tu horóscopo de hoy con el cielo real. https://astrol
- etra.com/luna/luna-llena-20-mayo-2027/?utm_source=ical
+ ás en Astroletra\, el almanaque del cielo con su hora y su lectura. https
+ ://astroletra.com/luna/luna-llena-20-mayo-2027/?utm_source=ical
 URL:https://astroletra.com/luna/luna-llena-20-mayo-2027/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -754,8 +757,8 @@ DESCRIPTION:Luna nueva en Géminis\, exacta en Madrid\, viernes 4 de junio
  a las 21:40; Ciudad de México\, viernes 4 de junio a las 13:40; Buenos Ai
  res\, viernes 4 de junio a las 16:40. Datos: Astroletra\, efemérides JPL 
  DE440. https://astroletra.com/luna/luna-nueva-4-junio-2027/?utm_source=ica
- l Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://ast
- roletra.com/luna/luna-nueva-4-junio-2027/?utm_source=ical
+ l Más en Astroletra\, el almanaque del cielo con su hora y su lectura. ht
+ tps://astroletra.com/luna/luna-nueva-4-junio-2027/?utm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-4-junio-2027/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -774,8 +777,8 @@ DESCRIPTION:Luna llena en Sagitario\, exacta en Madrid\, sábado 19 de juni
  o a las 02:44; Ciudad de México\, viernes 18 de junio a las 18:44; Buenos
   Aires\, viernes 18 de junio a las 21:44. Datos: Astroletra\, efemérides 
  JPL DE440. https://astroletra.com/luna/luna-llena-19-junio-2027/?utm_sourc
- e=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. https:
- //astroletra.com/luna/luna-llena-19-junio-2027/?utm_source=ical
+ e=ical Más en Astroletra\, el almanaque del cielo con su hora y su lectur
+ a. https://astroletra.com/luna/luna-llena-19-junio-2027/?utm_source=ical
 URL:https://astroletra.com/luna/luna-llena-19-junio-2027/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -794,8 +797,8 @@ DESCRIPTION:Luna nueva en Cáncer\, exacta en Madrid\, domingo 4 de julio a
   las 05:02; Ciudad de México\, sábado 3 de julio a las 21:02; Buenos Air
  es\, domingo 4 de julio a las 00:02. Datos: Astroletra\, efemérides JPL D
  E440. https://astroletra.com/luna/luna-nueva-4-julio-2027/?utm_source=ical
-  Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://astr
- oletra.com/luna/luna-nueva-4-julio-2027/?utm_source=ical
+  Más en Astroletra\, el almanaque del cielo con su hora y su lectura. htt
+ ps://astroletra.com/luna/luna-nueva-4-julio-2027/?utm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-4-julio-2027/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -815,9 +818,9 @@ DESCRIPTION:Luna llena en Capricornio\, exacta en Madrid\, domingo 18 de ju
  lio a las 17:44; Ciudad de México\, domingo 18 de julio a las 09:44; Buen
  os Aires\, domingo 18 de julio a las 12:44. Datos: Astroletra\, efeméride
  s JPL DE440. https://astroletra.com/eclipses/eclipse-lunar-penumbral-18-ju
- lio-2027/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el
-  cielo real. https://astroletra.com/eclipses/eclipse-lunar-penumbral-18-ju
- lio-2027/?utm_source=ical
+ lio-2027/?utm_source=ical Más en Astroletra\, el almanaque del cielo con 
+ su hora y su lectura. https://astroletra.com/eclipses/eclipse-lunar-penumb
+ ral-18-julio-2027/?utm_source=ical
 URL:https://astroletra.com/eclipses/eclipse-lunar-penumbral-18-julio-2027/?
  utm_source=ical
 BEGIN:VALARM
@@ -838,9 +841,9 @@ DESCRIPTION:Luna nueva en Leo\, exacta en Madrid\, lunes 2 de agosto a las
  12:05; Ciudad de México\, lunes 2 de agosto a las 04:05; Buenos Aires\, l
  unes 2 de agosto a las 07:05. Datos: Astroletra\, efemérides JPL DE440. h
  ttps://astroletra.com/eclipses/eclipse-solar-total-2-agosto-2027/?utm_sour
- ce=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. https
- ://astroletra.com/eclipses/eclipse-solar-total-2-agosto-2027/?utm_source=i
- cal
+ ce=ical Más en Astroletra\, el almanaque del cielo con su hora y su lectu
+ ra. https://astroletra.com/eclipses/eclipse-solar-total-2-agosto-2027/?utm
+ _source=ical
 URL:https://astroletra.com/eclipses/eclipse-solar-total-2-agosto-2027/?utm_
  source=ical
 BEGIN:VALARM
@@ -861,9 +864,9 @@ DESCRIPTION:Luna llena en Acuario\, exacta en Madrid\, martes 17 de agosto
  a las 09:28; Ciudad de México\, martes 17 de agosto a las 01:28; Buenos A
  ires\, martes 17 de agosto a las 04:28. Datos: Astroletra\, efemérides JP
  L DE440. https://astroletra.com/eclipses/eclipse-lunar-penumbral-17-agosto
- -2027/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el ci
- elo real. https://astroletra.com/eclipses/eclipse-lunar-penumbral-17-agost
- o-2027/?utm_source=ical
+ -2027/?utm_source=ical Más en Astroletra\, el almanaque del cielo con su 
+ hora y su lectura. https://astroletra.com/eclipses/eclipse-lunar-penumbral
+ -17-agosto-2027/?utm_source=ical
 URL:https://astroletra.com/eclipses/eclipse-lunar-penumbral-17-agosto-2027/
  ?utm_source=ical
 BEGIN:VALARM
@@ -884,8 +887,8 @@ DESCRIPTION:Luna nueva en Virgo\, exacta en Madrid\, martes 31 de agosto a
  las 19:41; Ciudad de México\, martes 31 de agosto a las 11:41; Buenos Air
  es\, martes 31 de agosto a las 14:41. Datos: Astroletra\, efemérides JPL 
  DE440. https://astroletra.com/luna/luna-nueva-31-agosto-2027/?utm_source=i
- cal Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://a
- stroletra.com/luna/luna-nueva-31-agosto-2027/?utm_source=ical
+ cal Más en Astroletra\, el almanaque del cielo con su hora y su lectura. 
+ https://astroletra.com/luna/luna-nueva-31-agosto-2027/?utm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-31-agosto-2027/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -904,9 +907,9 @@ DESCRIPTION:Luna llena en Piscis\, exacta en Madrid\, jueves 16 de septiemb
  re a las 01:03; Ciudad de México\, miércoles 15 de septiembre a las 17:0
  3; Buenos Aires\, miércoles 15 de septiembre a las 20:03. Datos: Astrolet
  ra\, efemérides JPL DE440. https://astroletra.com/luna/luna-llena-15-sept
- iembre-2027/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con
-  el cielo real. https://astroletra.com/luna/luna-llena-15-septiembre-2027/
- ?utm_source=ical
+ iembre-2027/?utm_source=ical Más en Astroletra\, el almanaque del cielo c
+ on su hora y su lectura. https://astroletra.com/luna/luna-llena-15-septiem
+ bre-2027/?utm_source=ical
 URL:https://astroletra.com/luna/luna-llena-15-septiembre-2027/?utm_source=i
  cal
 BEGIN:VALARM
@@ -926,9 +929,9 @@ DESCRIPTION:Luna nueva en Libra\, exacta en Madrid\, jueves 30 de septiembr
  e a las 04:36; Ciudad de México\, miércoles 29 de septiembre a las 20:36
  ; Buenos Aires\, miércoles 29 de septiembre a las 23:36. Datos: Astroletr
  a\, efemérides JPL DE440. https://astroletra.com/luna/luna-nueva-30-septi
- embre-2027/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con 
- el cielo real. https://astroletra.com/luna/luna-nueva-30-septiembre-2027/?
- utm_source=ical
+ embre-2027/?utm_source=ical Más en Astroletra\, el almanaque del cielo co
+ n su hora y su lectura. https://astroletra.com/luna/luna-nueva-30-septiemb
+ re-2027/?utm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-30-septiembre-2027/?utm_source=i
  cal
 BEGIN:VALARM
@@ -948,8 +951,9 @@ DESCRIPTION:Luna llena en Aries\, exacta en Madrid\, viernes 15 de octubre
  a las 15:47; Ciudad de México\, viernes 15 de octubre a las 07:47; Buenos
   Aires\, viernes 15 de octubre a las 10:47. Datos: Astroletra\, efeméride
  s JPL DE440. https://astroletra.com/luna/luna-llena-15-octubre-2027/?utm_s
- ource=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. ht
- tps://astroletra.com/luna/luna-llena-15-octubre-2027/?utm_source=ical
+ ource=ical Más en Astroletra\, el almanaque del cielo con su hora y su le
+ ctura. https://astroletra.com/luna/luna-llena-15-octubre-2027/?utm_source=
+ ical
 URL:https://astroletra.com/luna/luna-llena-15-octubre-2027/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -968,8 +972,9 @@ DESCRIPTION:Luna nueva en Escorpio\, exacta en Madrid\, viernes 29 de octub
  re a las 15:36; Ciudad de México\, viernes 29 de octubre a las 07:36; Bue
  nos Aires\, viernes 29 de octubre a las 10:36. Datos: Astroletra\, efemér
  ides JPL DE440. https://astroletra.com/luna/luna-nueva-29-octubre-2027/?ut
- m_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real.
-  https://astroletra.com/luna/luna-nueva-29-octubre-2027/?utm_source=ical
+ m_source=ical Más en Astroletra\, el almanaque del cielo con su hora y su
+  lectura. https://astroletra.com/luna/luna-nueva-29-octubre-2027/?utm_sour
+ ce=ical
 URL:https://astroletra.com/luna/luna-nueva-29-octubre-2027/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -988,9 +993,9 @@ DESCRIPTION:Luna llena en Tauro\, exacta en Madrid\, domingo 14 de noviembr
  e a las 04:25; Ciudad de México\, sábado 13 de noviembre a las 21:25; Bu
  enos Aires\, domingo 14 de noviembre a las 00:25. Datos: Astroletra\, efem
  érides JPL DE440. https://astroletra.com/luna/luna-llena-14-noviembre-202
- 7/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo 
- real. https://astroletra.com/luna/luna-llena-14-noviembre-2027/?utm_source
- =ical
+ 7/?utm_source=ical Más en Astroletra\, el almanaque del cielo con su hora
+  y su lectura. https://astroletra.com/luna/luna-llena-14-noviembre-2027/?u
+ tm_source=ical
 URL:https://astroletra.com/luna/luna-llena-14-noviembre-2027/?utm_source=ic
  al
 BEGIN:VALARM
@@ -1010,9 +1015,9 @@ DESCRIPTION:Luna nueva en Sagitario\, exacta en Madrid\, domingo 28 de novi
  embre a las 04:24; Ciudad de México\, sábado 27 de noviembre a las 21:24
  ; Buenos Aires\, domingo 28 de noviembre a las 00:24. Datos: Astroletra\, 
  efemérides JPL DE440. https://astroletra.com/luna/luna-nueva-28-noviembre
- -2027/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el ci
- elo real. https://astroletra.com/luna/luna-nueva-28-noviembre-2027/?utm_so
- urce=ical
+ -2027/?utm_source=ical Más en Astroletra\, el almanaque del cielo con su 
+ hora y su lectura. https://astroletra.com/luna/luna-nueva-28-noviembre-202
+ 7/?utm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-28-noviembre-2027/?utm_source=ic
  al
 BEGIN:VALARM
@@ -1032,9 +1037,9 @@ DESCRIPTION:Luna llena en Géminis\, exacta en Madrid\, lunes 13 de diciemb
  re a las 17:08; Ciudad de México\, lunes 13 de diciembre a las 10:08; Bue
  nos Aires\, lunes 13 de diciembre a las 13:08. Datos: Astroletra\, efemér
  ides JPL DE440. https://astroletra.com/luna/luna-llena-13-diciembre-2027/?
- utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo rea
- l. https://astroletra.com/luna/luna-llena-13-diciembre-2027/?utm_source=ic
- al
+ utm_source=ical Más en Astroletra\, el almanaque del cielo con su hora y 
+ su lectura. https://astroletra.com/luna/luna-llena-13-diciembre-2027/?utm_
+ source=ical
 URL:https://astroletra.com/luna/luna-llena-13-diciembre-2027/?utm_source=ic
  al
 BEGIN:VALARM
@@ -1054,9 +1059,9 @@ DESCRIPTION:Luna nueva en Capricornio\, exacta en Madrid\, lunes 27 de dici
  embre a las 21:12; Ciudad de México\, lunes 27 de diciembre a las 14:12; 
  Buenos Aires\, lunes 27 de diciembre a las 17:12. Datos: Astroletra\, efem
  érides JPL DE440. https://astroletra.com/luna/luna-nueva-27-diciembre-202
- 7/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo 
- real. https://astroletra.com/luna/luna-nueva-27-diciembre-2027/?utm_source
- =ical
+ 7/?utm_source=ical Más en Astroletra\, el almanaque del cielo con su hora
+  y su lectura. https://astroletra.com/luna/luna-nueva-27-diciembre-2027/?u
+ tm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-27-diciembre-2027/?utm_source=ic
  al
 BEGIN:VALARM
@@ -1077,9 +1082,9 @@ DESCRIPTION:Luna llena en Cáncer\, exacta en Madrid\, miércoles 12 de ene
  ro a las 05:03; Ciudad de México\, martes 11 de enero a las 22:03; Buenos
   Aires\, miércoles 12 de enero a las 01:03. Datos: Astroletra\, efemérid
  es JPL DE440. https://astroletra.com/eclipses/eclipse-lunar-parcial-12-ene
- ro-2028/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el 
- cielo real. https://astroletra.com/eclipses/eclipse-lunar-parcial-12-enero
- -2028/?utm_source=ical
+ ro-2028/?utm_source=ical Más en Astroletra\, el almanaque del cielo con s
+ u hora y su lectura. https://astroletra.com/eclipses/eclipse-lunar-parcial
+ -12-enero-2028/?utm_source=ical
 URL:https://astroletra.com/eclipses/eclipse-lunar-parcial-12-enero-2028/?ut
  m_source=ical
 BEGIN:VALARM
@@ -1101,9 +1106,9 @@ DESCRIPTION:Luna nueva en Acuario\, exacta en Madrid\, miércoles 26 de ene
  ro a las 16:12; Ciudad de México\, miércoles 26 de enero a las 09:12; Bu
  enos Aires\, miércoles 26 de enero a las 12:12. Datos: Astroletra\, efem
  érides JPL DE440. https://astroletra.com/eclipses/eclipse-solar-anular-26
- -enero-2028/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con
-  el cielo real. https://astroletra.com/eclipses/eclipse-solar-anular-26-en
- ero-2028/?utm_source=ical
+ -enero-2028/?utm_source=ical Más en Astroletra\, el almanaque del cielo c
+ on su hora y su lectura. https://astroletra.com/eclipses/eclipse-solar-anu
+ lar-26-enero-2028/?utm_source=ical
 URL:https://astroletra.com/eclipses/eclipse-solar-anular-26-enero-2028/?utm
  _source=ical
 BEGIN:VALARM
@@ -1124,8 +1129,8 @@ DESCRIPTION:Luna llena en Leo\, exacta en Madrid\, jueves 10 de febrero a l
  as 16:03; Ciudad de México\, jueves 10 de febrero a las 09:03; Buenos Air
  es\, jueves 10 de febrero a las 12:03. Datos: Astroletra\, efemérides JPL
   DE440. https://astroletra.com/luna/luna-llena-10-febrero-2028/?utm_source
- =ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. https:/
- /astroletra.com/luna/luna-llena-10-febrero-2028/?utm_source=ical
+ =ical Más en Astroletra\, el almanaque del cielo con su hora y su lectura
+ . https://astroletra.com/luna/luna-llena-10-febrero-2028/?utm_source=ical
 URL:https://astroletra.com/luna/luna-llena-10-febrero-2028/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1144,8 +1149,9 @@ DESCRIPTION:Luna nueva en Piscis\, exacta en Madrid\, viernes 25 de febrero
   a las 11:37; Ciudad de México\, viernes 25 de febrero a las 04:37; Bueno
  s Aires\, viernes 25 de febrero a las 07:37. Datos: Astroletra\, efemérid
  es JPL DE440. https://astroletra.com/luna/luna-nueva-25-febrero-2028/?utm_
- source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. h
- ttps://astroletra.com/luna/luna-nueva-25-febrero-2028/?utm_source=ical
+ source=ical Más en Astroletra\, el almanaque del cielo con su hora y su l
+ ectura. https://astroletra.com/luna/luna-nueva-25-febrero-2028/?utm_source
+ =ical
 URL:https://astroletra.com/luna/luna-nueva-25-febrero-2028/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1164,8 +1170,8 @@ DESCRIPTION:Luna llena en Virgo\, exacta en Madrid\, sábado 11 de marzo a
  las 02:06; Ciudad de México\, viernes 10 de marzo a las 19:06; Buenos Air
  es\, viernes 10 de marzo a las 22:06. Datos: Astroletra\, efemérides JPL 
  DE440. https://astroletra.com/luna/luna-llena-11-marzo-2028/?utm_source=ic
- al Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://as
- troletra.com/luna/luna-llena-11-marzo-2028/?utm_source=ical
+ al Más en Astroletra\, el almanaque del cielo con su hora y su lectura. h
+ ttps://astroletra.com/luna/luna-llena-11-marzo-2028/?utm_source=ical
 URL:https://astroletra.com/luna/luna-llena-11-marzo-2028/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1184,8 +1190,8 @@ DESCRIPTION:Luna nueva en Aries\, exacta en Madrid\, domingo 26 de marzo a
  las 06:31; Ciudad de México\, sábado 25 de marzo a las 22:31; Buenos Air
  es\, domingo 26 de marzo a las 01:31. Datos: Astroletra\, efemérides JPL 
  DE440. https://astroletra.com/luna/luna-nueva-26-marzo-2028/?utm_source=ic
- al Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://as
- troletra.com/luna/luna-nueva-26-marzo-2028/?utm_source=ical
+ al Más en Astroletra\, el almanaque del cielo con su hora y su lectura. h
+ ttps://astroletra.com/luna/luna-nueva-26-marzo-2028/?utm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-26-marzo-2028/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1204,8 +1210,8 @@ DESCRIPTION:Luna llena en Libra\, exacta en Madrid\, domingo 9 de abril a l
  as 12:26; Ciudad de México\, domingo 9 de abril a las 04:26; Buenos Aires
  \, domingo 9 de abril a las 07:26. Datos: Astroletra\, efemérides JPL DE4
  40. https://astroletra.com/luna/luna-llena-9-abril-2028/?utm_source=ical M
- ás en Astroletra\, tu horóscopo de hoy con el cielo real. https://astrol
- etra.com/luna/luna-llena-9-abril-2028/?utm_source=ical
+ ás en Astroletra\, el almanaque del cielo con su hora y su lectura. https
+ ://astroletra.com/luna/luna-llena-9-abril-2028/?utm_source=ical
 URL:https://astroletra.com/luna/luna-llena-9-abril-2028/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1224,8 +1230,8 @@ DESCRIPTION:Luna nueva en Tauro\, exacta en Madrid\, lunes 24 de abril a la
  s 21:46; Ciudad de México\, lunes 24 de abril a las 13:46; Buenos Aires\,
   lunes 24 de abril a las 16:46. Datos: Astroletra\, efemérides JPL DE440.
   https://astroletra.com/luna/luna-nueva-24-abril-2028/?utm_source=ical Má
- s en Astroletra\, tu horóscopo de hoy con el cielo real. https://astrolet
- ra.com/luna/luna-nueva-24-abril-2028/?utm_source=ical
+ s en Astroletra\, el almanaque del cielo con su hora y su lectura. https:/
+ /astroletra.com/luna/luna-nueva-24-abril-2028/?utm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-24-abril-2028/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1244,8 +1250,8 @@ DESCRIPTION:Luna llena en Escorpio\, exacta en Madrid\, lunes 8 de mayo a l
  as 21:48; Ciudad de México\, lunes 8 de mayo a las 13:48; Buenos Aires\, 
  lunes 8 de mayo a las 16:48. Datos: Astroletra\, efemérides JPL DE440. ht
  tps://astroletra.com/luna/luna-llena-8-mayo-2028/?utm_source=ical Más en 
- Astroletra\, tu horóscopo de hoy con el cielo real. https://astroletra.co
- m/luna/luna-llena-8-mayo-2028/?utm_source=ical
+ Astroletra\, el almanaque del cielo con su hora y su lectura. https://astr
+ oletra.com/luna/luna-llena-8-mayo-2028/?utm_source=ical
 URL:https://astroletra.com/luna/luna-llena-8-mayo-2028/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1264,8 +1270,9 @@ DESCRIPTION:Luna nueva en Géminis\, exacta en Madrid\, miércoles 24 de ma
  yo a las 10:16; Ciudad de México\, miércoles 24 de mayo a las 02:16; Bue
  nos Aires\, miércoles 24 de mayo a las 05:16. Datos: Astroletra\, efemér
  ides JPL DE440. https://astroletra.com/luna/luna-nueva-24-mayo-2028/?utm_s
- ource=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. ht
- tps://astroletra.com/luna/luna-nueva-24-mayo-2028/?utm_source=ical
+ ource=ical Más en Astroletra\, el almanaque del cielo con su hora y su le
+ ctura. https://astroletra.com/luna/luna-nueva-24-mayo-2028/?utm_source=ica
+ l
 URL:https://astroletra.com/luna/luna-nueva-24-mayo-2028/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1284,8 +1291,9 @@ DESCRIPTION:Luna llena en Sagitario\, exacta en Madrid\, miércoles 7 de ju
  nio a las 08:08; Ciudad de México\, miércoles 7 de junio a las 00:08; Bu
  enos Aires\, miércoles 7 de junio a las 03:08. Datos: Astroletra\, efemé
  rides JPL DE440. https://astroletra.com/luna/luna-llena-7-junio-2028/?utm_
- source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. h
- ttps://astroletra.com/luna/luna-llena-7-junio-2028/?utm_source=ical
+ source=ical Más en Astroletra\, el almanaque del cielo con su hora y su l
+ ectura. https://astroletra.com/luna/luna-llena-7-junio-2028/?utm_source=ic
+ al
 URL:https://astroletra.com/luna/luna-llena-7-junio-2028/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1304,8 +1312,8 @@ DESCRIPTION:Luna nueva en Cáncer\, exacta en Madrid\, jueves 22 de junio a
   las 20:27; Ciudad de México\, jueves 22 de junio a las 12:27; Buenos Air
  es\, jueves 22 de junio a las 15:27. Datos: Astroletra\, efemérides JPL D
  E440. https://astroletra.com/luna/luna-nueva-22-junio-2028/?utm_source=ica
- l Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://ast
- roletra.com/luna/luna-nueva-22-junio-2028/?utm_source=ical
+ l Más en Astroletra\, el almanaque del cielo con su hora y su lectura. ht
+ tps://astroletra.com/luna/luna-nueva-22-junio-2028/?utm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-22-junio-2028/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1325,9 +1333,9 @@ DESCRIPTION:Luna llena en Capricornio\, exacta en Madrid\, jueves 6 de juli
  o a las 20:10; Ciudad de México\, jueves 6 de julio a las 12:10; Buenos A
  ires\, jueves 6 de julio a las 15:10. Datos: Astroletra\, efemérides JPL 
  DE440. https://astroletra.com/eclipses/eclipse-lunar-parcial-6-julio-2028/
- ?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo re
- al. https://astroletra.com/eclipses/eclipse-lunar-parcial-6-julio-2028/?ut
- m_source=ical
+ ?utm_source=ical Más en Astroletra\, el almanaque del cielo con su hora y
+  su lectura. https://astroletra.com/eclipses/eclipse-lunar-parcial-6-julio
+ -2028/?utm_source=ical
 URL:https://astroletra.com/eclipses/eclipse-lunar-parcial-6-julio-2028/?utm
  _source=ical
 BEGIN:VALARM
@@ -1349,9 +1357,9 @@ DESCRIPTION:Luna nueva en Cáncer\, exacta en Madrid\, sábado 22 de julio
  a las 05:01; Ciudad de México\, viernes 21 de julio a las 21:01; Buenos A
  ires\, sábado 22 de julio a las 00:01. Datos: Astroletra\, efemérides JP
  L DE440. https://astroletra.com/eclipses/eclipse-solar-total-22-julio-2028
- /?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo r
- eal. https://astroletra.com/eclipses/eclipse-solar-total-22-julio-2028/?ut
- m_source=ical
+ /?utm_source=ical Más en Astroletra\, el almanaque del cielo con su hora 
+ y su lectura. https://astroletra.com/eclipses/eclipse-solar-total-22-julio
+ -2028/?utm_source=ical
 URL:https://astroletra.com/eclipses/eclipse-solar-total-22-julio-2028/?utm_
  source=ical
 BEGIN:VALARM
@@ -1372,8 +1380,8 @@ DESCRIPTION:Luna llena en Acuario\, exacta en Madrid\, sábado 5 de agosto
  a las 10:09; Ciudad de México\, sábado 5 de agosto a las 02:09; Buenos A
  ires\, sábado 5 de agosto a las 05:09. Datos: Astroletra\, efemérides JP
  L DE440. https://astroletra.com/luna/luna-llena-5-agosto-2028/?utm_source=
- ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://
- astroletra.com/luna/luna-llena-5-agosto-2028/?utm_source=ical
+ ical Más en Astroletra\, el almanaque del cielo con su hora y su lectura.
+  https://astroletra.com/luna/luna-llena-5-agosto-2028/?utm_source=ical
 URL:https://astroletra.com/luna/luna-llena-5-agosto-2028/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1392,8 +1400,8 @@ DESCRIPTION:Luna nueva en Leo\, exacta en Madrid\, domingo 20 de agosto a l
  as 12:43; Ciudad de México\, domingo 20 de agosto a las 04:43; Buenos Air
  es\, domingo 20 de agosto a las 07:43. Datos: Astroletra\, efemérides JPL
   DE440. https://astroletra.com/luna/luna-nueva-20-agosto-2028/?utm_source=
- ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://
- astroletra.com/luna/luna-nueva-20-agosto-2028/?utm_source=ical
+ ical Más en Astroletra\, el almanaque del cielo con su hora y su lectura.
+  https://astroletra.com/luna/luna-nueva-20-agosto-2028/?utm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-20-agosto-2028/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1412,9 +1420,9 @@ DESCRIPTION:Luna llena en Piscis\, exacta en Madrid\, lunes 4 de septiembre
   a las 01:47; Ciudad de México\, domingo 3 de septiembre a las 17:47; Bue
  nos Aires\, domingo 3 de septiembre a las 20:47. Datos: Astroletra\, efem
  érides JPL DE440. https://astroletra.com/luna/luna-llena-3-septiembre-202
- 8/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo 
- real. https://astroletra.com/luna/luna-llena-3-septiembre-2028/?utm_source
- =ical
+ 8/?utm_source=ical Más en Astroletra\, el almanaque del cielo con su hora
+  y su lectura. https://astroletra.com/luna/luna-llena-3-septiembre-2028/?u
+ tm_source=ical
 URL:https://astroletra.com/luna/luna-llena-3-septiembre-2028/?utm_source=ic
  al
 BEGIN:VALARM
@@ -1434,9 +1442,9 @@ DESCRIPTION:Luna nueva en Virgo\, exacta en Madrid\, lunes 18 de septiembre
   a las 20:23; Ciudad de México\, lunes 18 de septiembre a las 12:23; Buen
  os Aires\, lunes 18 de septiembre a las 15:23. Datos: Astroletra\, efemér
  ides JPL DE440. https://astroletra.com/luna/luna-nueva-18-septiembre-2028/
- ?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo re
- al. https://astroletra.com/luna/luna-nueva-18-septiembre-2028/?utm_source=
- ical
+ ?utm_source=ical Más en Astroletra\, el almanaque del cielo con su hora y
+  su lectura. https://astroletra.com/luna/luna-nueva-18-septiembre-2028/?ut
+ m_source=ical
 URL:https://astroletra.com/luna/luna-nueva-18-septiembre-2028/?utm_source=i
  cal
 BEGIN:VALARM
@@ -1456,8 +1464,8 @@ DESCRIPTION:Luna llena en Aries\, exacta en Madrid\, martes 3 de octubre a
  las 18:25; Ciudad de México\, martes 3 de octubre a las 10:25; Buenos Air
  es\, martes 3 de octubre a las 13:25. Datos: Astroletra\, efemérides JPL 
  DE440. https://astroletra.com/luna/luna-llena-3-octubre-2028/?utm_source=i
- cal Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://a
- stroletra.com/luna/luna-llena-3-octubre-2028/?utm_source=ical
+ cal Más en Astroletra\, el almanaque del cielo con su hora y su lectura. 
+ https://astroletra.com/luna/luna-llena-3-octubre-2028/?utm_source=ical
 URL:https://astroletra.com/luna/luna-llena-3-octubre-2028/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1476,8 +1484,9 @@ DESCRIPTION:Luna nueva en Libra\, exacta en Madrid\, miércoles 18 de octub
  re a las 04:56; Ciudad de México\, martes 17 de octubre a las 20:56; Buen
  os Aires\, martes 17 de octubre a las 23:56. Datos: Astroletra\, efemérid
  es JPL DE440. https://astroletra.com/luna/luna-nueva-18-octubre-2028/?utm_
- source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. h
- ttps://astroletra.com/luna/luna-nueva-18-octubre-2028/?utm_source=ical
+ source=ical Más en Astroletra\, el almanaque del cielo con su hora y su l
+ ectura. https://astroletra.com/luna/luna-nueva-18-octubre-2028/?utm_source
+ =ical
 URL:https://astroletra.com/luna/luna-nueva-18-octubre-2028/?utm_source=ical
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -1496,8 +1505,9 @@ DESCRIPTION:Luna llena en Tauro\, exacta en Madrid\, jueves 2 de noviembre
  a las 10:17; Ciudad de México\, jueves 2 de noviembre a las 03:17; Buenos
   Aires\, jueves 2 de noviembre a las 06:17. Datos: Astroletra\, efeméride
  s JPL DE440. https://astroletra.com/luna/luna-llena-2-noviembre-2028/?utm_
- source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. h
- ttps://astroletra.com/luna/luna-llena-2-noviembre-2028/?utm_source=ical
+ source=ical Más en Astroletra\, el almanaque del cielo con su hora y su l
+ ectura. https://astroletra.com/luna/luna-llena-2-noviembre-2028/?utm_sourc
+ e=ical
 URL:https://astroletra.com/luna/luna-llena-2-noviembre-2028/?utm_source=ica
  l
 BEGIN:VALARM
@@ -1517,9 +1527,9 @@ DESCRIPTION:Luna nueva en Escorpio\, exacta en Madrid\, jueves 16 de noviem
  bre a las 14:18; Ciudad de México\, jueves 16 de noviembre a las 07:18; B
  uenos Aires\, jueves 16 de noviembre a las 10:18. Datos: Astroletra\, efem
  érides JPL DE440. https://astroletra.com/luna/luna-nueva-16-noviembre-202
- 8/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo 
- real. https://astroletra.com/luna/luna-nueva-16-noviembre-2028/?utm_source
- =ical
+ 8/?utm_source=ical Más en Astroletra\, el almanaque del cielo con su hora
+  y su lectura. https://astroletra.com/luna/luna-nueva-16-noviembre-2028/?u
+ tm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-16-noviembre-2028/?utm_source=ic
  al
 BEGIN:VALARM
@@ -1539,9 +1549,9 @@ DESCRIPTION:Luna llena en Géminis\, exacta en Madrid\, sábado 2 de diciem
  bre a las 02:40; Ciudad de México\, viernes 1 de diciembre a las 19:40; B
  uenos Aires\, viernes 1 de diciembre a las 22:40. Datos: Astroletra\, efem
  érides JPL DE440. https://astroletra.com/luna/luna-llena-2-diciembre-2028
- /?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo r
- eal. https://astroletra.com/luna/luna-llena-2-diciembre-2028/?utm_source=i
- cal
+ /?utm_source=ical Más en Astroletra\, el almanaque del cielo con su hora 
+ y su lectura. https://astroletra.com/luna/luna-llena-2-diciembre-2028/?utm
+ _source=ical
 URL:https://astroletra.com/luna/luna-llena-2-diciembre-2028/?utm_source=ica
  l
 BEGIN:VALARM
@@ -1561,9 +1571,9 @@ DESCRIPTION:Luna nueva en Sagitario\, exacta en Madrid\, sábado 16 de dici
  embre a las 03:06; Ciudad de México\, viernes 15 de diciembre a las 20:06
  ; Buenos Aires\, viernes 15 de diciembre a las 23:06. Datos: Astroletra\, 
  efemérides JPL DE440. https://astroletra.com/luna/luna-nueva-16-diciembre
- -2028/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el ci
- elo real. https://astroletra.com/luna/luna-nueva-16-diciembre-2028/?utm_so
- urce=ical
+ -2028/?utm_source=ical Más en Astroletra\, el almanaque del cielo con su 
+ hora y su lectura. https://astroletra.com/luna/luna-nueva-16-diciembre-202
+ 8/?utm_source=ical
 URL:https://astroletra.com/luna/luna-nueva-16-diciembre-2028/?utm_source=ic
  al
 BEGIN:VALARM
@@ -1584,9 +1594,9 @@ DESCRIPTION:Luna llena en Cáncer\, exacta en Madrid\, domingo 31 de diciem
  bre a las 17:48; Ciudad de México\, domingo 31 de diciembre a las 10:48; 
  Buenos Aires\, domingo 31 de diciembre a las 13:48. Datos: Astroletra\, ef
  emérides JPL DE440. https://astroletra.com/eclipses/eclipse-lunar-total-3
- 1-diciembre-2028/?utm_source=ical Más en Astroletra\, tu horóscopo de ho
- y con el cielo real. https://astroletra.com/eclipses/eclipse-lunar-total-3
- 1-diciembre-2028/?utm_source=ical
+ 1-diciembre-2028/?utm_source=ical Más en Astroletra\, el almanaque del ci
+ elo con su hora y su lectura. https://astroletra.com/eclipses/eclipse-luna
+ r-total-31-diciembre-2028/?utm_source=ical
 URL:https://astroletra.com/eclipses/eclipse-lunar-total-31-diciembre-2028/?
  utm_source=ical
 BEGIN:VALARM

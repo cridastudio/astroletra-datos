@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//Astroletra//Calendario del cielo//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Astroletra: eclipses
+X-WR-CALNAME:Astroletra\, eclipses
 X-WR-CALDESC:Los eclipses de Sol y de Luna con la hora del máximo. Del 202
  6-01-01 al 2028-12-31. Horas en UTC; tu calendario las muestra en tu zona.
   Datos de Astroletra (CC BY 4.0)\, efemérides JPL DE440.
@@ -22,9 +22,9 @@ DESCRIPTION:Eclipse solar anular: máximo en Madrid\, martes 17 de febrero
  Aires\, martes 17 de febrero a las 09:11. La visibilidad depende del lugar
  ; la guía está en la página. Datos: Astroletra\, efemérides JPL DE440.
   https://astroletra.com/eclipses/eclipse-solar-anular-17-febrero-2026/?utm
- _source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. 
- https://astroletra.com/eclipses/eclipse-solar-anular-17-febrero-2026/?utm_
- source=ical
+ _source=ical Más en Astroletra\, el almanaque del cielo con su hora y su 
+ lectura. https://astroletra.com/eclipses/eclipse-solar-anular-17-febrero-2
+ 026/?utm_source=ical
 URL:https://astroletra.com/eclipses/eclipse-solar-anular-17-febrero-2026/?u
  tm_source=ical
 BEGIN:VALARM
@@ -45,8 +45,9 @@ DESCRIPTION:Eclipse lunar total: máximo en Madrid\, martes 3 de marzo a la
   martes 3 de marzo a las 08:33. La visibilidad depende del lugar; la guía
   está en la página. Datos: Astroletra\, efemérides JPL DE440. https://a
  stroletra.com/eclipses/eclipse-lunar-total-3-marzo-2026/?utm_source=ical M
- ás en Astroletra\, tu horóscopo de hoy con el cielo real. https://astrol
- etra.com/eclipses/eclipse-lunar-total-3-marzo-2026/?utm_source=ical
+ ás en Astroletra\, el almanaque del cielo con su hora y su lectura. https
+ ://astroletra.com/eclipses/eclipse-lunar-total-3-marzo-2026/?utm_source=ic
+ al
 URL:https://astroletra.com/eclipses/eclipse-lunar-total-3-marzo-2026/?utm_s
  ource=ical
 BEGIN:VALARM
@@ -67,9 +68,9 @@ DESCRIPTION:Eclipse solar total: máximo en Madrid\, miércoles 12 de agost
  enos Aires\, miércoles 12 de agosto a las 14:45. La visibilidad depende d
  el lugar; la guía está en la página. Datos: Astroletra\, efemérides JP
  L DE440. https://astroletra.com/eclipses/eclipse-solar-total-12-agosto-202
- 6/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo 
- real. https://astroletra.com/eclipses/eclipse-solar-total-12-agosto-2026/?
- utm_source=ical
+ 6/?utm_source=ical Más en Astroletra\, el almanaque del cielo con su hora
+  y su lectura. https://astroletra.com/eclipses/eclipse-solar-total-12-agos
+ to-2026/?utm_source=ical
 URL:https://astroletra.com/eclipses/eclipse-solar-total-12-agosto-2026/?utm
  _source=ical
 BEGIN:VALARM
@@ -90,9 +91,9 @@ DESCRIPTION:Eclipse lunar parcial: máximo en Madrid\, viernes 28 de agosto
  Aires\, viernes 28 de agosto a las 01:12. La visibilidad depende del lugar
  ; la guía está en la página. Datos: Astroletra\, efemérides JPL DE440.
   https://astroletra.com/eclipses/eclipse-lunar-parcial-28-agosto-2026/?utm
- _source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. 
- https://astroletra.com/eclipses/eclipse-lunar-parcial-28-agosto-2026/?utm_
- source=ical
+ _source=ical Más en Astroletra\, el almanaque del cielo con su hora y su 
+ lectura. https://astroletra.com/eclipses/eclipse-lunar-parcial-28-agosto-2
+ 026/?utm_source=ical
 URL:https://astroletra.com/eclipses/eclipse-lunar-parcial-28-agosto-2026/?u
  tm_source=ical
 BEGIN:VALARM
@@ -113,9 +114,9 @@ DESCRIPTION:Eclipse solar anular: máximo en Madrid\, sábado 6 de febrero
  Aires\, sábado 6 de febrero a las 12:59. La visibilidad depende del lugar
  ; la guía está en la página. Datos: Astroletra\, efemérides JPL DE440.
   https://astroletra.com/eclipses/eclipse-solar-anular-6-febrero-2027/?utm_
- source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. h
- ttps://astroletra.com/eclipses/eclipse-solar-anular-6-febrero-2027/?utm_so
- urce=ical
+ source=ical Más en Astroletra\, el almanaque del cielo con su hora y su l
+ ectura. https://astroletra.com/eclipses/eclipse-solar-anular-6-febrero-202
+ 7/?utm_source=ical
 URL:https://astroletra.com/eclipses/eclipse-solar-anular-6-febrero-2027/?ut
  m_source=ical
 BEGIN:VALARM
@@ -136,9 +137,9 @@ DESCRIPTION:Eclipse lunar penumbral: máximo en Madrid\, domingo 21 de febr
  enos Aires\, sábado 20 de febrero a las 20:12. La visibilidad depende del
   lugar; la guía está en la página. Datos: Astroletra\, efemérides JPL 
  DE440. https://astroletra.com/eclipses/eclipse-lunar-penumbral-20-febrero-
- 2027/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cie
- lo real. https://astroletra.com/eclipses/eclipse-lunar-penumbral-20-febrer
- o-2027/?utm_source=ical
+ 2027/?utm_source=ical Más en Astroletra\, el almanaque del cielo con su h
+ ora y su lectura. https://astroletra.com/eclipses/eclipse-lunar-penumbral-
+ 20-febrero-2027/?utm_source=ical
 URL:https://astroletra.com/eclipses/eclipse-lunar-penumbral-20-febrero-2027
  /?utm_source=ical
 BEGIN:VALARM
@@ -159,9 +160,9 @@ DESCRIPTION:Eclipse lunar penumbral: máximo en Madrid\, domingo 18 de juli
   Aires\, domingo 18 de julio a las 13:03. La visibilidad depende del lugar
  ; la guía está en la página. Datos: Astroletra\, efemérides JPL DE440.
   https://astroletra.com/eclipses/eclipse-lunar-penumbral-18-julio-2027/?ut
- m_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real.
-  https://astroletra.com/eclipses/eclipse-lunar-penumbral-18-julio-2027/?ut
- m_source=ical
+ m_source=ical Más en Astroletra\, el almanaque del cielo con su hora y su
+  lectura. https://astroletra.com/eclipses/eclipse-lunar-penumbral-18-julio
+ -2027/?utm_source=ical
 URL:https://astroletra.com/eclipses/eclipse-lunar-penumbral-18-julio-2027/?
  utm_source=ical
 BEGIN:VALARM
@@ -183,8 +184,9 @@ DESCRIPTION:Eclipse solar total: máximo en Madrid\, lunes 2 de agosto a la
   lunes 2 de agosto a las 07:06. La visibilidad depende del lugar; la guía
   está en la página. Datos: Astroletra\, efemérides JPL DE440. https://a
  stroletra.com/eclipses/eclipse-solar-total-2-agosto-2027/?utm_source=ical 
- Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://astro
- letra.com/eclipses/eclipse-solar-total-2-agosto-2027/?utm_source=ical
+ Más en Astroletra\, el almanaque del cielo con su hora y su lectura. http
+ s://astroletra.com/eclipses/eclipse-solar-total-2-agosto-2027/?utm_source=
+ ical
 URL:https://astroletra.com/eclipses/eclipse-solar-total-2-agosto-2027/?utm_
  source=ical
 BEGIN:VALARM
@@ -205,9 +207,9 @@ DESCRIPTION:Eclipse lunar penumbral: máximo en Madrid\, martes 17 de agost
   Aires\, martes 17 de agosto a las 04:13. La visibilidad depende del lugar
  ; la guía está en la página. Datos: Astroletra\, efemérides JPL DE440.
   https://astroletra.com/eclipses/eclipse-lunar-penumbral-17-agosto-2027/?u
- tm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real
- . https://astroletra.com/eclipses/eclipse-lunar-penumbral-17-agosto-2027/?
- utm_source=ical
+ tm_source=ical Más en Astroletra\, el almanaque del cielo con su hora y s
+ u lectura. https://astroletra.com/eclipses/eclipse-lunar-penumbral-17-agos
+ to-2027/?utm_source=ical
 URL:https://astroletra.com/eclipses/eclipse-lunar-penumbral-17-agosto-2027/
  ?utm_source=ical
 BEGIN:VALARM
@@ -228,9 +230,9 @@ DESCRIPTION:Eclipse lunar parcial: máximo en Madrid\, miércoles 12 de ene
   Aires\, miércoles 12 de enero a las 01:13. La visibilidad depende del lu
  gar; la guía está en la página. Datos: Astroletra\, efemérides JPL DE4
  40. https://astroletra.com/eclipses/eclipse-lunar-parcial-12-enero-2028/?u
- tm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo real
- . https://astroletra.com/eclipses/eclipse-lunar-parcial-12-enero-2028/?utm
- _source=ical
+ tm_source=ical Más en Astroletra\, el almanaque del cielo con su hora y s
+ u lectura. https://astroletra.com/eclipses/eclipse-lunar-parcial-12-enero-
+ 2028/?utm_source=ical
 URL:https://astroletra.com/eclipses/eclipse-lunar-parcial-12-enero-2028/?ut
  m_source=ical
 BEGIN:VALARM
@@ -251,9 +253,9 @@ DESCRIPTION:Eclipse solar anular: máximo en Madrid\, miércoles 26 de ener
  nos Aires\, miércoles 26 de enero a las 12:07. La visibilidad depende del
   lugar; la guía está en la página. Datos: Astroletra\, efemérides JPL 
  DE440. https://astroletra.com/eclipses/eclipse-solar-anular-26-enero-2028/
- ?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cielo re
- al. https://astroletra.com/eclipses/eclipse-solar-anular-26-enero-2028/?ut
- m_source=ical
+ ?utm_source=ical Más en Astroletra\, el almanaque del cielo con su hora y
+  su lectura. https://astroletra.com/eclipses/eclipse-solar-anular-26-enero
+ -2028/?utm_source=ical
 URL:https://astroletra.com/eclipses/eclipse-solar-anular-26-enero-2028/?utm
  _source=ical
 BEGIN:VALARM
@@ -274,8 +276,9 @@ DESCRIPTION:Eclipse lunar parcial: máximo en Madrid\, jueves 6 de julio a
  \, jueves 6 de julio a las 15:19. La visibilidad depende del lugar; la gu
  ía está en la página. Datos: Astroletra\, efemérides JPL DE440. https:
  //astroletra.com/eclipses/eclipse-lunar-parcial-6-julio-2028/?utm_source=i
- cal Más en Astroletra\, tu horóscopo de hoy con el cielo real. https://a
- stroletra.com/eclipses/eclipse-lunar-parcial-6-julio-2028/?utm_source=ical
+ cal Más en Astroletra\, el almanaque del cielo con su hora y su lectura. 
+ https://astroletra.com/eclipses/eclipse-lunar-parcial-6-julio-2028/?utm_so
+ urce=ical
 URL:https://astroletra.com/eclipses/eclipse-lunar-parcial-6-julio-2028/?utm
  _source=ical
 BEGIN:VALARM
@@ -296,9 +299,9 @@ DESCRIPTION:Eclipse solar total: máximo en Madrid\, sábado 22 de julio a
  es\, viernes 21 de julio a las 23:55. La visibilidad depende del lugar; la
   guía está en la página. Datos: Astroletra\, efemérides JPL DE440. htt
  ps://astroletra.com/eclipses/eclipse-solar-total-22-julio-2028/?utm_source
- =ical Más en Astroletra\, tu horóscopo de hoy con el cielo real. https:/
- /astroletra.com/eclipses/eclipse-solar-total-22-julio-2028/?utm_source=ica
- l
+ =ical Más en Astroletra\, el almanaque del cielo con su hora y su lectura
+ . https://astroletra.com/eclipses/eclipse-solar-total-22-julio-2028/?utm_s
+ ource=ical
 URL:https://astroletra.com/eclipses/eclipse-solar-total-22-julio-2028/?utm_
  source=ical
 BEGIN:VALARM
@@ -319,9 +322,9 @@ DESCRIPTION:Eclipse lunar total: máximo en Madrid\, domingo 31 de diciembr
  enos Aires\, domingo 31 de diciembre a las 13:52. La visibilidad depende d
  el lugar; la guía está en la página. Datos: Astroletra\, efemérides JP
  L DE440. https://astroletra.com/eclipses/eclipse-lunar-total-31-diciembre-
- 2028/?utm_source=ical Más en Astroletra\, tu horóscopo de hoy con el cie
- lo real. https://astroletra.com/eclipses/eclipse-lunar-total-31-diciembre-
- 2028/?utm_source=ical
+ 2028/?utm_source=ical Más en Astroletra\, el almanaque del cielo con su h
+ ora y su lectura. https://astroletra.com/eclipses/eclipse-lunar-total-31-d
+ iciembre-2028/?utm_source=ical
 URL:https://astroletra.com/eclipses/eclipse-lunar-total-31-diciembre-2028/?
  utm_source=ical
 BEGIN:VALARM

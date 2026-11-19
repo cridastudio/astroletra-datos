@@ -3,11 +3,12 @@
   "source": "Astroletra — https://astroletra.com",
   "license": "CC BY 4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "doi": "https://doi.org/10.5281/zenodo.24132871",
   "ephemeris": "JPL DE440 (NASA), zodiaco tropical, geocéntrico",
   "generated_at": "2026-11-06T23:15:23Z",
   "from": "1930-01-01",
   "to": "2035-12-31",
-  "cite": "Astroletra (2026). Lunaciones, eclipses y planetas retrógrados 2026-2028 (JPL DE440). https://astroletra.com/datos/",
+  "cite": "Astroletra (2026). Lunaciones, eclipses, planetas retrógrados e ingresos solares (JPL DE440), datos abiertos de Astroletra. Zenodo. https://doi.org/10.5281/zenodo.24132871",
   "docs": "https://astroletra.com/datos/"
  },
  "data": [
