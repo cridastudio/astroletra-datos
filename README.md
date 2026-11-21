@@ -77,6 +77,16 @@ print(cielo["moon"]["sign_label"], [r["planet_label"] for r in cielo["retrograde
 
 Hay más ejemplos en la carpeta [`ejemplos/`](ejemplos/).
 
+### Actividad solar y auroras
+
+Desde el 21-11-2026 la API tiene una segunda ruta con la actividad solar en directo, en castellano, con datos del Centro de Predicción del Clima Espacial de la NOAA (dominio público): el índice Kp, la previsión de tres días, las escalas G, S y R, el viento solar, los avisos y los dos óvalos de la aurora.
+
+```
+GET https://api.astroletra.com/api/v1/sol/actividad
+```
+
+Documentación en [astroletra.com/datos/api/#sol-actividad](https://astroletra.com/datos/api/#sol-actividad).
+
 ## Un widget para tu web
 
 Si solo quieres enseñar la fase de la Luna de hoy, hay un widget que se pega con dos líneas, pesa menos de 10 KB y no deja cookies. Se configura en [astroletra.com/widget/](https://astroletra.com/widget/).
@@ -114,4 +124,5 @@ Open astronomical data in Spanish and a free public API from [astroletra.com](ht
 - **Total solar eclipse of 2 August 2027 in Spain**. The 106 municipalities in the path of totality ranked by the seconds of totality you can expect to see given the historical cloud cover of those mornings (ERA5, 1991-2020), plus all 8132 Spanish municipalities with the eclipses they see as total or annular, the central-eclipse paths and the Besselian elements.
 - **Files for scripts**. The same files at `https://api.astroletra.com/api/v1/datos/<file>` (for example `lunaciones.csv`), reachable by any client, pandas included.
 - **API**. `GET https://api.astroletra.com/api/v1/cielo` returns the Moon's phase and sign, exact aspects, retrogrades and the next lunation for any IANA time zone. No key, no signup, CORS enabled, 60 requests per minute. [OpenAPI 3.1 definition](openapi.json), [docs](https://astroletra.com/datos/api/).
+- **Space weather**. `GET https://api.astroletra.com/api/v1/sol/actividad` returns live solar activity in Spanish from NOAA SWPC data: Kp index, three-day forecast, G, S and R scales, solar wind, alerts and both aurora ovals.
 - **License**. CC BY 4.0. Attribute as "Datos de Astroletra" with a link to https://astroletra.com/.

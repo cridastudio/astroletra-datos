@@ -2,9 +2,9 @@
  "openapi": "3.1.0",
  "info": {
   "title": "API del cielo de Astroletra",
-  "version": "1.1.0",
-  "summary": "El cielo de un día civil en una zona horaria (Luna, aspectos exactos, retrógrados y próxima lunación) y los ficheros de datos abiertos.",
-  "description": "Datos calculados con las efemérides JPL DE440 (NASA), zodiaco tropical, geocéntrico. Licencia CC BY 4.0: muestra «Datos: Astroletra» con un enlace a https://astroletra.com/. Sin clave; 60 peticiones por minuto e IP.",
+  "version": "1.2.0",
+  "summary": "El cielo de un día civil en una zona horaria (Luna, aspectos exactos, retrógrados y próxima lunación), los ficheros de datos abiertos y la actividad solar en directo con datos de la NOAA.",
+  "description": "Datos calculados con las efemérides JPL DE440 (NASA), zodiaco tropical, geocéntrico. Licencia CC BY 4.0: muestra «Datos: Astroletra» con un enlace a https://astroletra.com/. Sin clave; 60 peticiones por minuto e IP. La actividad solar (/api/v1/sol/actividad) no es cálculo propio, viene del Space Weather Prediction Center de la NOAA, de dominio público.",
   "license": {
    "name": "CC BY 4.0",
    "url": "https://creativecommons.org/licenses/by/4.0/"
@@ -332,6 +332,238 @@
      }
     }
    }
+  },
+  "/api/v1/sol/actividad": {
+   "get": {
+    "operationId": "solActividad",
+    "summary": "Actividad solar en directo, con el índice Kp, las tormentas, el viento solar y las auroras en España",
+    "description": "Los datos del Space Weather Prediction Center de la NOAA (dominio público), leídos cada 15 minutos y explicados en castellano. La petición nunca llama a la NOAA: sirve la última copia. Sin clave; 60 peticiones por minuto e IP y un techo total por hora para todo el servicio. Cita «Datos de NOAA SWPC, tratamiento de Astroletra».",
+    "responses": {
+     "200": {
+      "description": "La actividad solar de la última lectura",
+      "headers": {
+       "Cache-Control": {
+        "schema": {
+         "type": "string"
+        },
+        "description": "public, max-age=300"
+       },
+       "Access-Control-Allow-Origin": {
+        "schema": {
+         "type": "string"
+        },
+        "description": "*"
+       }
+      },
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/ActividadSolar"
+        },
+        "example": {
+         "updated_at": "2026-11-20T20:20:19Z",
+         "kp": {
+          "now": 0.67,
+          "now_time": "2026-11-20T20:16:00Z",
+          "last_3h": 0.33,
+          "last_3h_time": "2026-11-20T15:00:00Z",
+          "g": 0,
+          "g_label": "Sin tormenta",
+          "stale": false
+         },
+         "kp_recent": [
+          {
+           "time": "2026-11-20T09:00:00Z",
+           "kp": 0.67,
+           "g": 0
+          },
+          {
+           "time": "2026-11-20T12:00:00Z",
+           "kp": 0.33,
+           "g": 0
+          },
+          {
+           "time": "2026-11-20T15:00:00Z",
+           "kp": 0.33,
+           "g": 0
+          }
+         ],
+         "kp_forecast": [
+          {
+           "time": "2026-11-21T00:00:00Z",
+           "kp": 2.33,
+           "g": 0
+          },
+          {
+           "time": "2026-11-21T03:00:00Z",
+           "kp": 2.67,
+           "g": 0
+          },
+          {
+           "time": "2026-11-21T06:00:00Z",
+           "kp": 2,
+           "g": 0
+          }
+         ],
+         "scales": {
+          "now": {
+           "r": 0,
+           "s": 0,
+           "g": 0
+          },
+          "forecast": [
+           {
+            "date": "2026-11-20",
+            "r_minor_prob": 10,
+            "r_major_prob": 5,
+            "s_prob": 1,
+            "g": 0
+           },
+           {
+            "date": "2026-11-21",
+            "r_minor_prob": 10,
+            "r_major_prob": 5,
+            "s_prob": 1,
+            "g": 0
+           },
+           {
+            "date": "2026-11-22",
+            "r_minor_prob": 10,
+            "r_major_prob": 5,
+            "s_prob": 1,
+            "g": 0
+           }
+          ],
+          "stale": false
+         },
+         "solar_wind": {
+          "time": "2026-11-20T20:15:00Z",
+          "speed_km_s": 369,
+          "bt_nt": 6,
+          "bz_nt": -1,
+          "stale": false
+         },
+         "xray": {
+          "time": "2026-11-20T20:17:00Z",
+          "flux": 2.870734192583768e-07,
+          "class": "B2.8",
+          "peak_6h": {
+           "time": "2026-11-20T18:05:00Z",
+           "flux": 7.271871709235711e-07,
+           "class": "B7.2"
+          },
+          "stale": false
+         },
+         "alerts": [
+          {
+           "issued": "2026-11-19T01:18:16.670Z",
+           "code": "WARK04",
+           "type": "aviso",
+           "label": "Aviso, se espera un índice K de 4",
+           "headline": "EXTENDED WARNING: Geomagnetic K-index of 4 expected"
+          }
+         ],
+         "aurora": {
+          "observed_at": "2026-11-20T20:12:00Z",
+          "forecast_at": "2026-11-20T21:22:00Z",
+          "max_probability": 29,
+          "europe_lowest_lat_10": 63,
+          "north": [
+           [
+            0,
+            60,
+            3
+           ],
+           [
+            0,
+            61,
+            5
+           ],
+           [
+            0,
+            62,
+            8
+           ]
+          ],
+          "stale": false
+         },
+         "stale_parts": [],
+         "source": "NOAA Space Weather Prediction Center (https://www.swpc.noaa.gov), dominio público; tratamiento de Astroletra",
+         "license": "CC BY 4.0",
+         "license_url": "https://creativecommons.org/licenses/by/4.0/",
+         "docs": "https://astroletra.com/datos/api/",
+         "aurora_spain": {
+          "rule": "Regla de Astroletra a partir de las auroras documentadas en España de 2024 a 2026, no un umbral oficial. Se ven de noche, casi siempre solo con cámara, como un resplandor rojo bajo sobre el horizonte norte.",
+          "kp_max_next_24h": 2.67,
+          "zones": [
+           {
+            "zone": "north",
+            "label": "Norte (Cantábrico y Pirineos)",
+            "geomag_lat": 46,
+            "kp_needed": 8.67,
+            "now": false,
+            "next_24h": false
+           },
+           {
+            "zone": "centre",
+            "label": "Centro (Madrid, Ebro, Levante)",
+            "geomag_lat": 42.9,
+            "kp_needed": 9,
+            "now": false,
+            "next_24h": false
+           },
+           {
+            "zone": "south",
+            "label": "Sur (Andalucía y Murcia)",
+            "geomag_lat": 40,
+            "kp_needed": 9,
+            "now": false,
+            "next_24h": false
+           }
+          ]
+         }
+        }
+       }
+      }
+     },
+     "429": {
+      "description": "Más de 60 peticiones por minuto desde la misma IP",
+      "headers": {
+       "Retry-After": {
+        "schema": {
+         "type": "string"
+        },
+        "description": "60"
+       }
+      },
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     },
+     "503": {
+      "description": "Techo total por hora alcanzado o datos de la NOAA no disponibles todavía",
+      "headers": {
+       "Retry-After": {
+        "schema": {
+         "type": "string"
+        },
+        "description": "600"
+       }
+      },
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/Error"
+        }
+       }
+      }
+     }
+    }
+   }
   }
  },
  "components": {
@@ -596,6 +828,298 @@
       "type": "string"
      },
      "generated_at": {
+      "type": "string"
+     }
+    }
+   },
+   "ActividadSolar": {
+    "type": "object",
+    "description": "La actividad del Sol en directo, reducida y explicada en castellano. Todas las horas en UTC (ISO 8601).",
+    "required": [
+     "updated_at",
+     "kp",
+     "kp_recent",
+     "kp_forecast",
+     "scales",
+     "aurora_spain",
+     "source",
+     "license"
+    ],
+    "properties": {
+     "updated_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Hora de la última lectura de la NOAA."
+     },
+     "kp": {
+      "type": "object",
+      "description": "Índice Kp planetario, el estimado del último minuto y el último valor de 3 horas, con su nivel de la escala G (0 sin tormenta, 1 a 5 de G1 a G5).",
+      "properties": {
+       "now": {
+        "type": [
+         "number",
+         "null"
+        ]
+       },
+       "now_time": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "last_3h": {
+        "type": [
+         "number",
+         "null"
+        ]
+       },
+       "last_3h_time": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "g": {
+        "type": "integer"
+       },
+       "g_label": {
+        "type": "string"
+       },
+       "stale": {
+        "type": "boolean"
+       }
+      }
+     },
+     "kp_recent": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "time": {
+         "type": "string",
+         "format": "date-time"
+        },
+        "kp": {
+         "type": "number"
+        },
+        "g": {
+         "type": "integer",
+         "minimum": 0,
+         "maximum": 5
+        }
+       }
+      },
+      "description": "El Kp de 3 horas de los últimos días."
+     },
+     "kp_forecast": {
+      "type": "array",
+      "items": {
+       "type": "object",
+       "properties": {
+        "time": {
+         "type": "string",
+         "format": "date-time"
+        },
+        "kp": {
+         "type": "number"
+        },
+        "g": {
+         "type": "integer",
+         "minimum": 0,
+         "maximum": 5
+        }
+       }
+      },
+      "description": "La previsión de Kp de la NOAA para los próximos tres días, por bloques de 3 horas."
+     },
+     "scales": {
+      "type": "object",
+      "description": "Escalas de la NOAA, R (apagones de radio), S (tormentas de radiación) y G (tormentas geomagnéticas), ahora y su previsión de tres días.",
+      "properties": {
+       "now": {
+        "type": "object",
+        "properties": {
+         "r": {
+          "type": "integer"
+         },
+         "s": {
+          "type": "integer"
+         },
+         "g": {
+          "type": "integer"
+         }
+        }
+       },
+       "forecast": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "date": {
+           "type": "string",
+           "format": "date"
+          },
+          "r_minor_prob": {
+           "type": [
+            "number",
+            "null"
+           ]
+          },
+          "r_major_prob": {
+           "type": [
+            "number",
+            "null"
+           ]
+          },
+          "s_prob": {
+           "type": [
+            "number",
+            "null"
+           ]
+          },
+          "g": {
+           "type": "integer"
+          }
+         }
+        }
+       },
+       "stale": {
+        "type": "boolean"
+       }
+      }
+     },
+     "solar_wind": {
+      "type": "object",
+      "description": "Viento solar en el punto L1, con la velocidad en km/s y el campo magnético (Bt y Bz) en nanoteslas.",
+      "properties": {
+       "time": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "speed_km_s": {
+        "type": [
+         "number",
+         "null"
+        ]
+       },
+       "bt_nt": {
+        "type": [
+         "number",
+         "null"
+        ]
+       },
+       "bz_nt": {
+        "type": [
+         "number",
+         "null"
+        ]
+       },
+       "stale": {
+        "type": "boolean"
+       }
+      }
+     },
+     "xray": {
+      "type": [
+       "object",
+       "null"
+      ],
+      "description": "Flujo de rayos X del satélite GOES, con su clase (A, B, C, M o X) y el pico de las últimas 6 horas."
+     },
+     "alerts": {
+      "type": "array",
+      "description": "Alertas, avisos y vigilancias en vigor, con su código de la NOAA, el titular en inglés tal cual y una etiqueta en castellano.",
+      "items": {
+       "type": "object",
+       "properties": {
+        "issued": {
+         "type": "string",
+         "format": "date-time"
+        },
+        "code": {
+         "type": "string"
+        },
+        "type": {
+         "type": "string"
+        },
+        "label": {
+         "type": "string"
+        },
+        "headline": {
+         "type": "string"
+        }
+       }
+      }
+     },
+     "aurora": {
+      "type": "object",
+      "description": "Modelo OVATION de la NOAA reducido a Europa, con la probabilidad máxima, la latitud más baja con un 10 % y la rejilla [longitud, latitud, probabilidad %] del norte."
+     },
+     "aurora_spain": {
+      "type": "object",
+      "description": "Qué Kp hace falta para ver auroras en el norte, el centro y el sur de España, y si se alcanza ahora o en las próximas 24 horas. Es una regla de Astroletra, no un umbral oficial.",
+      "properties": {
+       "rule": {
+        "type": "string"
+       },
+       "kp_max_next_24h": {
+        "type": [
+         "number",
+         "null"
+        ]
+       },
+       "zones": {
+        "type": "array",
+        "items": {
+         "type": "object",
+         "properties": {
+          "zone": {
+           "type": "string",
+           "enum": [
+            "north",
+            "centre",
+            "south"
+           ]
+          },
+          "label": {
+           "type": "string"
+          },
+          "geomag_lat": {
+           "type": "number"
+          },
+          "kp_needed": {
+           "type": "number"
+          },
+          "now": {
+           "type": "boolean"
+          },
+          "next_24h": {
+           "type": "boolean"
+          }
+         }
+        }
+       }
+      }
+     },
+     "stale_parts": {
+      "type": "array",
+      "items": {
+       "type": "string"
+      },
+      "description": "Partes que no se pudieron renovar en la última lectura y se sirven con el valor anterior."
+     },
+     "source": {
+      "type": "string"
+     },
+     "license": {
+      "type": "string"
+     },
+     "license_url": {
+      "type": "string"
+     },
+     "docs": {
       "type": "string"
      }
     }
