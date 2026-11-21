@@ -18,9 +18,15 @@ Todo sale de [astroletra.com](https://astroletra.com/), un portal de horóscopo 
 | [`datos/ingresos-solares.csv`](datos/ingresos-solares.csv) | Instante en que el Sol entra en cada signo, de 1930 a 2035 | 1272 |
 | [`datos/calendario-2027.csv`](datos/calendario-2027.csv) | Todo 2027 en una sola tabla | 50 |
 | [`datos/lluvias-de-estrellas.csv`](datos/lluvias-de-estrellas.csv) | Lluvias de estrellas de 2026 y 2027, con la noche del máximo y la Luna de esa noche | 22 |
+| [`datos/eclipse-2027-nubes.csv`](datos/eclipse-2027-nubes.csv) | Eclipse total del 2 de agosto de 2027, los 106 municipios de España con totalidad, ordenados por los segundos de totalidad que se pueden esperar ver según las nubes de esas mañanas de 1991 a 2020 (ERA5) | 106 |
+| [`datos/municipios-espana.json`](datos/municipios-espana.json) | Los 8132 municipios de España con código INE, provincia, coordenadas y en qué eclipses de Sol de 2026 a 2028 ven la fase total o anular | 8132 |
+| [`datos/eclipses-franjas.json`](datos/eclipses-franjas.json) | Línea central y límites norte y sur de la franja de los eclipses de Sol centrales, en latitud y longitud | 8 eclipses |
+| [`datos/eclipses-besselianos.json`](datos/eclipses-besselianos.json) | Elementos de Bessel de los eclipses de Sol y de Luna, para calcular cada eclipse desde cualquier lugar | 24 |
 | [`openapi.json`](openapi.json) | Definición OpenAPI 3.1 de la API | |
 
 Cada tabla está también en JSON, y los calendarios en iCal (`.ics`) para suscribirse desde Google Calendar, Apple o Outlook.
+
+El ranking del eclipse de 2027 se explica en [los mejores sitios para ver el eclipse](https://astroletra.com/eclipses/eclipse-solar-total-2-agosto-2027/mejores-sitios/). Es climatología, no una previsión.
 
 Las horas van en UTC y en la hora local de Madrid, Ciudad de México, Bogotá, Santiago, Buenos Aires, Nueva York, Los Ángeles y Londres. Los signos son los del zodiaco tropical y las posiciones son geocéntricas.
 
@@ -93,6 +99,11 @@ Si ves un dato que no cuadra, abre una incidencia en este repositorio o escribe 
 
 Datos, [CC BY 4.0](LICENSE). Ejemplos de código, dominio público (CC0).
 
+Fuentes de terceros que llevan algunos ficheros:
+
+- Nubes del eclipse de 2027. Contains modified Copernicus Climate Change Service information (2026). Neither the European Commission nor ECMWF is responsible for any use that may be made of the Copernicus information or data it contains. ERA5, [doi:10.24381/cds.adbb2d47](https://doi.org/10.24381/cds.adbb2d47).
+- Municipios. Relación de municipios del INE a 1 de enero de 2026 (fuente, INE). Coordenadas de [GeoNames](https://www.geonames.org/) (CC BY 4.0) y Wikidata (CC0).
+
 ---
 
 ## English summary
@@ -100,6 +111,7 @@ Datos, [CC BY 4.0](LICENSE). Ejemplos de código, dominio público (CC0).
 Open astronomical data in Spanish and a free public API from [astroletra.com](https://astroletra.com/).
 
 - **Datasets** (CSV, JSON, iCal). New and full moons, solar and lunar eclipses and planetary retrogrades for 2026 to 2028, solar ingresses for 1930 to 2035 and the meteor showers of 2026 and 2027. Times in UTC and in local time for eight cities. Computed from JPL DE440, tropical zodiac, geocentric.
+- **Total solar eclipse of 2 August 2027 in Spain**. The 106 municipalities in the path of totality ranked by the seconds of totality you can expect to see given the historical cloud cover of those mornings (ERA5, 1991-2020), plus all 8132 Spanish municipalities with the eclipses they see as total or annular, the central-eclipse paths and the Besselian elements.
 - **Files for scripts**. The same files at `https://api.astroletra.com/api/v1/datos/<file>` (for example `lunaciones.csv`), reachable by any client, pandas included.
 - **API**. `GET https://api.astroletra.com/api/v1/cielo` returns the Moon's phase and sign, exact aspects, retrogrades and the next lunation for any IANA time zone. No key, no signup, CORS enabled, 60 requests per minute. [OpenAPI 3.1 definition](openapi.json), [docs](https://astroletra.com/datos/api/).
 - **License**. CC BY 4.0. Attribute as "Datos de Astroletra" with a link to https://astroletra.com/.

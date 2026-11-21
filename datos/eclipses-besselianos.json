@@ -1,0 +1,892 @@
+{
+ "esquema": 1,
+ "fuente": {
+  "solares": "Elementos de Bessel calculados por Astroletra con las efemérides JPL DE440 (NASA JPL), posiciones aparentes geocéntricas, k1 = 0,272488, k2 = 0,272281, Sol de 959,63\". Tiempo dinámico (TT); mu es ángulo horario de efemérides.",
+  "lunares": "Calculados por Astroletra con JPL DE440, sombra con el aumento de Danjon, radio lunar 0,2725076.",
+  "deltaT": "ΔT = 32,184 s + 37 s − (UT1 − UTC), con UT1 − UTC del IERS: observado para los eclipses pasados, predicción del IERS Bulletin A vol. XXXIX n.º 045 (5-11-2026) hasta noviembre de 2027 y la fórmula de extrapolación del mismo boletín después. Las horas son UT = TT − ΔT.",
+  "licencia": "CC BY 4.0, Astroletra (astroletra.com)"
+ },
+ "constantes": {
+  "efemerides": "JPL DE440",
+  "elipsoide": "WGS84",
+  "radioEcuatorialKm": 6378.137,
+  "achatamiento": 0.003352810665,
+  "semidiametroSol": 959.63,
+  "k1": 0.272488,
+  "k2": 0.272281,
+  "kLunares": 0.2725076,
+  "sombraLunares": "Danjon",
+  "grados": {
+   "x": 3,
+   "y": 3,
+   "d": 2,
+   "l1": 2,
+   "l2": 2,
+   "mu": 1
+  }
+ },
+ "solares": [
+  {
+   "identificador": "2026-02-17-eclipse-solar",
+   "maximo": "2026-02-17T12:11:57Z",
+   "clase": "anular",
+   "gamma": -0.9743,
+   "magnitud": 0.963,
+   "t0": 12.0,
+   "validoDesde": -3.0,
+   "validoHasta": 3.0,
+   "deltaT": 69.1,
+   "x": [
+    0.32195859,
+    0.48272349,
+    -3.104e-05,
+    -6.37e-06
+   ],
+   "y": [
+    -0.92697685,
+    0.23553877,
+    0.00011705,
+    -3.27e-06
+   ],
+   "d": [
+    -11.8793123,
+    0.014049,
+    2.4e-06
+   ],
+   "l1": [
+    0.55771987,
+    -0.00011783,
+    -1.113e-05
+   ],
+   "l2": [
+    0.01152435,
+    -0.00011724,
+    -1.107e-05
+   ],
+   "mu": [
+    356.5144102,
+    15.001983
+   ],
+   "tanF1": 0.00473206,
+   "tanF2": 0.00470849,
+   "deltaTOrigen": "observado",
+   "maximoTT": "2026-02-17T12:13:05.8Z",
+   "globales": {
+    "p1": "2026-02-17T09:56:27Z",
+    "u1": "2026-02-17T11:48:18Z",
+    "u4": "2026-02-17T12:36:08Z",
+    "p4": "2026-02-17T14:27:42Z"
+   },
+   "puntoMaximo": {
+    "latitud": -64.7179,
+    "longitud": 86.731,
+    "alturaSol": 12.3,
+    "acimutSol": 268.3,
+    "duracion": 139.6
+   }
+  },
+  {
+   "identificador": "2026-08-12-eclipse-solar",
+   "maximo": "2026-08-12T17:45:57Z",
+   "clase": "total",
+   "gamma": 0.8977,
+   "magnitud": 1.0386,
+   "t0": 18.0,
+   "validoDesde": -3.0,
+   "validoHasta": 3.0,
+   "deltaT": 69.2,
+   "x": [
+    0.47551466,
+    0.51892535,
+    -7.68e-05,
+    -8.04e-06
+   ],
+   "y": [
+    0.77118673,
+    -0.23016717,
+    -0.00012484,
+    3.77e-06
+   ],
+   "d": [
+    14.7966833,
+    -0.0120649,
+    -3.1e-06
+   ],
+   "l1": [
+    0.53795512,
+    9.42e-05,
+    -1.212e-05
+   ],
+   "l2": [
+    -0.00814167,
+    9.373e-05,
+    -1.206e-05
+   ],
+   "mu": [
+    88.7477965,
+    15.0030899
+   ],
+   "tanF1": 0.00461407,
+   "tanF2": 0.00459109,
+   "deltaTOrigen": "observado",
+   "maximoTT": "2026-08-12T17:47:05.7Z",
+   "globales": {
+    "p1": "2026-08-12T15:34:15Z",
+    "u1": "2026-08-12T17:00:07Z",
+    "u4": "2026-08-12T18:32:12Z",
+    "p4": "2026-08-12T19:58:00Z"
+   },
+   "puntoMaximo": {
+    "latitud": 65.2237,
+    "longitud": -25.241,
+    "alturaSol": 25.8,
+    "acimutSol": 248.4,
+    "duracion": 138.2
+   }
+  },
+  {
+   "identificador": "2027-02-06-eclipse-solar",
+   "maximo": "2027-02-06T15:59:38Z",
+   "clase": "anular",
+   "gamma": -0.2952,
+   "magnitud": 0.9281,
+   "t0": 16.0,
+   "validoDesde": -3.5,
+   "validoHasta": 3.5,
+   "deltaT": 69.3,
+   "x": [
+    0.11168074,
+    0.46649597,
+    -3.333e-05,
+    -5.27e-06
+   ],
+   "y": [
+    -0.27329575,
+    0.20318555,
+    0.00010267,
+    -2.46e-06
+   ],
+   "d": [
+    -15.5479527,
+    0.0123829,
+    3.6e-06
+   ],
+   "l1": [
+    0.57192827,
+    -6.507e-05,
+    -1.006e-05
+   ],
+   "l2": [
+    0.02566197,
+    -6.475e-05,
+    -1.001e-05
+   ],
+   "mu": [
+    56.4930762,
+    15.0005092
+   ],
+   "tanF1": 0.00474259,
+   "tanF2": 0.00471897,
+   "deltaTOrigen": "prediccion",
+   "maximoTT": "2027-02-06T16:00:47.7Z",
+   "globales": {
+    "p1": "2027-02-06T12:57:38Z",
+    "u1": "2027-02-06T14:07:07Z",
+    "u4": "2027-02-06T17:52:19Z",
+    "p4": "2027-02-06T19:01:41Z"
+   },
+   "puntoMaximo": {
+    "latitud": -31.3027,
+    "longitud": -48.4807,
+    "alturaSol": 72.7,
+    "acimutSol": 333.5,
+    "duracion": 470.8
+   }
+  },
+  {
+   "identificador": "2027-08-02-eclipse-solar",
+   "maximo": "2027-08-02T10:06:41Z",
+   "clase": "total",
+   "gamma": 0.1421,
+   "magnitud": 1.079,
+   "t0": 10.0,
+   "validoDesde": -3.0,
+   "validoHasta": 3.0,
+   "deltaT": 69.4,
+   "x": [
+    -0.01977056,
+    0.5447121,
+    -4.408e-05,
+    -9.22e-06
+   ],
+   "y": [
+    0.16006532,
+    -0.21115794,
+    -0.00012193,
+    3.76e-06
+   ],
+   "d": [
+    17.7624825,
+    -0.0101811,
+    -3.9e-06
+   ],
+   "l1": [
+    0.53059643,
+    1.407e-05,
+    -1.283e-05
+   ],
+   "l2": [
+    -0.01546369,
+    1.4e-05,
+    -1.277e-05
+   ],
+   "mu": [
+    328.4225406,
+    15.0020964
+   ],
+   "tanF1": 0.00460638,
+   "tanF2": 0.00458344,
+   "deltaTOrigen": "prediccion",
+   "maximoTT": "2027-08-02T10:07:50.2Z",
+   "globales": {
+    "p1": "2027-08-02T07:30:13Z",
+    "u1": "2027-08-02T08:25:05Z",
+    "u4": "2027-08-02T11:48:20Z",
+    "p4": "2027-08-02T12:43:12Z"
+   },
+   "puntoMaximo": {
+    "latitud": 25.5026,
+    "longitud": 33.1687,
+    "alturaSol": 81.7,
+    "acimutSol": 202.0,
+    "duracion": 382.5
+   }
+  },
+  {
+   "identificador": "2028-01-26-eclipse-solar",
+   "maximo": "2028-01-26T15:07:49Z",
+   "clase": "anular",
+   "gamma": 0.3901,
+   "magnitud": 0.9208,
+   "t0": 15.0,
+   "validoDesde": -3.5,
+   "validoHasta": 3.5,
+   "deltaT": 69.5,
+   "x": [
+    -0.2052806,
+    0.47425729,
+    -3.863e-05,
+    -5.27e-06
+   ],
+   "y": [
+    0.34027703,
+    0.17385904,
+    9.698e-05,
+    -2.09e-06
+   ],
+   "d": [
+    -18.7282546,
+    0.0100741,
+    4.7e-06
+   ],
+   "l1": [
+    0.57411697,
+    4.228e-05,
+    -9.94e-06
+   ],
+   "l2": [
+    0.02783975,
+    4.207e-05,
+    -9.9e-06
+   ],
+   "mu": [
+    41.8912937,
+    14.998963
+   ],
+   "tanF1": 0.0047501,
+   "tanF2": 0.00472644,
+   "deltaTOrigen": "extrapolado",
+   "maximoTT": "2028-01-26T15:08:58.7Z",
+   "globales": {
+    "p1": "2028-01-26T12:06:43Z",
+    "u1": "2028-01-26T13:18:28Z",
+    "u4": "2028-01-26T16:57:00Z",
+    "p4": "2028-01-26T18:08:51Z"
+   },
+   "puntoMaximo": {
+    "latitud": 2.9602,
+    "longitud": -51.5744,
+    "alturaSol": 67.0,
+    "acimutSol": 161.0,
+    "duracion": 626.9
+   }
+  },
+  {
+   "identificador": "2028-07-22-eclipse-solar",
+   "maximo": "2028-07-22T02:55:30Z",
+   "clase": "total",
+   "gamma": -0.6056,
+   "magnitud": 1.056,
+   "t0": 3.0,
+   "validoDesde": -3.0,
+   "validoHasta": 3.0,
+   "deltaT": 69.6,
+   "x": [
+    -0.15440942,
+    0.54498906,
+    -2.093e-05,
+    -8.69e-06
+   ],
+   "y": [
+    -0.58642077,
+    -0.17460892,
+    -0.00010225,
+    2.96e-06
+   ],
+   "d": [
+    20.1823182,
+    -0.0079736,
+    -4.6e-06
+   ],
+   "l1": [
+    0.53523683,
+    -8.561e-05,
+    -1.23e-05
+   ],
+   "l2": [
+    -0.01084638,
+    -8.519e-05,
+    -1.224e-05
+   ],
+   "mu": [
+    223.3786849,
+    15.0010178
+   ],
+   "tanF1": 0.00460156,
+   "tanF2": 0.00457864,
+   "deltaTOrigen": "extrapolado",
+   "maximoTT": "2028-07-22T02:56:39.5Z",
+   "globales": {
+    "p1": "2028-07-22T00:27:35Z",
+    "u1": "2028-07-22T01:32:07Z",
+    "u4": "2028-07-22T04:18:39Z",
+    "p4": "2028-07-22T05:23:13Z"
+   },
+   "puntoMaximo": {
+    "latitud": -15.5788,
+    "longitud": 126.6921,
+    "alturaSol": 52.6,
+    "acimutSol": 17.2,
+    "duracion": 309.6
+   }
+  },
+  {
+   "identificador": "2029-01-14-eclipse-solar",
+   "maximo": "2029-01-14T17:12:38Z",
+   "clase": "parcial",
+   "gamma": 1.0553,
+   "magnitud": 0.8714,
+   "t0": 17.0,
+   "validoDesde": -3.0,
+   "validoHasta": 3.0,
+   "deltaT": 69.6,
+   "x": [
+    -0.40744223,
+    0.50815244,
+    -3.884e-05,
+    -6.46e-06
+   ],
+   "y": [
+    0.9810525,
+    0.14552903,
+    9.227e-05,
+    -1.99e-06
+   ],
+   "d": [
+    -21.1630133,
+    0.0072407,
+    5.6e-06
+   ],
+   "l1": [
+    0.56266581,
+    0.00011915,
+    -1.085e-05
+   ],
+   "l2": [
+    0.01644561,
+    0.00011856,
+    -1.08e-05
+   ],
+   "mu": [
+    72.6928951,
+    14.9976322
+   ],
+   "tanF1": 0.00475406,
+   "tanF2": 0.00473038,
+   "deltaTOrigen": "extrapolado",
+   "maximoTT": "2029-01-14T17:13:47.5Z",
+   "globales": {
+    "p1": "2029-01-14T15:02:00Z",
+    "u1": null,
+    "u4": null,
+    "p4": "2029-01-14T19:23:08Z"
+   }
+  },
+  {
+   "identificador": "2029-06-12-eclipse-solar",
+   "maximo": "2029-06-12T04:05:03Z",
+   "clase": "parcial",
+   "gamma": 1.2943,
+   "magnitud": 0.4576,
+   "t0": 4.0,
+   "validoDesde": -3.0,
+   "validoHasta": 3.0,
+   "deltaT": 69.7,
+   "x": [
+    -0.01079506,
+    0.52476128,
+    1.083e-05,
+    -6.54e-06
+   ],
+   "y": [
+    1.29541644,
+    -0.01763528,
+    -0.00020572,
+    2.9e-07
+   ],
+   "d": [
+    23.1593122,
+    0.0025908,
+    -5.4e-06
+   ],
+   "l1": [
+    0.55666256,
+    -0.00010247,
+    -1.038e-05
+   ],
+   "l2": [
+    0.01047264,
+    -0.00010196,
+    -1.033e-05
+   ],
+   "mu": [
+    240.035589,
+    14.9992003
+   ],
+   "tanF1": 0.00460484,
+   "tanF2": 0.00458191,
+   "deltaTOrigen": "extrapolado",
+   "maximoTT": "2029-06-12T04:06:13.0Z",
+   "globales": {
+    "p1": "2029-06-12T02:26:31Z",
+    "u1": null,
+    "u4": null,
+    "p4": "2029-06-12T05:43:33Z"
+   }
+  },
+  {
+   "identificador": "2029-07-11-eclipse-solar",
+   "maximo": "2029-07-11T15:36:09Z",
+   "clase": "parcial",
+   "gamma": -1.4191,
+   "magnitud": 0.2303,
+   "t0": 16.0,
+   "validoDesde": -3.0,
+   "validoHasta": 3.0,
+   "deltaT": 69.7,
+   "x": [
+    -0.13734153,
+    0.52526347,
+    -9.12e-06,
+    -7.1e-06
+   ],
+   "y": [
+    -1.42714592,
+    -0.12804283,
+    -7.698e-05,
+    1.89e-06
+   ],
+   "d": [
+    22.0024493,
+    -0.0054227,
+    -5.3e-06
+   ],
+   "l1": [
+    0.54875575,
+    -0.00012667,
+    -1.1e-05
+   ],
+   "l2": [
+    0.00260521,
+    -0.00012604,
+    -1.095e-05
+   ],
+   "mu": [
+    58.6025789,
+    15.0000075
+   ],
+   "tanF1": 0.00459937,
+   "tanF2": 0.00457646,
+   "deltaTOrigen": "extrapolado",
+   "maximoTT": "2029-07-11T15:37:18.9Z",
+   "globales": {
+    "p1": "2029-07-11T14:27:47Z",
+    "u1": null,
+    "u4": null,
+    "p4": "2029-07-11T16:44:10Z"
+   }
+  },
+  {
+   "identificador": "2029-12-05-eclipse-solar",
+   "maximo": "2029-12-05T15:02:48Z",
+   "clase": "parcial",
+   "gamma": -1.0609,
+   "magnitud": 0.8911,
+   "t0": 15.0,
+   "validoDesde": -3.0,
+   "validoHasta": 3.0,
+   "deltaT": 69.8,
+   "x": [
+    -0.06383632,
+    0.57663503,
+    -2.05e-06,
+    -9.51e-06
+   ],
+   "y": [
+    -1.05966722,
+    -0.01401782,
+    0.00022943,
+    1.1e-07
+   ],
+   "d": [
+    -22.4454432,
+    -0.0050537,
+    5.7e-06
+   ],
+   "l1": [
+    0.54064188,
+    7.015e-05,
+    -1.284e-05
+   ],
+   "l2": [
+    -0.00546862,
+    6.98e-05,
+    -1.277e-05
+   ],
+   "mu": [
+    47.3098443,
+    14.9971739
+   ],
+   "tanF1": 0.00474456,
+   "tanF2": 0.00472093,
+   "deltaTOrigen": "extrapolado",
+   "maximoTT": "2029-12-05T15:03:57.9Z",
+   "globales": {
+    "p1": "2029-12-05T13:06:43Z",
+    "u1": null,
+    "u4": null,
+    "p4": "2029-12-05T16:58:55Z"
+   }
+  },
+  {
+   "identificador": "2030-06-01-eclipse-solar",
+   "maximo": "2030-06-01T06:28:03Z",
+   "clase": "anular",
+   "gamma": 0.5627,
+   "magnitud": 0.9443,
+   "t0": 6.0,
+   "validoDesde": -3.0,
+   "validoHasta": 4.0,
+   "deltaT": 69.9,
+   "x": [
+    -0.26939027,
+    0.50563747,
+    1.855e-05,
+    -5.68e-06
+   ],
+   "y": [
+    0.55197788,
+    0.02101551,
+    -0.00015853,
+    -1.6e-07
+   ],
+   "d": [
+    22.0612865,
+    0.0055814,
+    -5.2e-06
+   ],
+   "l1": [
+    0.56614962,
+    -1.274e-05,
+    -9.71e-06
+   ],
+   "l2": [
+    0.01991244,
+    -1.267e-05,
+    -9.66e-06
+   ],
+   "mu": [
+    270.5398278,
+    14.9997008
+   ],
+   "tanF1": 0.004612,
+   "tanF2": 0.00458903,
+   "deltaTOrigen": "extrapolado",
+   "maximoTT": "2030-06-01T06:29:12.8Z",
+   "globales": {
+    "p1": "2030-06-01T03:34:44Z",
+    "u1": "2030-06-01T04:50:07Z",
+    "u4": "2030-06-01T08:05:57Z",
+    "p4": "2030-06-01T09:21:20Z"
+   },
+   "puntoMaximo": {
+    "latitud": 56.5257,
+    "longitud": 80.0446,
+    "alturaSol": 55.5,
+    "acimutSol": 176.1,
+    "duracion": 320.9
+   }
+  },
+  {
+   "identificador": "2030-11-25-eclipse-solar",
+   "maximo": "2030-11-25T06:50:27Z",
+   "clase": "total",
+   "gamma": -0.3867,
+   "magnitud": 1.0468,
+   "t0": 7.0,
+   "validoDesde": -3.0,
+   "validoHasta": 3.0,
+   "deltaT": 69.9,
+   "x": [
+    0.0441507,
+    0.57877956,
+    1.826e-05,
+    -9.78e-06
+   ],
+   "y": [
+    -0.3926593,
+    -0.05518954,
+    0.00017428,
+    8.4e-07
+   ],
+   "d": [
+    -20.7609889,
+    -0.007989,
+    5.2e-06
+   ],
+   "l1": [
+    0.53821346,
+    -3.759e-05,
+    -1.304e-05
+   ],
+   "l2": [
+    -0.00788492,
+    -3.741e-05,
+    -1.297e-05
+   ],
+   "mu": [
+    288.2745825,
+    14.9983625
+   ],
+   "tanF1": 0.00473607,
+   "tanF2": 0.00471248,
+   "deltaTOrigen": "extrapolado",
+   "maximoTT": "2030-11-25T06:51:36.9Z",
+   "globales": {
+    "p1": "2030-11-25T04:16:46Z",
+    "u1": "2030-11-25T05:15:17Z",
+    "u4": "2030-11-25T08:25:34Z",
+    "p4": "2030-11-25T09:24:05Z"
+   },
+   "puntoMaximo": {
+    "latitud": -43.6097,
+    "longitud": 71.2098,
+    "alturaSol": 67.0,
+    "acimutSol": 7.0,
+    "duracion": 223.5
+   }
+  }
+ ],
+ "lunares": [
+  {
+   "identificador": "2026-03-03-eclipse-lunar",
+   "maximo": "2026-03-03T11:33:43Z",
+   "clase": "total",
+   "magnitudUmbral": 1.1508,
+   "magnitudPenumbral": 2.1839,
+   "p1": "2026-03-03T08:44:24Z",
+   "u1": "2026-03-03T09:50:05Z",
+   "u2": "2026-03-03T11:04:31Z",
+   "u3": "2026-03-03T12:02:52Z",
+   "u4": "2026-03-03T13:17:17Z",
+   "p4": "2026-03-03T14:23:07Z",
+   "deltaT": 69.1,
+   "deltaTOrigen": "observado"
+  },
+  {
+   "identificador": "2026-08-28-eclipse-lunar",
+   "maximo": "2026-08-28T04:12:55Z",
+   "clase": "parcial",
+   "magnitudUmbral": 0.9301,
+   "magnitudPenumbral": 1.9646,
+   "p1": "2026-08-28T01:23:58Z",
+   "u1": "2026-08-28T02:33:52Z",
+   "u2": null,
+   "u3": null,
+   "u4": "2026-08-28T05:52:02Z",
+   "p4": "2026-08-28T07:01:49Z",
+   "deltaT": 69.2,
+   "deltaTOrigen": "observado"
+  },
+  {
+   "identificador": "2027-02-20-eclipse-lunar",
+   "maximo": "2027-02-20T23:12:56Z",
+   "clase": "penumbral",
+   "magnitudUmbral": -0.0567,
+   "magnitudPenumbral": 0.9268,
+   "p1": "2027-02-20T21:12:22Z",
+   "u1": null,
+   "u2": null,
+   "u3": null,
+   "u4": null,
+   "p4": "2027-02-21T01:13:26Z",
+   "deltaT": 69.3,
+   "deltaTOrigen": "prediccion"
+  },
+  {
+   "identificador": "2027-07-18-eclipse-lunar",
+   "maximo": "2027-07-18T16:03:01Z",
+   "clase": "penumbral",
+   "magnitudUmbral": -1.0679,
+   "magnitudPenumbral": 0.0014,
+   "p1": "2027-07-18T15:57:05Z",
+   "u1": null,
+   "u2": null,
+   "u3": null,
+   "u4": null,
+   "p4": "2027-07-18T16:08:54Z",
+   "deltaT": 69.4,
+   "deltaTOrigen": "prediccion"
+  },
+  {
+   "identificador": "2027-08-17-eclipse-lunar",
+   "maximo": "2027-08-17T07:13:48Z",
+   "clase": "penumbral",
+   "magnitudUmbral": -0.5252,
+   "magnitudPenumbral": 0.5457,
+   "p1": "2027-08-17T05:24:31Z",
+   "u1": null,
+   "u2": null,
+   "u3": null,
+   "u4": null,
+   "p4": "2027-08-17T09:03:10Z",
+   "deltaT": 69.4,
+   "deltaTOrigen": "prediccion"
+  },
+  {
+   "identificador": "2028-01-12-eclipse-lunar",
+   "maximo": "2028-01-12T04:13:04Z",
+   "clase": "parcial",
+   "magnitudUmbral": 0.0663,
+   "magnitudPenumbral": 1.0469,
+   "p1": "2028-01-12T02:07:42Z",
+   "u1": "2028-01-12T03:45:05Z",
+   "u2": null,
+   "u3": null,
+   "u4": "2028-01-12T04:41:09Z",
+   "p4": "2028-01-12T06:18:28Z",
+   "deltaT": 69.5,
+   "deltaTOrigen": "extrapolado"
+  },
+  {
+   "identificador": "2028-07-06-eclipse-lunar",
+   "maximo": "2028-07-06T18:19:48Z",
+   "clase": "parcial",
+   "magnitudUmbral": 0.3894,
+   "magnitudPenumbral": 1.4267,
+   "p1": "2028-07-06T15:44:26Z",
+   "u1": "2028-07-06T17:08:57Z",
+   "u2": null,
+   "u3": null,
+   "u4": "2028-07-06T19:30:30Z",
+   "p4": "2028-07-06T20:55:09Z",
+   "deltaT": 69.6,
+   "deltaTOrigen": "extrapolado"
+  },
+  {
+   "identificador": "2028-12-31-eclipse-lunar",
+   "maximo": "2028-12-31T16:52:06Z",
+   "clase": "total",
+   "magnitudUmbral": 1.2464,
+   "magnitudPenumbral": 2.2743,
+   "p1": "2028-12-31T14:03:53Z",
+   "u1": "2028-12-31T15:07:41Z",
+   "u2": "2028-12-31T16:16:26Z",
+   "u3": "2028-12-31T17:27:48Z",
+   "u4": "2028-12-31T18:36:33Z",
+   "p4": "2028-12-31T19:40:13Z",
+   "deltaT": 69.6,
+   "deltaTOrigen": "extrapolado"
+  },
+  {
+   "identificador": "2029-06-26-eclipse-lunar",
+   "maximo": "2029-06-26T03:22:13Z",
+   "clase": "total",
+   "magnitudUmbral": 1.8437,
+   "magnitudPenumbral": 2.8267,
+   "p1": "2029-06-26T00:34:39Z",
+   "u1": "2029-06-26T01:32:25Z",
+   "u2": "2029-06-26T02:31:15Z",
+   "u3": "2029-06-26T04:13:09Z",
+   "u4": "2029-06-26T05:11:59Z",
+   "p4": "2029-06-26T06:09:53Z",
+   "deltaT": 69.7,
+   "deltaTOrigen": "extrapolado"
+  },
+  {
+   "identificador": "2029-12-20-eclipse-lunar",
+   "maximo": "2029-12-20T22:42:02Z",
+   "clase": "total",
+   "magnitudUmbral": 1.1175,
+   "magnitudPenumbral": 2.2008,
+   "p1": "2029-12-20T19:42:58Z",
+   "u1": "2029-12-20T20:55:24Z",
+   "u2": "2029-12-20T22:15:12Z",
+   "u3": "2029-12-20T23:08:54Z",
+   "u4": "2029-12-21T00:28:43Z",
+   "p4": "2029-12-21T01:41:02Z",
+   "deltaT": 69.8,
+   "deltaTOrigen": "extrapolado"
+  },
+  {
+   "identificador": "2030-06-15-eclipse-lunar",
+   "maximo": "2030-06-15T18:33:24Z",
+   "clase": "parcial",
+   "magnitudUmbral": 0.5026,
+   "magnitudPenumbral": 1.4481,
+   "p1": "2030-06-15T16:14:14Z",
+   "u1": "2030-06-15T17:21:10Z",
+   "u2": null,
+   "u3": null,
+   "u4": "2030-06-15T19:45:34Z",
+   "p4": "2030-06-15T20:52:33Z",
+   "deltaT": 69.9,
+   "deltaTOrigen": "extrapolado"
+  },
+  {
+   "identificador": "2030-12-09-eclipse-lunar",
+   "maximo": "2030-12-09T22:27:41Z",
+   "clase": "penumbral",
+   "magnitudUmbral": -0.1627,
+   "magnitudPenumbral": 0.9416,
+   "p1": "2030-12-09T20:08:02Z",
+   "u1": null,
+   "u2": null,
+   "u3": null,
+   "u4": null,
+   "p4": "2030-12-10T00:47:20Z",
+   "deltaT": 69.9,
+   "deltaTOrigen": "extrapolado"
+  }
+ ]
+}

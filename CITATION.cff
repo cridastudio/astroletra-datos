@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "Si usas estos datos, cítalos así."
-title: "Lunaciones, eclipses y planetas retrógrados 2026-2028 (JPL DE440)"
+title: "Lunaciones, eclipses, planetas retrógrados e ingresos solares (JPL DE440), datos abiertos de Astroletra"
 type: dataset
 authors:
   - name: "Astroletra"
@@ -9,7 +9,8 @@ url: "https://astroletra.com/datos/"
 repository-code: "https://github.com/cridastudio/astroletra-datos"
 license: CC-BY-4.0
 doi: 10.5281/zenodo.24132871
-date-released: "2026-11-10"
+date-released: "2026-11-21"
+version: "1.1.0"
 keywords:
   - astronomía
   - efemérides
