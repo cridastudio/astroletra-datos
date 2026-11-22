@@ -9,8 +9,8 @@ url: "https://astroletra.com/datos/"
 repository-code: "https://github.com/cridastudio/astroletra-datos"
 license: CC-BY-4.0
 doi: 10.5281/zenodo.24132871
-date-released: "2026-11-21"
-version: "1.2.0"
+date-released: "2026-11-22"
+version: "1.2.1"
 keywords:
   - astronomía
   - efemérides

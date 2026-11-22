@@ -2,7 +2,7 @@
  "openapi": "3.1.0",
  "info": {
   "title": "API del cielo de Astroletra",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "summary": "El cielo de un día civil en una zona horaria (Luna, aspectos exactos, retrógrados y próxima lunación), los ficheros de datos abiertos y la actividad solar en directo con datos de la NOAA.",
   "description": "Datos calculados con las efemérides JPL DE440 (NASA), zodiaco tropical, geocéntrico. Licencia CC BY 4.0: muestra «Datos: Astroletra» con un enlace a https://astroletra.com/. Sin clave; 60 peticiones por minuto e IP. La actividad solar (/api/v1/sol/actividad) no es cálculo propio, viene del Space Weather Prediction Center de la NOAA, de dominio público.",
   "license": {
@@ -242,7 +242,7 @@
       }
      },
      "503": {
-      "description": "Cálculo no disponible en este momento",
+      "description": "Techo total por hora del servicio alcanzado (con Retry-After) o cálculo no disponible en este momento",
       "content": {
        "application/json": {
         "schema": {
@@ -321,7 +321,7 @@
       }
      },
      "503": {
-      "description": "El fichero no está disponible en este momento",
+      "description": "Techo total por hora del servicio alcanzado (con Retry-After) o fichero no disponible en este momento",
       "content": {
        "application/json": {
         "schema": {
